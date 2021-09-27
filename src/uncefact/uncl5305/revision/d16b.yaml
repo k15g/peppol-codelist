@@ -1,0 +1,114 @@
+identifier: D.16B
+status: published
+
+codes:
+  - id: A
+    name: Mixed tax rate
+    description: Code specifying that the rate is based on mixed tax.
+
+  - id: AA
+    name: Lower rate
+    description: Tax rate is lower than standard rate.
+
+  - id: AB
+    name: Exempt for resale
+    description: A tax category code indicating the item is tax exempt
+      when the item is bought for future resale.
+
+  - id: AC
+    name: Value Added Tax (VAT) not now due for payment
+    description: A code to indicate that the Value Added Tax (VAT) amount
+      which is due on the current invoice is to be paid on
+      receipt of a separate VAT payment request.
+
+  - id: AD
+    name: Value Added Tax (VAT) due from a previous invoice
+    description: A code to indicate that the Value Added Tax (VAT) amount
+      of a previous invoice is to be paid.
+
+  - id: AE
+    name: VAT Reverse Charge
+    description: Code specifying that the standard VAT rate is levied
+      from the invoicee.
+
+  - id: B
+    name: Transferred (VAT)
+    description: VAT not to be paid to the issuer of the invoice but
+      directly to relevant tax authority.
+
+  - id: C
+    name: Duty paid by supplier
+    description: Duty associated with shipment of goods is paid by the
+      supplier; customer receives goods with duty paid.
+
+  - id: D
+    name: Value Added Tax (VAT) margin scheme - travel agents
+    description: Indication that the VAT margin scheme for travel agents
+      is applied.
+
+  - id: E
+    name: Exempt from tax
+    description: Code specifying that taxes are not applicable.
+
+  - id: F
+    name: Value Added Tax (VAT) margin scheme - second-hand goods
+    description: Indication that the VAT margin scheme for second-hand
+      goods is applied.
+
+  - id: G
+    name: Free export item, tax not charged
+    description: Code specifying that the item is free export and taxes
+      are not charged.
+
+  - id: H
+    name: Higher rate
+    description: Code specifying a higher rate of duty or tax or fee.
+
+  - id: I
+    name: Value Added Tax (VAT) margin scheme - works of art
+    description: Margin scheme ó Works of art
+      Indication that the VAT margin scheme for works of art
+      is applied.
+
+  - id: J
+    name: Value Added Tax (VAT) margin scheme - collectorís items and
+    description: antiques
+      Indication that the VAT margin scheme for collectorís
+      items and antiques is applied.
+
+  - id: K
+    name: VAT exempt for EEA intra-community supply of goods and
+    description: services
+      A tax category code indicating the item is VAT exempt
+      due to an intra-community supply in the European
+      Economic Area.
+
+  - id: L
+    name: Canary Islands general indirect tax
+    description: Impuesto General Indirecto Canario (IGIC) is an indirect
+      tax levied on goods and services supplied in the Canary
+      Islands (Spain) by traders and professionals, as well as
+      on import of goods.
+
+  - id: M
+    name: Tax for production, services and importation in Ceuta and
+    description: Melilla
+      Impuesto sobre la ProducciÛn, los Servicios y la
+      ImportaciÛn (IPSI) is an indirect municipal tax, levied
+      on the production, processing and import of all kinds of
+      movable tangible property, the supply of services and
+      the transfer of immovable property located in the cities
+      of Ceuta and Melilla.
+
+  - id: O
+    name: Services outside scope of tax
+    description: Code specifying that taxes are not applicable to the
+      services.
+
+  - id: S
+    name: Standard rate
+    description: Code specifying the standard rate.
+
+  - id: Z
+    name: Zero rated goods
+    description: Code specifying that the goods are at a zero rate.

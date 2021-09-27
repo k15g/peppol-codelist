@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$ref": "#/definitions/document",
+    "definitions": {
+        "document": {
+            "additionalProperties": false,
+            "properties": {
+                "title": {
+                    "title": "Codelist title",
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "identifier": {
+                    "title": "Codelist identifier",
+                    "type": "string"
+                },
+                "agency": {
+                    "type": "string"
+                },
+                "language": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

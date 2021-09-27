@@ -1,0 +1,6 @@
+identifier: 1.0
+status: published
+
+codes:
+  - id: SEPA
+    name: SEPA unique bank assigned creditor identifier

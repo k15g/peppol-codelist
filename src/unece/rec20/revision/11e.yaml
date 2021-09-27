@@ -1,0 +1,8342 @@
+identifier: 11e
+status: published
+
+codes:
+  # START of Recommendation 20
+
+  - id: 10
+    name: group
+    description:
+      "A unit of count defining the number of groups (group: set of items classified
+      together)."
+
+  - id: 11
+    name: outfit
+    description:
+      "A unit of count defining the number of outfits (outfit: a complete set of
+      equipment / materials / objects used for a specific purpose)."
+
+  - id: 13
+    name: ration
+    description:
+      "A unit of count defining the number of rations (ration: a single portion of
+      provisions)."
+
+  - id: 14
+    name: shot
+    description: "A unit of liquid measure, especially related to spirits."
+
+  - id: 15
+    name: stick, military
+    description:
+      "A unit of count defining the number of military sticks (military stick: bombs
+      or paratroops released in rapid succession from an aircraft)."
+
+  - id: 20
+    name: twenty foot container
+    description:
+      "A unit of count defining the number of shipping containers that measure 20 foot
+      in length."
+
+  - id: 21
+    name: forty foot container
+    description:
+      "A unit of count defining the number of shipping containers that measure 40 foot
+      in length."
+
+  - id: 22
+    name: decilitre per gram
+
+  - id: 23
+    name: gram per cubic centimetre
+
+  - id: 24
+    name: theoretical pound
+    description:
+      "A unit of mass defining the expected mass of material expressed as the number
+      of pounds."
+
+  - id: 25
+    name: gram per square centimetre
+
+  - id: 27
+    name: theoretical ton
+    description:
+      "A unit of mass defining the expected mass of material, expressed as the number
+      of tons."
+
+  - id: 28
+    name: kilogram per square metre
+
+  - id: 33
+    name: kilopascal square metre per gram
+
+  - id: 34
+    name: kilopascal per millimetre
+
+  - id: 35
+    name: millilitre per square centimetre second
+
+  - id: 37
+    name: ounce per square foot
+
+  - id: 38
+    name: ounce per square foot per 0,01inch
+
+  - id: 40
+    name: millilitre per second
+
+  - id: 41
+    name: millilitre per minute
+
+  - id: 56
+    name: sitas
+    description:
+      "A unit of area for tin plate equal to a surface area of 100 square
+      metres."
+
+  - id: 57
+    name: mesh
+    description:
+      "A unit of count defining the number of strands per inch as a measure of the
+      fineness of a woven product."
+
+  - id: 58
+    name: net kilogram
+    description: "A unit of mass defining the total number of kilograms after
+      deductions."
+
+  - id: 59
+    name: part per million
+    description: "A unit of proportion equal to 10⁻⁶."
+
+  - id: 60
+    name: percent weight
+    description: "A unit of proportion equal to 10⁻²."
+
+  - id: 61
+    name: part per billion (US)
+    description: "A unit of proportion equal to 10⁻⁹."
+
+  - id: 74
+    name: millipascal
+
+  - id: 77
+    name: milli-inch
+
+  - id: 80
+    name: pound per square inch absolute
+
+  - id: 81
+    name: henry
+
+  - id: 85
+    name: foot pound-force
+
+  - id: 87
+    name: pound per cubic foot
+
+  - id: 89
+    name: poise
+
+  - id: 91
+    name: stokes
+
+  - id: 1I
+    name: fixed rate
+    description:
+      "A unit of quantity expressed as a predetermined or set rate for usage of a
+      facility or service."
+
+  - id: 2A
+    name: radian per second
+    description: "Refer ISO/TC12 SI Guide"
+
+  - id: 2B
+    name: radian per second squared
+    description: "Refer ISO/TC12 SI Guide"
+
+  - id: 2C
+    name: roentgen
+
+  - id: 2G
+    name: volt AC
+    description:
+      "A unit of electric potential in relation to alternating current
+      (AC)."
+
+  - id: 2H
+    name: volt DC
+    description: "A unit of electric potential in relation to direct current (DC)."
+
+  - id: 2I
+    name: British thermal unit (international table) per hour
+
+  - id: 2J
+    name: cubic centimetre per second
+
+  - id: 2K
+    name: cubic foot per hour
+
+  - id: 2L
+    name: cubic foot per minute
+
+  - id: 2M
+    name: centimetre per second
+
+  - id: 2N
+    name: decibel
+
+  - id: 2P
+    name: kilobyte
+    description: "A unit of information equal to 10³ (1000) bytes."
+
+  - id: 2Q
+    name: kilobecquerel
+
+  - id: 2R
+    name: kilocurie
+
+  - id: 2U
+    name: megagram
+
+  - id: 2X
+    name: metre per minute
+
+  - id: 2Y
+    name: milliroentgen
+
+  - id: 2Z
+    name: millivolt
+
+  - id: 3B
+    name: megajoule
+
+  - id: 3C
+    name: manmonth
+    description:
+      "A unit of count defining the number of months for a person or persons to
+      perform an undertaking."
+
+  - id: 4C
+    name: centistokes
+
+  - id: 4G
+    name: microlitre
+
+  - id: 4H
+    name: micrometre (micron)
+
+  - id: 4K
+    name: milliampere
+
+  - id: 4L
+    name: megabyte
+    description: "A unit of information equal to 10⁶ (1000000) bytes."
+
+  - id: 4M
+    name: milligram per hour
+
+  - id: 4N
+    name: megabecquerel
+
+  - id: 4O
+    name: microfarad
+
+  - id: 4P
+    name: newton per metre
+
+  - id: 4Q
+    name: ounce inch
+
+  - id: 4R
+    name: ounce foot
+
+  - id: 4T
+    name: picofarad
+
+  - id: 4U
+    name: pound per hour
+
+  - id: 4W
+    name: ton (US) per hour
+
+  - id: 4X
+    name: kilolitre per hour
+
+  - id: 5A
+    name: barrel (US) per minute
+
+  - id: 5B
+    name: batch
+    description:
+      "A unit of count defining the number of batches (batch: quantity of material
+      produced in one operation or number of animals or persons coming at once)."
+
+  - id: 5E
+    name: MMSCF/day
+    description:
+      "A unit of volume equal to one million (1000000) cubic feet of gas per
+      day."
+
+  - id: 5J
+    name: hydraulic horse power
+    description:
+      "A unit of power defining the hydraulic horse power delivered by a fluid pump
+      depending on the viscosity of the fluid."
+
+  - id: A10
+    name: ampere square metre per joule second
+
+  - id: A11
+    name: angstrom
+
+  - id: A12
+    name: astronomical unit
+
+  - id: A13
+    name: attojoule
+
+  - id: A14
+    name: barn
+
+  - id: A15
+    name: barn per electronvolt
+
+  - id: A16
+    name: barn per steradian electronvolt
+
+  - id: A17
+    name: barn per steradian
+
+  - id: A18
+    name: becquerel per kilogram
+
+  - id: A19
+    name: becquerel per cubic metre
+
+  - id: A2
+    name: ampere per centimetre
+
+  - id: A20
+    name:
+      British thermal unit (international table) per second square foot degree
+      Rankine
+
+  - id: A21
+    name: British thermal unit (international table) per pound degree Rankine
+
+  - id: A22
+    name: British thermal unit (international table) per second foot degree Rankine
+
+  - id: A23
+    name: British thermal unit (international table) per hour square foot degree Rankine
+
+  - id: A24
+    name: candela per square metre
+
+  - id: A26
+    name: coulomb metre
+
+  - id: A27
+    name: coulomb metre squared per volt
+
+  - id: A28
+    name: coulomb per cubic centimetre
+
+  - id: A29
+    name: coulomb per cubic metre
+
+  - id: A3
+    name: ampere per millimetre
+
+  - id: A30
+    name: coulomb per cubic millimetre
+
+  - id: A31
+    name: coulomb per kilogram second
+
+  - id: A32
+    name: coulomb per mole
+
+  - id: A33
+    name: coulomb per square centimetre
+
+  - id: A34
+    name: coulomb per square metre
+
+  - id: A35
+    name: coulomb per square millimetre
+
+  - id: A36
+    name: cubic centimetre per mole
+
+  - id: A37
+    name: cubic decimetre per mole
+
+  - id: A38
+    name: cubic metre per coulomb
+
+  - id: A39
+    name: cubic metre per kilogram
+
+  - id: A4
+    name: ampere per square centimetre
+
+  - id: A40
+    name: cubic metre per mole
+
+  - id: A41
+    name: ampere per square metre
+
+  - id: A42
+    name: curie per kilogram
+
+  - id: A43
+    name: deadweight tonnage
+    description:
+      "A unit of mass defining the difference between the weight of a ship when
+      completely empty and its weight when completely loaded, expressed as the number of
+      tons."
+
+  - id: A44
+    name: decalitre
+
+  - id: A45
+    name: decametre
+
+  - id: A47
+    name: decitex
+    description:
+      "A unit of yarn density. One decitex equals a mass of 1 gram per 10 kilometres
+      of length."
+
+  - id: A48
+    name: degree Rankine
+    description: "Refer ISO 80000-5 (Quantities and units — Part 5: Thermodynamics)"
+
+  - id: A49
+    name: denier
+    description:
+      "A unit of yarn density. One denier equals a mass of 1 gram per 9 kilometres of
+      length."
+
+  - id: A5
+    name: ampere square metre
+
+  - id: A53
+    name: electronvolt
+
+  - id: A54
+    name: electronvolt per metre
+
+  - id: A55
+    name: electronvolt square metre
+
+  - id: A56
+    name: electronvolt square metre per kilogram
+
+  - id: A59
+    name: 8-part cloud cover
+    description:
+      "A unit of count defining the number of eighth-parts as a measure of the
+      celestial dome cloud coverage. Synonym: OKTA , OCTA"
+
+  - id: A6
+    name: ampere per square metre kelvin squared
+
+  - id: A68
+    name: exajoule
+
+  - id: A69
+    name: farad per metre
+
+  - id: A7
+    name: ampere per square millimetre
+
+  - id: A70
+    name: femtojoule
+
+  - id: A71
+    name: femtometre
+
+  - id: A73
+    name: foot per second squared
+
+  - id: A74
+    name: foot pound-force per second
+
+  - id: A75
+    name: freight ton
+    description:
+      "A unit of information typically used for billing purposes, defined as either
+      the number of metric tons or the number of cubic metres, whichever is the
+      larger."
+
+  - id: A76
+    name: gal
+
+  - id: A8
+    name: ampere second
+
+  - id: A84
+    name: gigacoulomb per cubic metre
+
+  - id: A85
+    name: gigaelectronvolt
+
+  - id: A86
+    name: gigahertz
+
+  - id: A87
+    name: gigaohm
+
+  - id: A88
+    name: gigaohm metre
+
+  - id: A89
+    name: gigapascal
+
+  - id: A9
+    name: rate
+    description:
+      "A unit of quantity expressed as a rate for usage of a facility or
+      service."
+
+  - id: A90
+    name: gigawatt
+
+  - id: A91
+    name: gon
+    description: "Synonym: grade"
+
+  - id: A93
+    name: gram per cubic metre
+
+  - id: A94
+    name: gram per mole
+
+  - id: A95
+    name: gray
+
+  - id: A96
+    name: gray per second
+
+  - id: A97
+    name: hectopascal
+
+  - id: A98
+    name: henry per metre
+
+  - id: A99
+    name: bit
+    description: "A unit of information equal to one binary digit."
+
+  - id: AA
+    name: ball
+    description:
+      "A unit of count defining the number of balls (ball: object formed in the shape
+      of sphere)."
+
+  - id: AB
+    name: bulk pack
+    description: "A unit of count defining the number of items per bulk pack."
+
+  - id: ACR
+    name: acre
+
+  - id: ACT
+    name: activity
+    description:
+      "A unit of count defining the number of activities (activity: a unit of work or
+      action)."
+
+  - id: AD
+    name: byte
+    description: "A unit of information equal to 8 bits."
+
+  - id: AE
+    name: ampere per metre
+
+  - id: AH
+    name: additional minute
+    description:
+      "A unit of time defining the number of minutes in addition to the referenced
+      minutes."
+
+  - id: AI
+    name: average minute per call
+    description:
+      "A unit of count defining the number of minutes for the average interval of a
+      call."
+
+  - id: AK
+    name: fathom
+
+  - id: AL
+    name: access line
+    description: "A unit of count defining the number of telephone access lines."
+
+  - id: AMH
+    name: ampere hour
+    description:
+      "A unit of electric charge defining the amount of charge accumulated by a steady
+      flow of one ampere for one hour."
+
+  - id: AMP
+    name: ampere
+
+  - id: ANN
+    name: year
+    description: "Unit of time equal to 365,25 days. Synonym: Julian year"
+
+  - id: APZ
+    name: troy ounce or apothecary ounce
+
+  - id: AQ
+    name: anti-hemophilic factor (AHF) unit
+    description: "A unit of measure for blood potency (US)."
+
+  - id: AS
+    name: assortment
+    description:
+      "A unit of count defining the number of assortments (assortment: set of items
+      grouped in a mixed collection)."
+
+  - id: ASM
+    name: alcoholic strength by mass
+    description: "A unit of mass defining the alcoholic strength of a liquid."
+
+  - id: ASU
+    name: alcoholic strength by volume
+    description:
+      "A unit of volume defining the alcoholic strength of a liquid (e.g. spirit,
+      wine, beer, etc), often at a specific temperature."
+
+  - id: ATM
+    name: standard atmosphere
+
+  - id: AWG
+    name: american wire gauge
+    description:
+      "A unit of distance used for measuring the diameter of small tubes or wires such
+      as the outer diameter of hypotermic or suture needles."
+
+  - id: AY
+    name: assembly
+    description:
+      "A unit of count defining the number of assemblies (assembly: items that consist
+      of component parts)."
+
+  - id: AZ
+    name: British thermal unit (international table) per pound
+
+  - id: B1
+    name: barrel (US) per day
+
+  - id: B10
+    name: bit per second
+    description: "A unit of information equal to one binary digit per second."
+
+  - id: B11
+    name: joule per kilogram kelvin
+
+  - id: B12
+    name: joule per metre
+
+  - id: B13
+    name: joule per square metre
+    description: "Synonym: joule per metre squared"
+
+  - id: B14
+    name: joule per metre to the fourth power
+
+  - id: B15
+    name: joule per mole
+
+  - id: B16
+    name: joule per mole kelvin
+
+  - id: B17
+    name: credit
+    description:
+      "A unit of count defining the number of entries made to the credit side of an
+      account."
+
+  - id: B18
+    name: joule second
+
+  - id: B19
+    name: digit
+    description:
+      "A unit of information defining the quantity of numerals used to form a
+      number."
+
+  - id: B20
+    name: joule square metre per kilogram
+
+  - id: B21
+    name: kelvin per watt
+
+  - id: B22
+    name: kiloampere
+
+  - id: B23
+    name: kiloampere per square metre
+
+  - id: B24
+    name: kiloampere per metre
+
+  - id: B25
+    name: kilobecquerel per kilogram
+
+  - id: B26
+    name: kilocoulomb
+
+  - id: B27
+    name: kilocoulomb per cubic metre
+
+  - id: B28
+    name: kilocoulomb per square metre
+
+  - id: B29
+    name: kiloelectronvolt
+
+  - id: B3
+    name: batting pound
+    description: "A unit of mass defining the number of pounds of wadded fibre."
+
+  - id: B30
+    name: gibibit
+    description: "A unit of information equal to 2³⁰ bits (binary digits)."
+
+  - id: B31
+    name: kilogram metre per second
+
+  - id: B32
+    name: kilogram metre squared
+
+  - id: B33
+    name: kilogram metre squared per second
+
+  - id: B34
+    name: kilogram per cubic decimetre
+
+  - id: B35
+    name: kilogram per litre
+
+  - id: B4
+    name: barrel, imperial
+    description:
+      "A unit of volume used to measure beer. One beer barrel equals 36 imperial
+      gallons."
+
+  - id: B41
+    name: kilojoule per kelvin
+
+  - id: B42
+    name: kilojoule per kilogram
+
+  - id: B43
+    name: kilojoule per kilogram kelvin
+
+  - id: B44
+    name: kilojoule per mole
+
+  - id: B45
+    name: kilomole
+
+  - id: B46
+    name: kilomole per cubic metre
+
+  - id: B47
+    name: kilonewton
+
+  - id: B48
+    name: kilonewton metre
+
+  - id: B49
+    name: kiloohm
+
+  - id: B50
+    name: kiloohm metre
+
+  - id: B52
+    name: kilosecond
+
+  - id: B53
+    name: kilosiemens
+
+  - id: B54
+    name: kilosiemens per metre
+
+  - id: B55
+    name: kilovolt per metre
+
+  - id: B56
+    name: kiloweber per metre
+
+  - id: B57
+    name: light year
+    description:
+      "A unit of length defining the distance that light travels in a vacuum in one
+      year."
+
+  - id: B58
+    name: litre per mole
+
+  - id: B59
+    name: lumen hour
+
+  - id: B60
+    name: lumen per square metre
+
+  - id: B61
+    name: lumen per watt
+
+  - id: B62
+    name: lumen second
+
+  - id: B63
+    name: lux hour
+
+  - id: B64
+    name: lux second
+
+  - id: B66
+    name: megaampere per square metre
+
+  - id: B67
+    name: megabecquerel per kilogram
+
+  - id: B68
+    name: gigabit
+    description: "A unit of information equal to 10⁹ bits (binary digits)."
+
+  - id: B69
+    name: megacoulomb per cubic metre
+
+  - id: B7
+    name: cycle
+    description:
+      "A unit of count defining the number of cycles (cycle: a recurrent period of
+      definite duration)."
+
+  - id: B70
+    name: megacoulomb per square metre
+
+  - id: B71
+    name: megaelectronvolt
+
+  - id: B72
+    name: megagram per cubic metre
+
+  - id: B73
+    name: meganewton
+
+  - id: B74
+    name: meganewton metre
+
+  - id: B75
+    name: megaohm
+
+  - id: B76
+    name: megaohm metre
+
+  - id: B77
+    name: megasiemens per metre
+
+  - id: B78
+    name: megavolt
+
+  - id: B79
+    name: megavolt per metre
+
+  - id: B8
+    name: joule per cubic metre
+
+  - id: B80
+    name: gigabit per second
+    description: "A unit of information equal to 10⁹ bits (binary digits) per
+      second."
+
+  - id: B81
+    name: reciprocal metre squared reciprocal second
+
+  - id: B82
+    name: inch per linear foot
+    description: "A unit of length defining the number of inches per linear foot."
+
+  - id: B83
+    name: metre to the fourth power
+
+  - id: B84
+    name: microampere
+
+  - id: B85
+    name: microbar
+
+  - id: B86
+    name: microcoulomb
+
+  - id: B87
+    name: microcoulomb per cubic metre
+
+  - id: B88
+    name: microcoulomb per square metre
+
+  - id: B89
+    name: microfarad per metre
+
+  - id: B90
+    name: microhenry
+
+  - id: B91
+    name: microhenry per metre
+
+  - id: B92
+    name: micronewton
+
+  - id: B93
+    name: micronewton metre
+
+  - id: B94
+    name: microohm
+
+  - id: B95
+    name: microohm metre
+
+  - id: B96
+    name: micropascal
+
+  - id: B97
+    name: microradian
+
+  - id: B98
+    name: microsecond
+
+  - id: B99
+    name: microsiemens
+
+  - id: BAR
+    name: bar [unit of pressure]
+
+  - id: BB
+    name: base box
+    description:
+      "A unit of area of 112 sheets of tin mil products (tin plate, tin free steel or
+      black plate) 14 by 20 inches, or 31,360 square inches."
+
+  - id: BFT
+    name: board foot
+    description:
+      "A unit of volume defining the number of cords (cord: a stack of firewood of 128
+      cubic feet)."
+
+  - id: BHP
+    name: brake horse power
+
+  - id: BIL
+    name: billion (EUR)
+    description: "Synonym: trillion (US)"
+
+  - id: BLD
+    name: dry barrel (US)
+
+  - id: BLL
+    name: barrel (US)
+
+  - id: BP
+    name: hundred board foot
+    description: "A unit of volume equal to one hundred board foot."
+
+  - id: BPM
+    name: beats per minute
+    description: "The number of beats per minute."
+
+  - id: BQL
+    name: becquerel
+
+  - id: BTU
+    name: British thermal unit (international table)
+
+  - id: BUA
+    name: bushel (US)
+
+  - id: BUI
+    name: bushel (UK)
+
+  - id: C0
+    name: call
+    description:
+      "A unit of count defining the number of calls (call: communication session or
+      visitation)."
+
+  - id: C10
+    name: millifarad
+
+  - id: C11
+    name: milligal
+
+  - id: C12
+    name: milligram per metre
+
+  - id: C13
+    name: milligray
+
+  - id: C14
+    name: millihenry
+
+  - id: C15
+    name: millijoule
+
+  - id: C16
+    name: millimetre per second
+
+  - id: C17
+    name: millimetre squared per second
+
+  - id: C18
+    name: millimole
+
+  - id: C19
+    name: mole per kilogram
+
+  - id: C20
+    name: millinewton
+
+  - id: C21
+    name: kibibit
+    description: "A unit of information equal to 2¹⁰ (1024) bits (binary digits)."
+
+  - id: C22
+    name: millinewton per metre
+
+  - id: C23
+    name: milliohm metre
+
+  - id: C24
+    name: millipascal second
+
+  - id: C25
+    name: milliradian
+
+  - id: C26
+    name: millisecond
+
+  - id: C27
+    name: millisiemens
+
+  - id: C28
+    name: millisievert
+
+  - id: C29
+    name: millitesla
+
+  - id: C3
+    name: microvolt per metre
+
+  - id: C30
+    name: millivolt per metre
+
+  - id: C31
+    name: milliwatt
+
+  - id: C32
+    name: milliwatt per square metre
+
+  - id: C33
+    name: milliweber
+
+  - id: C34
+    name: mole
+
+  - id: C35
+    name: mole per cubic decimetre
+
+  - id: C36
+    name: mole per cubic metre
+
+  - id: C37
+    name: kilobit
+    description: "A unit of information equal to 10³ (1000) bits (binary digits)."
+
+  - id: C38
+    name: mole per litre
+
+  - id: C39
+    name: nanoampere
+
+  - id: C40
+    name: nanocoulomb
+
+  - id: C41
+    name: nanofarad
+
+  - id: C42
+    name: nanofarad per metre
+
+  - id: C43
+    name: nanohenry
+
+  - id: C44
+    name: nanohenry per metre
+
+  - id: C45
+    name: nanometre
+
+  - id: C46
+    name: nanoohm metre
+
+  - id: C47
+    name: nanosecond
+
+  - id: C48
+    name: nanotesla
+
+  - id: C49
+    name: nanowatt
+
+  - id: C50
+    name: neper
+
+  - id: C51
+    name: neper per second
+
+  - id: C52
+    name: picometre
+
+  - id: C53
+    name: newton metre second
+
+  - id: C54
+    name: newton metre squared per kilogram squared
+
+  - id: C55
+    name: newton per square metre
+
+  - id: C56
+    name: newton per square millimetre
+
+  - id: C57
+    name: newton second
+
+  - id: C58
+    name: newton second per metre
+
+  - id: C59
+    name: octave
+    description:
+      "A unit used in music to describe the ratio in frequency between
+      notes."
+
+  - id: C60
+    name: ohm centimetre
+
+  - id: C61
+    name: ohm metre
+
+  - id: C62
+    name: one
+    description: "Synonym: unit"
+
+  - id: C63
+    name: parsec
+
+  - id: C64
+    name: pascal per kelvin
+
+  - id: C65
+    name: pascal second
+
+  - id: C66
+    name: pascal second per cubic metre
+
+  - id: C67
+    name: pascal second per metre
+
+  - id: C68
+    name: petajoule
+
+  - id: C69
+    name: phon
+    description:
+      "A unit of subjective sound loudness. A sound has loudness p phons if it seems
+      to the listener to be equal in loudness to the sound of a pure tone of frequency 1
+      kilohertz and strength p decibels."
+
+  - id: C7
+    name: centipoise
+
+  - id: C70
+    name: picoampere
+
+  - id: C71
+    name: picocoulomb
+
+  - id: C72
+    name: picofarad per metre
+
+  - id: C73
+    name: picohenry
+
+  - id: C74
+    name: kilobit per second
+    description:
+      "A unit of information equal to 10³ (1000) bits (binary digits) per
+      second."
+
+  - id: C75
+    name: picowatt
+
+  - id: C76
+    name: picowatt per square metre
+
+  - id: C78
+    name: pound-force
+
+  - id: C79
+    name: kilovolt ampere hour
+    description:
+      "A unit of accumulated energy of 1000 volt amperes over a period of one
+      hour."
+
+  - id: C8
+    name: millicoulomb per kilogram
+
+  - id: C80
+    name: rad
+
+  - id: C81
+    name: radian
+
+  - id: C82
+    name: radian square metre per mole
+
+  - id: C83
+    name: radian square metre per kilogram
+
+  - id: C84
+    name: radian per metre
+
+  - id: C85
+    name: reciprocal angstrom
+
+  - id: C86
+    name: reciprocal cubic metre
+
+  - id: C87
+    name: reciprocal cubic metre per second
+    description: "Synonym: reciprocal second per cubic metre"
+
+  - id: C88
+    name: reciprocal electron volt per cubic metre
+
+  - id: C89
+    name: reciprocal henry
+
+  - id: C9
+    name: coil group
+    description:
+      "A unit of count defining the number of coil groups (coil group: groups of items
+      arranged by lengths of those items placed in a joined sequence of concentric
+      circles)."
+
+  - id: C90
+    name: reciprocal joule per cubic metre
+
+  - id: C91
+    name: reciprocal kelvin or kelvin to the power minus one
+
+  - id: C92
+    name: reciprocal metre
+
+  - id: C93
+    name: reciprocal square metre
+    description: "Synonym: reciprocal metre squared"
+
+  - id: C94
+    name: reciprocal minute
+
+  - id: C95
+    name: reciprocal mole
+
+  - id: C96
+    name: reciprocal pascal or pascal to the power minus one
+
+  - id: C97
+    name: reciprocal second
+
+  - id: C99
+    name: reciprocal second per metre squared
+
+  - id: CCT
+    name: carrying capacity in metric ton
+    description:
+      "A unit of mass defining the carrying capacity, expressed as the number of
+      metric tons."
+
+  - id: CDL
+    name: candela
+
+  - id: CEL
+    name: degree Celsius
+    description: "Refer ISO 80000-5 (Quantities and units — Part 5: Thermodynamics)"
+
+  - id: CEN
+    name: hundred
+    description: "A unit of count defining the number of units in multiples of 100."
+
+  - id: CG
+    name: card
+    description:
+      "A unit of count defining the number of units of card (card: thick stiff paper
+      or cardboard)."
+
+  - id: CGM
+    name: centigram
+
+  - id: CKG
+    name: coulomb per kilogram
+
+  - id: CLF
+    name: hundred leave
+    description:
+      "A unit of count defining the number of leaves, expressed in units of one
+      hundred leaves."
+
+  - id: CLT
+    name: centilitre
+
+  - id: CMK
+    name: square centimetre
+
+  - id: CMQ
+    name: cubic centimetre
+
+  - id: CMT
+    name: centimetre
+
+  - id: CNP
+    name: hundred pack
+    description:
+      "A unit of count defining the number of hundred-packs (hundred-pack: set of one
+      hundred items packaged together)."
+
+  - id: CNT
+    name: cental (UK)
+    description: "A unit of mass equal to one hundred weight (US)."
+
+  - id: COU
+    name: coulomb
+
+  - id: CTG
+    name: content gram
+    description:
+      "A unit of mass defining the number of grams of a named item in a
+      product."
+
+  - id: CTM
+    name: metric carat
+
+  - id: CTN
+    name: content ton (metric)
+    description:
+      "A unit of mass defining the number of metric tons of a named item in a
+      product."
+
+  - id: CUR
+    name: curie
+
+  - id: CWA
+    name: hundred pound (cwt) / hundred weight (US)
+
+  - id: CWI
+    name: hundred weight (UK)
+
+  - id: D03
+    name: kilowatt hour per hour
+    description:
+      "A unit of accumulated energy of a thousand watts over a period of one
+      hour."
+
+  - id: D04
+    name: lot [unit of weight]
+    description: "A unit of weight equal to about 1/2 ounce or 15 grams."
+
+  - id: D1
+    name: reciprocal second per steradian
+
+  - id: D10
+    name: siemens per metre
+
+  - id: D11
+    name: mebibit
+    description: "A unit of information equal to 2²⁰ (1048576) bits (binary
+      digits)."
+
+  - id: D12
+    name: siemens square metre per mole
+
+  - id: D13
+    name: sievert
+
+  - id: D15
+    name: sone
+    description:
+      "A unit of subjective sound loudness. One sone is the loudness of a pure tone of
+      frequency one kilohertz and strength 40 decibels."
+
+  - id: D16
+    name: square centimetre per erg
+
+  - id: D17
+    name: square centimetre per steradian erg
+
+  - id: D18
+    name: metre kelvin
+
+  - id: D19
+    name: square metre kelvin per watt
+
+  - id: D2
+    name: reciprocal second per steradian metre squared
+
+  - id: D20
+    name: square metre per joule
+
+  - id: D21
+    name: square metre per kilogram
+
+  - id: D22
+    name: square metre per mole
+
+  - id: D23
+    name: pen gram (protein)
+    description:
+      "A unit of count defining the number of grams of amino acid prescribed for
+      parenteral/enteral therapy."
+
+  - id: D24
+    name: square metre per steradian
+
+  - id: D25
+    name: square metre per steradian joule
+
+  - id: D26
+    name: square metre per volt second
+
+  - id: D27
+    name: steradian
+
+  - id: D29
+    name: terahertz
+
+  - id: D30
+    name: terajoule
+
+  - id: D31
+    name: terawatt
+
+  - id: D32
+    name: terawatt hour
+
+  - id: D33
+    name: tesla
+
+  - id: D34
+    name: tex
+    description:
+      "A unit of yarn density. One decitex equals a mass of 1 gram per 1 kilometre of
+      length."
+
+  - id: D36
+    name: megabit
+    description: "A unit of information equal to 10⁶ (1000000) bits (binary
+      digits)."
+
+  - id: D41
+    name: tonne per cubic metre
+
+  - id: D42
+    name: tropical year
+
+  - id: D43
+    name: unified atomic mass unit
+
+  - id: D44
+    name: var
+    description: "The name of the unit is an acronym for volt-ampere-reactive."
+
+  - id: D45
+    name: volt squared per kelvin squared
+
+  - id: D46
+    name: volt - ampere
+
+  - id: D47
+    name: volt per centimetre
+
+  - id: D48
+    name: volt per kelvin
+
+  - id: D49
+    name: millivolt per kelvin
+
+  - id: D5
+    name: kilogram per square centimetre
+
+  - id: D50
+    name: volt per metre
+
+  - id: D51
+    name: volt per millimetre
+
+  - id: D52
+    name: watt per kelvin
+
+  - id: D53
+    name: watt per metre kelvin
+
+  - id: D54
+    name: watt per square metre
+
+  - id: D55
+    name: watt per square metre kelvin
+
+  - id: D56
+    name: watt per square metre kelvin to the fourth power
+
+  - id: D57
+    name: watt per steradian
+
+  - id: D58
+    name: watt per steradian square metre
+
+  - id: D59
+    name: weber per metre
+
+  - id: D6
+    name: roentgen per second
+
+  - id: D60
+    name: weber per millimetre
+
+  - id: D61
+    name: minute [unit of angle]
+
+  - id: D62
+    name: second [unit of angle]
+
+  - id: D63
+    name: book
+    description:
+      "A unit of count defining the number of books (book: set of items bound together
+      or written document of a material whole)."
+
+  - id: D65
+    name: round
+    description:
+      "A unit of count defining the number of rounds (round: A circular or cylindrical
+      object)."
+
+  - id: D68
+    name: number of words
+    description: "A unit of count defining the number of words."
+
+  - id: D69
+    name: inch to the fourth power
+
+  - id: D73
+    name: joule square metre
+
+  - id: D74
+    name: kilogram per mole
+
+  - id: D77
+    name: megacoulomb
+
+  - id: D78
+    name: megajoule per second
+    description: "A unit of accumulated energy equal to one million joules per
+      second."
+
+  - id: D80
+    name: microwatt
+
+  - id: D81
+    name: microtesla
+
+  - id: D82
+    name: microvolt
+
+  - id: D83
+    name: millinewton metre
+
+  - id: D85
+    name: microwatt per square metre
+
+  - id: D86
+    name: millicoulomb
+
+  - id: D87
+    name: millimole per kilogram
+
+  - id: D88
+    name: millicoulomb per cubic metre
+
+  - id: D89
+    name: millicoulomb per square metre
+
+  - id: D91
+    name: rem
+
+  - id: D93
+    name: second per cubic metre
+
+  - id: D94
+    name: second per cubic metre radian
+
+  - id: D95
+    name: joule per gram
+
+  - id: DAA
+    name: decare
+
+  - id: DAD
+    name: ten day
+    description: "A unit of time defining the number of days in multiples of 10."
+
+  - id: DAY
+    name: day
+
+  - id: DB
+    name: dry pound
+    description:
+      "A unit of mass defining the number of pounds of a product, disregarding the
+      water content of the product."
+
+  - id: DBM
+    name: Decibel-milliwatts
+
+  - id: DBW
+    name: Decibel watt
+
+  - id: DD
+    name: degree [unit of angle]
+
+  - id: DEC
+    name: decade
+    description:
+      "A unit of count defining the number of decades (decade: quantity equal to 10 or
+      time equal to 10 years)."
+
+  - id: DG
+    name: decigram
+
+  - id: DJ
+    name: decagram
+
+  - id: DLT
+    name: decilitre
+
+  - id: DMA
+    name: cubic decametre
+
+  - id: DMK
+    name: square decimetre
+
+  - id: DMO
+    name: standard kilolitre
+    description:
+      "A unit of volume defining the number of kilolitres of a product at a
+      temperature of 15 degrees Celsius, especially in relation to hydrocarbon
+      oils."
+
+  - id: DMQ
+    name: cubic decimetre
+
+  - id: DMT
+    name: decimetre
+
+  - id: DN
+    name: decinewton metre
+
+  - id: DPC
+    name: dozen piece
+    description:
+      "A unit of count defining the number of pieces in multiples of 12 (piece: a
+      single item, article or exemplar)."
+
+  - id: DPR
+    name: dozen pair
+    description:
+      "A unit of count defining the number of pairs in multiples of 12 (pair: item
+      described by two's)."
+
+  - id: DPT
+    name: displacement tonnage
+    description:
+      "A unit of mass defining the volume of sea water a ship displaces, expressed as
+      the number of tons."
+
+  - id: DRA
+    name: dram (US)
+    description: "Synonym: drachm (UK), troy dram"
+
+  - id: DRI
+    name: dram (UK)
+    description: "Synonym: avoirdupois dram"
+
+  - id: DRL
+    name: dozen roll
+    description:
+      "A unit of count defining the number of rolls, expressed in twelve roll
+      units."
+
+  - id: DT
+    name: dry ton
+    description:
+      "A unit of mass defining the number of tons of a product, disregarding the water
+      content of the product."
+
+  - id: DTN
+    name: decitonne
+    description: "Synonym: centner, metric 100 kg; quintal, metric 100 kg"
+
+  - id: DWT
+    name: pennyweight
+
+  - id: DZN
+    name: dozen
+    description: "A unit of count defining the number of units in multiples of 12."
+
+  - id: DZP
+    name: dozen pack
+    description:
+      "A unit of count defining the number of packs in multiples of 12 (pack: standard
+      packaging unit)."
+
+  - id: E01
+    name: newton per square centimetre
+    description: "A measure of pressure expressed in newtons per square centimetre."
+
+  - id: E07
+    name: megawatt hour per hour
+    description:
+      "A unit of accumulated energy of a million watts over a period of one
+      hour."
+
+  - id: E08
+    name: megawatt per hertz
+    description:
+      "A unit of energy expressed as the load change in million watts that will cause
+      a frequency shift of one hertz."
+
+  - id: E09
+    name: milliampere hour
+    description:
+      "A unit of power load delivered at the rate of one thousandth of an ampere over
+      a period of one hour."
+
+  - id: E10
+    name: degree day
+    description:
+      "A unit of measure used in meteorology and engineering to measure the demand for
+      heating or cooling over a given period of days."
+
+  - id: E12
+    name: mille
+    description: "A unit of count defining the number of cigarettes in units of
+      1000."
+
+  - id: E14
+    name: kilocalorie (international table)
+    description: "A unit of heat energy equal to one thousand calories."
+
+  - id: E15
+    name: kilocalorie (thermochemical) per hour
+    description: "A unit of energy equal to one thousand calories per hour."
+
+  - id: E16
+    name: million Btu(IT) per hour
+    description: "A unit of power equal to one million British thermal units per
+      hour."
+
+  - id: E17
+    name: cubic foot per second
+    description:
+      "A unit of volume equal to one cubic foot passing a given point in a period of
+      one second."
+
+  - id: E18
+    name: tonne per hour
+    description: "A unit of weight or mass equal to one tonne per hour."
+
+  - id: E19
+    name: ping
+    description: "A unit of area equal to 3.3 square metres."
+
+  - id: E20
+    name: megabit per second
+    description:
+      "A unit of information equal to 10⁶ (1000000) bits (binary digits) per
+      second."
+
+  - id: E21
+    name: shares
+    description:
+      "A unit of count defining the number of shares (share: a total or portion of the
+      parts into which a business entity’s capital is divided)."
+
+  - id: E22
+    name: TEU
+    description:
+      "A unit of count defining the number of twenty-foot equivalent units (TEUs) as a
+      measure of containerized cargo capacity."
+
+  - id: E23
+    name: tyre
+    description:
+      "A unit of count defining the number of tyres (a solid or air-filled covering
+      placed around a wheel rim to form a soft contact with the road, absorb shock and provide
+      traction)."
+
+  - id: E25
+    name: active unit
+    description: "A unit of count defining the number of active units within a
+      substance."
+
+  - id: E27
+    name: dose
+    description:
+      "A unit of count defining the number of doses (dose: a definite quantity of a
+      medicine or drug)."
+
+  - id: E28
+    name: air dry ton
+    description:
+      "A unit of mass defining the number of tons of a product, disregarding the water
+      content of the product."
+
+  - id: E30
+    name: strand
+    description:
+      "A unit of count defining the number of strands (strand: long, thin, flexible,
+      single thread, strip of fibre, constituent filament or multiples of the same, twisted
+      together)."
+
+  - id: E31
+    name: square metre per litre
+    description: "A unit of count defining the number of square metres per litre."
+
+  - id: E32
+    name: litre per hour
+    description: "A unit of count defining the number of litres per hour."
+
+  - id: E33
+    name: foot per thousand
+    description: "A unit of count defining the number of feet per thousand units."
+
+  - id: E34
+    name: gigabyte
+    description: "A unit of information equal to 10⁹ bytes."
+
+  - id: E35
+    name: terabyte
+    description: "A unit of information equal to 10¹² bytes."
+
+  - id: E36
+    name: petabyte
+    description: "A unit of information equal to 10¹⁵ bytes."
+
+  - id: E37
+    name: pixel
+    description: "A unit of count defining the number of pixels (pixel: picture
+      element)."
+
+  - id: E38
+    name: megapixel
+    description: "A unit of count equal to 10⁶ (1000000) pixels (picture elements)."
+
+  - id: E39
+    name: dots per inch
+    description:
+      "A unit of information defining the number of dots per linear inch as a measure
+      of the resolution or sharpness of a graphic image."
+
+  - id: E4
+    name: gross kilogram
+    description: "A unit of mass defining the total number of kilograms before
+      deductions."
+
+  - id: E40
+    name: part per hundred thousand
+    description: "A unit of proportion equal to 10⁻⁵."
+
+  - id: E41
+    name: kilogram-force per square millimetre
+    description:
+      "A unit of pressure defining the number of kilograms force per square
+      millimetre."
+
+  - id: E42
+    name: kilogram-force per square centimetre
+    description:
+      "A unit of pressure defining the number of kilograms force per square
+      centimetre."
+
+  - id: E43
+    name: joule per square centimetre
+    description: "A unit of energy defining the number of joules per square
+      centimetre."
+
+  - id: E44
+    name: kilogram-force metre per square centimetre
+    description:
+      "A unit of torsion defining the torque kilogram-force metre per square
+      centimetre."
+
+  - id: E45
+    name: milliohm
+
+  - id: E46
+    name: kilowatt hour per cubic metre
+    description:
+      "A unit of energy consumption expressed as kilowatt hour per cubic
+      metre."
+
+  - id: E47
+    name: kilowatt hour per kelvin
+    description: "A unit of energy consumption expressed as kilowatt hour per
+      kelvin."
+
+  - id: E48
+    name: service unit
+    description:
+      "A unit of count defining the number of service units (service unit: defined
+      period / property / facility / utility of supply)."
+
+  - id: E49
+    name: working day
+    description:
+      "A unit of count defining the number of working days (working day: a day on
+      which work is ordinarily performed)."
+
+  - id: E50
+    name: accounting unit
+    description: "A unit of count defining the number of accounting units."
+
+  - id: E51
+    name: job
+    description: "A unit of count defining the number of jobs."
+
+  - id: E52
+    name: run foot
+    description: "A unit of count defining the number feet per run."
+
+  - id: E53
+    name: test
+    description: "A unit of count defining the number of tests."
+
+  - id: E54
+    name: trip
+    description: "A unit of count defining the number of trips."
+
+  - id: E55
+    name: use
+    description: "A unit of count defining the number of times an object is used."
+
+  - id: E56
+    name: well
+    description: "A unit of count defining the number of wells."
+
+  - id: E57
+    name: zone
+    description: "A unit of count defining the number of zones."
+
+  - id: E58
+    name: exabit per second
+    description: "A unit of information equal to 10¹⁸ bits (binary digits) per
+      second."
+
+  - id: E59
+    name: exbibyte
+    description: "A unit of information equal to 2⁶⁰ bytes."
+
+  - id: E60
+    name: pebibyte
+    description: "A unit of information equal to 2⁵⁰ bytes."
+
+  - id: E61
+    name: tebibyte
+    description: "A unit of information equal to 2⁴⁰ bytes."
+
+  - id: E62
+    name: gibibyte
+    description: "A unit of information equal to 2³⁰ bytes."
+
+  - id: E63
+    name: mebibyte
+    description: "A unit of information equal to 2²⁰ bytes."
+
+  - id: E64
+    name: kibibyte
+    description: "A unit of information equal to 2¹⁰ bytes."
+
+  - id: E65
+    name: exbibit per metre
+    description: "A unit of information equal to 2⁶⁰ bits (binary digits) per
+      metre."
+
+  - id: E66
+    name: exbibit per square metre
+    description:
+      "A unit of information equal to 2⁶⁰ bits (binary digits) per square
+      metre."
+
+  - id: E67
+    name: exbibit per cubic metre
+    description:
+      "A unit of information equal to 2⁶⁰ bits (binary digits) per cubic
+      metre."
+
+  - id: E68
+    name: gigabyte per second
+    description: "A unit of information equal to 10⁹ bytes per second."
+
+  - id: E69
+    name: gibibit per metre
+    description: "A unit of information equal to 2³⁰ bits (binary digits) per
+      metre."
+
+  - id: E70
+    name: gibibit per square metre
+    description:
+      "A unit of information equal to 2³⁰ bits (binary digits) per square
+      metre."
+
+  - id: E71
+    name: gibibit per cubic metre
+    description:
+      "A unit of information equal to 2³⁰ bits (binary digits) per cubic
+      metre."
+
+  - id: E72
+    name: kibibit per metre
+    description: "A unit of information equal to 2¹⁰ bits (binary digits) per
+      metre."
+
+  - id: E73
+    name: kibibit per square metre
+    description:
+      "A unit of information equal to 2¹⁰ bits (binary digits) per square
+      metre."
+
+  - id: E74
+    name: kibibit per cubic metre
+    description:
+      "A unit of information equal to 2¹⁰ bits (binary digits) per cubic
+      metre."
+
+  - id: E75
+    name: mebibit per metre
+    description: "A unit of information equal to 2²⁰ bits (binary digits) per
+      metre."
+
+  - id: E76
+    name: mebibit per square metre
+    description:
+      "A unit of information equal to 2²⁰ bits (binary digits) per square
+      metre."
+
+  - id: E77
+    name: mebibit per cubic metre
+    description:
+      "A unit of information equal to 2²⁰ bits (binary digits) per cubic
+      metre."
+
+  - id: E78
+    name: petabit
+    description: "A unit of information equal to 10¹⁵ bits (binary digits)."
+
+  - id: E79
+    name: petabit per second
+    description: "A unit of information equal to 10¹⁵ bits (binary digits) per
+      second."
+
+  - id: E80
+    name: pebibit per metre
+    description: "A unit of information equal to 2⁵⁰ bits (binary digits) per
+      metre."
+
+  - id: E81
+    name: pebibit per square metre
+    description:
+      "A unit of information equal to 2⁵⁰ bits (binary digits) per square
+      metre."
+
+  - id: E82
+    name: pebibit per cubic metre
+    description:
+      "A unit of information equal to 2⁵⁰ bits (binary digits) per cubic
+      metre."
+
+  - id: E83
+    name: terabit
+    description: "A unit of information equal to 10¹² bits (binary digits)."
+
+  - id: E84
+    name: terabit per second
+    description: "A unit of information equal to 10¹² bits (binary digits) per
+      second."
+
+  - id: E85
+    name: tebibit per metre
+    description: "A unit of information equal to 2⁴⁰ bits (binary digits) per
+      metre."
+
+  - id: E86
+    name: tebibit per cubic metre
+    description:
+      "A unit of information equal to 2⁴⁰ bits (binary digits) per cubic
+      metre."
+
+  - id: E87
+    name: tebibit per square metre
+    description:
+      "A unit of information equal to 2⁴⁰ bits (binary digits) per square
+      metre."
+
+  - id: E88
+    name: bit per metre
+    description: "A unit of information equal to 1 bit (binary digit) per metre."
+
+  - id: E89
+    name: bit per square metre
+    description: "A unit of information equal to 1 bit (binary digit) per square
+      metre."
+
+  - id: E90
+    name: reciprocal centimetre
+
+  - id: E91
+    name: reciprocal day
+
+  - id: E92
+    name: cubic decimetre per hour
+
+  - id: E93
+    name: kilogram per hour
+
+  - id: E94
+    name: kilomole per second
+
+  - id: E95
+    name: mole per second
+
+  - id: E96
+    name: degree per second
+
+  - id: E97
+    name: millimetre per degree Celcius metre
+
+  - id: E98
+    name: degree Celsius per kelvin
+
+  - id: E99
+    name: hectopascal per bar
+
+  - id: EA
+    name: each
+    description:
+      "A unit of count defining the number of items regarded as separate
+      units."
+
+  - id: EB
+    name: electronic mail box
+    description: "A unit of count defining the number of electronic mail boxes."
+
+  - id: EQ
+    name: equivalent gallon
+    description:
+      "A unit of volume defining the number of gallons of product produced from
+      concentrate."
+
+  - id: F01
+    name: bit per cubic metre
+    description: "A unit of information equal to 1 bit (binary digit) per cubic
+      metre."
+
+  - id: F02
+    name: kelvin per kelvin
+
+  - id: F03
+    name: kilopascal per bar
+
+  - id: F04
+    name: millibar per bar
+
+  - id: F05
+    name: megapascal per bar
+
+  - id: F06
+    name: poise per bar
+
+  - id: F07
+    name: pascal per bar
+
+  - id: F08
+    name: milliampere per inch
+
+  - id: F10
+    name: kelvin per hour
+
+  - id: F11
+    name: kelvin per minute
+
+  - id: F12
+    name: kelvin per second
+
+  - id: F13
+    name: slug
+    description:
+      "A unit of mass. One slug is the mass accelerated at 1 foot per second per
+      second by a force of 1 pound."
+
+  - id: F14
+    name: gram per kelvin
+
+  - id: F15
+    name: kilogram per kelvin
+
+  - id: F16
+    name: milligram per kelvin
+
+  - id: F17
+    name: pound-force per foot
+
+  - id: F18
+    name: kilogram square centimetre
+
+  - id: F19
+    name: kilogram square millimetre
+
+  - id: F20
+    name: pound inch squared
+
+  - id: F21
+    name: pound-force inch
+
+  - id: F22
+    name: pound-force foot per ampere
+
+  - id: F23
+    name: gram per cubic decimetre
+
+  - id: F24
+    name: kilogram per kilomol
+
+  - id: F25
+    name: gram per hertz
+
+  - id: F26
+    name: gram per day
+
+  - id: F27
+    name: gram per hour
+
+  - id: F28
+    name: gram per minute
+
+  - id: F29
+    name: gram per second
+
+  - id: F30
+    name: kilogram per day
+
+  - id: F31
+    name: kilogram per minute
+
+  - id: F32
+    name: milligram per day
+
+  - id: F33
+    name: milligram per minute
+
+  - id: F34
+    name: milligram per second
+
+  - id: F35
+    name: gram per day kelvin
+
+  - id: F36
+    name: gram per hour kelvin
+
+  - id: F37
+    name: gram per minute kelvin
+
+  - id: F38
+    name: gram per second kelvin
+
+  - id: F39
+    name: kilogram per day kelvin
+
+  - id: F40
+    name: kilogram per hour kelvin
+
+  - id: F41
+    name: kilogram per minute kelvin
+
+  - id: F42
+    name: kilogram per second kelvin
+
+  - id: F43
+    name: milligram per day kelvin
+
+  - id: F44
+    name: milligram per hour kelvin
+
+  - id: F45
+    name: milligram per minute kelvin
+
+  - id: F46
+    name: milligram per second kelvin
+
+  - id: F47
+    name: newton per millimetre
+
+  - id: F48
+    name: pound-force per inch
+
+  - id: F49
+    name: rod [unit of distance]
+    description: "A unit of distance equal to 5.5 yards (16 feet 6 inches)."
+
+  - id: F50
+    name: micrometre per kelvin
+
+  - id: F51
+    name: centimetre per kelvin
+
+  - id: F52
+    name: metre per kelvin
+
+  - id: F53
+    name: millimetre per kelvin
+
+  - id: F54
+    name: milliohm per metre
+
+  - id: F55
+    name: ohm per mile (statute mile)
+
+  - id: F56
+    name: ohm per kilometre
+
+  - id: F57
+    name: milliampere per pound-force per square inch
+
+  - id: F58
+    name: reciprocal bar
+
+  - id: F59
+    name: milliampere per bar
+
+  - id: F60
+    name: degree Celsius per bar
+
+  - id: F61
+    name: kelvin per bar
+
+  - id: F62
+    name: gram per day bar
+
+  - id: F63
+    name: gram per hour bar
+
+  - id: F64
+    name: gram per minute bar
+
+  - id: F65
+    name: gram per second bar
+
+  - id: F66
+    name: kilogram per day bar
+
+  - id: F67
+    name: kilogram per hour bar
+
+  - id: F68
+    name: kilogram per minute bar
+
+  - id: F69
+    name: kilogram per second bar
+
+  - id: F70
+    name: milligram per day bar
+
+  - id: F71
+    name: milligram per hour bar
+
+  - id: F72
+    name: milligram per minute bar
+
+  - id: F73
+    name: milligram per second bar
+
+  - id: F74
+    name: gram per bar
+
+  - id: F75
+    name: milligram per bar
+
+  - id: F76
+    name: milliampere per millimetre
+
+  - id: F77
+    name: pascal second per kelvin
+
+  - id: F78
+    name: inch of water
+
+  - id: F79
+    name: inch of mercury
+
+  - id: F80
+    name: water horse power
+    description:
+      "A unit of power defining the amount of power required to move a given volume of
+      water against acceleration of gravity to a specified elevation (pressure
+      head)."
+
+  - id: F81
+    name: bar per kelvin
+
+  - id: F82
+    name: hectopascal per kelvin
+
+  - id: F83
+    name: kilopascal per kelvin
+
+  - id: F84
+    name: millibar per kelvin
+
+  - id: F85
+    name: megapascal per kelvin
+
+  - id: F86
+    name: poise per kelvin
+
+  - id: F87
+    name: volt per litre minute
+
+  - id: F88
+    name: newton centimetre
+
+  - id: F89
+    name: newton metre per degree
+
+  - id: F90
+    name: newton metre per ampere
+
+  - id: F91
+    name: bar litre per second
+
+  - id: F92
+    name: bar cubic metre per second
+
+  - id: F93
+    name: hectopascal litre per second
+
+  - id: F94
+    name: hectopascal cubic metre per second
+
+  - id: F95
+    name: millibar litre per second
+
+  - id: F96
+    name: millibar cubic metre per second
+
+  - id: F97
+    name: megapascal litre per second
+
+  - id: F98
+    name: megapascal cubic metre per second
+
+  - id: F99
+    name: pascal litre per second
+
+  - id: FAH
+    name: degree Fahrenheit
+    description: "Refer ISO 80000-5 (Quantities and units — Part 5: Thermodynamics)"
+
+  - id: FAR
+    name: farad
+
+  - id: FBM
+    name: fibre metre
+    description: "A unit of length defining the number of metres of individual
+      fibre."
+
+  - id: FC
+    name: thousand cubic foot
+    description: "A unit of volume equal to one thousand cubic foot."
+
+  - id: FF
+    name: hundred cubic metre
+    description: "A unit of volume equal to one hundred cubic metres."
+
+  - id: FH
+    name: micromole
+
+  - id: FIT
+    name: failures in time
+    description:
+      "A unit of count defining the number of failures that can be expected over a
+      specified time interval. Failure rates of semiconductor components are often specified
+      as FIT (failures in time unit) where 1 FIT = 10⁻⁹ /h."
+
+  - id: FL
+    name: flake ton
+    description:
+      "A unit of mass defining the number of tons of a flaked substance (flake: a
+      small flattish fragment)."
+
+  - id: FNU
+    name: Formazin nephelometric unit
+
+  - id: FOT
+    name: foot
+
+  - id: FP
+    name: pound per square foot
+
+  - id: FR
+    name: foot per minute
+
+  - id: FS
+    name: foot per second
+
+  - id: FTK
+    name: square foot
+
+  - id: FTQ
+    name: cubic foot
+
+  - id: G01
+    name: pascal cubic metre per second
+
+  - id: G04
+    name: centimetre per bar
+
+  - id: G05
+    name: metre per bar
+
+  - id: G06
+    name: millimetre per bar
+
+  - id: G08
+    name: square inch per second
+
+  - id: G09
+    name: square metre per second kelvin
+
+  - id: G10
+    name: stokes per kelvin
+
+  - id: G11
+    name: gram per cubic centimetre bar
+
+  - id: G12
+    name: gram per cubic decimetre bar
+
+  - id: G13
+    name: gram per litre bar
+
+  - id: G14
+    name: gram per cubic metre bar
+
+  - id: G15
+    name: gram per millilitre bar
+
+  - id: G16
+    name: kilogram per cubic centimetre bar
+
+  - id: G17
+    name: kilogram per litre bar
+
+  - id: G18
+    name: kilogram per cubic metre bar
+
+  - id: G19
+    name: newton metre per kilogram
+
+  - id: G2
+    name: US gallon per minute
+
+  - id: G20
+    name: pound-force foot per pound
+
+  - id: G21
+    name: cup [unit of volume]
+
+  - id: G23
+    name: peck
+
+  - id: G24
+    name: tablespoon (US)
+
+  - id: G25
+    name: teaspoon (US)
+
+  - id: G26
+    name: stere
+
+  - id: G27
+    name: cubic centimetre per kelvin
+
+  - id: G28
+    name: litre per kelvin
+
+  - id: G29
+    name: cubic metre per kelvin
+
+  - id: G3
+    name: Imperial gallon per minute
+
+  - id: G30
+    name: millilitre per kelvin
+
+  - id: G31
+    name: kilogram per cubic centimetre
+
+  - id: G32
+    name: ounce (avoirdupois) per cubic yard
+
+  - id: G33
+    name: gram per cubic centimetre kelvin
+
+  - id: G34
+    name: gram per cubic decimetre kelvin
+
+  - id: G35
+    name: gram per litre kelvin
+
+  - id: G36
+    name: gram per cubic metre kelvin
+
+  - id: G37
+    name: gram per millilitre kelvin
+
+  - id: G38
+    name: kilogram per cubic centimetre kelvin
+
+  - id: G39
+    name: kilogram per litre kelvin
+
+  - id: G40
+    name: kilogram per cubic metre kelvin
+
+  - id: G41
+    name: square metre per second bar
+
+  - id: G42
+    name: microsiemens per centimetre
+
+  - id: G43
+    name: microsiemens per metre
+
+  - id: G44
+    name: nanosiemens per centimetre
+
+  - id: G45
+    name: nanosiemens per metre
+
+  - id: G46
+    name: stokes per bar
+
+  - id: G47
+    name: cubic centimetre per day
+
+  - id: G48
+    name: cubic centimetre per hour
+
+  - id: G49
+    name: cubic centimetre per minute
+
+  - id: G50
+    name: gallon (US) per hour
+
+  - id: G51
+    name: litre per second
+
+  - id: G52
+    name: cubic metre per day
+
+  - id: G53
+    name: cubic metre per minute
+
+  - id: G54
+    name: millilitre per day
+
+  - id: G55
+    name: millilitre per hour
+
+  - id: G56
+    name: cubic inch per hour
+
+  - id: G57
+    name: cubic inch per minute
+
+  - id: G58
+    name: cubic inch per second
+
+  - id: G59
+    name: milliampere per litre minute
+
+  - id: G60
+    name: volt per bar
+
+  - id: G61
+    name: cubic centimetre per day kelvin
+
+  - id: G62
+    name: cubic centimetre per hour kelvin
+
+  - id: G63
+    name: cubic centimetre per minute kelvin
+
+  - id: G64
+    name: cubic centimetre per second kelvin
+
+  - id: G65
+    name: litre per day kelvin
+
+  - id: G66
+    name: litre per hour kelvin
+
+  - id: G67
+    name: litre per minute kelvin
+
+  - id: G68
+    name: litre per second kelvin
+
+  - id: G69
+    name: cubic metre per day kelvin
+
+  - id: G70
+    name: cubic metre per hour kelvin
+
+  - id: G71
+    name: cubic metre per minute kelvin
+
+  - id: G72
+    name: cubic metre per second kelvin
+
+  - id: G73
+    name: millilitre per day kelvin
+
+  - id: G74
+    name: millilitre per hour kelvin
+
+  - id: G75
+    name: millilitre per minute kelvin
+
+  - id: G76
+    name: millilitre per second kelvin
+
+  - id: G77
+    name: millimetre to the fourth power
+
+  - id: G78
+    name: cubic centimetre per day bar
+
+  - id: G79
+    name: cubic centimetre per hour bar
+
+  - id: G80
+    name: cubic centimetre per minute bar
+
+  - id: G81
+    name: cubic centimetre per second bar
+
+  - id: G82
+    name: litre per day bar
+
+  - id: G83
+    name: litre per hour bar
+
+  - id: G84
+    name: litre per minute bar
+
+  - id: G85
+    name: litre per second bar
+
+  - id: G86
+    name: cubic metre per day bar
+
+  - id: G87
+    name: cubic metre per hour bar
+
+  - id: G88
+    name: cubic metre per minute bar
+
+  - id: G89
+    name: cubic metre per second bar
+
+  - id: G90
+    name: millilitre per day bar
+
+  - id: G91
+    name: millilitre per hour bar
+
+  - id: G92
+    name: millilitre per minute bar
+
+  - id: G93
+    name: millilitre per second bar
+
+  - id: G94
+    name: cubic centimetre per bar
+
+  - id: G95
+    name: litre per bar
+
+  - id: G96
+    name: cubic metre per bar
+
+  - id: G97
+    name: millilitre per bar
+
+  - id: G98
+    name: microhenry per kiloohm
+
+  - id: G99
+    name: microhenry per ohm
+
+  - id: GB
+    name: gallon (US) per day
+
+  - id: GBQ
+    name: gigabecquerel
+
+  - id: GDW
+    name: gram, dry weight
+    description:
+      "A unit of mass defining the number of grams of a product, disregarding the
+      water content of the product."
+
+  - id: GE
+    name: pound per gallon (US)
+
+  - id: GF
+    name: gram per metre (gram per 100 centimetres)
+
+  - id: GFI
+    name: gram of fissile isotope
+    description:
+      "A unit of mass defining the number of grams of a fissile isotope (fissile
+      isotope: an isotope whose nucleus is able to be split when irradiated with low energy
+      neutrons)."
+
+  - id: GGR
+    name: great gross
+    description:
+      "A unit of count defining the number of units in multiples of 1728 (12 x 12 x
+      12)."
+
+  - id: GIA
+    name: gill (US)
+
+  - id: GIC
+    name: gram, including container
+    description:
+      "A unit of mass defining the number of grams of a product, including its
+      container."
+
+  - id: GII
+    name: gill (UK)
+
+  - id: GIP
+    name: gram, including inner packaging
+    description:
+      "A unit of mass defining the number of grams of a product, including its inner
+      packaging materials."
+
+  - id: GJ
+    name: gram per millilitre
+
+  - id: GL
+    name: gram per litre
+
+  - id: GLD
+    name: dry gallon (US)
+
+  - id: GLI
+    name: gallon (UK)
+
+  - id: GLL
+    name: gallon (US)
+
+  - id: GM
+    name: gram per square metre
+
+  - id: GO
+    name: milligram per square metre
+
+  - id: GP
+    name: milligram per cubic metre
+
+  - id: GQ
+    name: microgram per cubic metre
+
+  - id: GRM
+    name: gram
+
+  - id: GRN
+    name: grain
+
+  - id: GRO
+    name: gross
+    description:
+      "A unit of count defining the number of units in multiples of 144 (12 x
+      12)."
+
+  - id: GV
+    name: gigajoule
+
+  - id: GWH
+    name: gigawatt hour
+
+  - id: H03
+    name: henry per kiloohm
+
+  - id: H04
+    name: henry per ohm
+
+  - id: H05
+    name: millihenry per kiloohm
+
+  - id: H06
+    name: millihenry per ohm
+
+  - id: H07
+    name: pascal second per bar
+
+  - id: H08
+    name: microbecquerel
+
+  - id: H09
+    name: reciprocal year
+
+  - id: H10
+    name: reciprocal hour
+
+  - id: H11
+    name: reciprocal month
+
+  - id: H12
+    name: degree Celsius per hour
+
+  - id: H13
+    name: degree Celsius per minute
+
+  - id: H14
+    name: degree Celsius per second
+
+  - id: H15
+    name: square centimetre per gram
+
+  - id: H16
+    name: square decametre
+    description: "Synonym: are"
+
+  - id: H18
+    name: square hectometre
+    description: "Synonym: hectare"
+
+  - id: H19
+    name: cubic hectometre
+
+  - id: H20
+    name: cubic kilometre
+
+  - id: H21
+    name: blank
+    description: "A unit of count defining the number of blanks."
+
+  - id: H22
+    name: volt square inch per pound-force
+
+  - id: H23
+    name: volt per inch
+
+  - id: H24
+    name: volt per microsecond
+
+  - id: H25
+    name: percent per kelvin
+    description:
+      "A unit of proportion, equal to 0.01, in relation to the SI base unit
+      Kelvin."
+
+  - id: H26
+    name: ohm per metre
+
+  - id: H27
+    name: degree per metre
+
+  - id: H28
+    name: microfarad per kilometre
+
+  - id: H29
+    name: microgram per litre
+
+  - id: H30
+    name: square micrometre (square micron)
+
+  - id: H31
+    name: ampere per kilogram
+
+  - id: H32
+    name: ampere squared second
+
+  - id: H33
+    name: farad per kilometre
+
+  - id: H34
+    name: hertz metre
+
+  - id: H35
+    name: kelvin metre per watt
+
+  - id: H36
+    name: megaohm per kilometre
+
+  - id: H37
+    name: megaohm per metre
+
+  - id: H38
+    name: megaampere
+
+  - id: H39
+    name: megahertz kilometre
+
+  - id: H40
+    name: newton per ampere
+
+  - id: H41
+    name: newton metre watt to the power minus 0,5
+
+  - id: H42
+    name: pascal per metre
+
+  - id: H43
+    name: siemens per centimetre
+
+  - id: H44
+    name: teraohm
+
+  - id: H45
+    name: volt second per metre
+
+  - id: H46
+    name: volt per second
+
+  - id: H47
+    name: watt per cubic metre
+
+  - id: H48
+    name: attofarad
+
+  - id: H49
+    name: centimetre per hour
+
+  - id: H50
+    name: reciprocal cubic centimetre
+
+  - id: H51
+    name: decibel per kilometre
+
+  - id: H52
+    name: decibel per metre
+
+  - id: H53
+    name: kilogram per bar
+
+  - id: H54
+    name: kilogram per cubic decimetre kelvin
+
+  - id: H55
+    name: kilogram per cubic decimetre bar
+
+  - id: H56
+    name: kilogram per square metre second
+
+  - id: H57
+    name: inch per two pi radiant
+
+  - id: H58
+    name: metre per volt second
+
+  - id: H59
+    name: square metre per newton
+
+  - id: H60
+    name: cubic metre per cubic metre
+
+  - id: H61
+    name: millisiemens per centimetre
+
+  - id: H62
+    name: millivolt per minute
+
+  - id: H63
+    name: milligram per square centimetre
+
+  - id: H64
+    name: milligram per gram
+
+  - id: H65
+    name: millilitre per cubic metre
+
+  - id: H66
+    name: millimetre per year
+
+  - id: H67
+    name: millimetre per hour
+
+  - id: H68
+    name: millimole per gram
+
+  - id: H69
+    name: picopascal per kilometre
+
+  - id: H70
+    name: picosecond
+
+  - id: H71
+    name: percent per month
+    description: "A unit of proportion, equal to 0.01, in relation to a month."
+
+  - id: H72
+    name: percent per hectobar
+    description:
+      "A unit of proportion, equal to 0.01, in relation to 100-fold of the unit
+      bar."
+
+  - id: H73
+    name: percent per decakelvin
+    description:
+      "A unit of proportion, equal to 0.01, in relation to 10-fold of the SI base unit
+      Kelvin."
+
+  - id: H74
+    name: watt per metre
+
+  - id: H75
+    name: decapascal
+
+  - id: H76
+    name: gram per millimetre
+
+  - id: H77
+    name: module width
+    description:
+      "A unit of measure used to describe the breadth of electronic assemblies as
+      an installation standard or mounting dimension."
+
+  - id: H79
+    name: French gauge
+    description:
+      "A unit of distance used for measuring the diameter of small tubes such as
+      urological instruments and catheters. Synonym: French, Charrière, Charrière
+      gauge"
+
+  - id: H80
+    name: rack unit
+    description:
+      "A unit of measure used to describe the height in rack units of equipment
+      intended for mounting in a 19-inch rack or a 23-inch rack. One rack unit is 1.75 inches
+      (44.45 mm) high."
+
+  - id: H81
+    name: millimetre per minute
+
+  - id: H82
+    name: big point
+    description:
+      "A unit of length defining the number of big points (big point: Adobe
+      software(US) defines the big point to be exactly 1/72 inch (0.013 888 9 inch or 0.352
+      777 8 millimeters))"
+
+  - id: H83
+    name: litre per kilogram
+
+  - id: H84
+    name: gram millimetre
+
+  - id: H85
+    name: reciprocal week
+
+  - id: H87
+    name: piece
+    description:
+      "A unit of count defining the number of pieces (piece: a single item, article or
+      exemplar)."
+
+  - id: H88
+    name: megaohm kilometre
+
+  - id: H89
+    name: percent per ohm
+    description:
+      "A unit of proportion, equal to 0.01, in relation to the SI derived unit
+      ohm."
+
+  - id: H90
+    name: percent per degree
+    description:
+      "A unit of proportion, equal to 0.01, in relation to an angle of one
+      degree."
+
+  - id: H91
+    name: percent per ten thousand
+    description:
+      "A unit of proportion, equal to 0.01, in relation to multiples of ten
+      thousand."
+
+  - id: H92
+    name: percent per one hundred thousand
+    description:
+      "A unit of proportion, equal to 0.01, in relation to multiples of one hundred
+      thousand."
+
+  - id: H93
+    name: percent per hundred
+    description:
+      "A unit of proportion, equal to 0.01, in relation to multiples of one
+      hundred."
+
+  - id: H94
+    name: percent per thousand
+    description:
+      "A unit of proportion, equal to 0.01, in relation to multiples of one
+      thousand."
+
+  - id: H95
+    name: percent per volt
+    description:
+      "A unit of proportion, equal to 0.01, in relation to the SI derived unit
+      volt."
+
+  - id: H96
+    name: percent per bar
+    description:
+      "A unit of proportion, equal to 0.01, in relation to an atmospheric pressure of
+      one bar."
+
+  - id: H98
+    name: percent per inch
+    description: "A unit of proportion, equal to 0.01, in relation to an inch."
+
+  - id: H99
+    name: percent per metre
+    description: "A unit of proportion, equal to 0.01, in relation to a metre."
+
+  - id: HA
+    name: hank
+    description: "A unit of length, typically for yarn."
+
+  - id: HAD
+    name: Piece Day
+
+  - id: HBA
+    name: hectobar
+
+  - id: HBX
+    name: hundred boxes
+    description:
+      "A unit of count defining the number of boxes in multiples of one hundred box
+      units."
+
+  - id: HC
+    name: hundred count
+    description:
+      "A unit of count defining the number of units counted in multiples of
+      100."
+
+  - id: HDW
+    name: hundred kilogram, dry weight
+    description:
+      "A unit of mass defining the number of hundred kilograms of a product,
+      disregarding the water content of the product."
+
+  - id: HEA
+    name: head
+    description:
+      "A unit of count defining the number of heads (head: a person or animal
+      considered as one of a number)."
+
+  - id: HGM
+    name: hectogram
+
+  - id: HH
+    name: hundred cubic foot
+    description: "A unit of volume equal to one hundred cubic foot."
+
+  - id: HIU
+    name: hundred international unit
+    description:
+      "A unit of count defining the number of international units in multiples of
+      100."
+
+  - id: HKM
+    name: hundred kilogram, net mass
+    description:
+      "A unit of mass defining the number of hundred kilograms of a product, after
+      deductions."
+
+  - id: HLT
+    name: hectolitre
+
+  - id: HM
+    name: mile per hour (statute mile)
+
+  - id: HMO
+    name: Piece Month
+
+  - id: HMQ
+    name: million cubic metre
+    description: "A unit of volume equal to one million cubic metres."
+
+  - id: HMT
+    name: hectometre
+
+  - id: HPA
+    name: hectolitre of pure alcohol
+    description: "A unit of volume equal to one hundred litres of pure alcohol."
+
+  - id: HTZ
+    name: hertz
+
+  - id: HUR
+    name: hour
+
+  - id: HWE
+    name: Piece Week
+
+  - id: IA
+    name: inch pound (pound inch)
+
+  - id: IE
+    name: person
+    description: "A unit of count defining the number of persons."
+
+  - id: INH
+    name: inch
+
+  - id: INK
+    name: square inch
+
+  - id: INQ
+    name: cubic inch
+    description: "Synonym: inch cubed"
+
+  - id: ISD
+    name: international sugar degree
+    description:
+      "A unit of measure defining the sugar content of a solution, expressed in
+      degrees."
+
+  - id: IU
+    name: inch per second
+
+  - id: IV
+    name: inch per second squared
+
+  - id: J10
+    name: percent per millimetre
+    description: "A unit of proportion, equal to 0.01, in relation to a millimetre."
+
+  - id: J12
+    name: per mille per psi
+    description:
+      "A unit of pressure equal to one thousandth of a psi (pound-force per square
+      inch)."
+
+  - id: J13
+    name: degree API
+    description:
+      "A unit of relative density as a measure of how heavy or light a petroleum
+      liquid is compared to water (API: American Petroleum Institute)."
+
+  - id: J14
+    name: degree Baume (origin scale)
+    description:
+      "A traditional unit of relative density for liquids. Named after Antoine
+      Baumé."
+
+  - id: J15
+    name: degree Baume (US heavy)
+    description: "A unit of relative density for liquids heavier than water."
+
+  - id: J16
+    name: degree Baume (US light)
+    description: "A unit of relative density for liquids lighter than water."
+
+  - id: J17
+    name: degree Balling
+    description:
+      "A unit of density as a measure of sugar content, especially of beer wort. Named
+      after Karl Balling."
+
+  - id: J18
+    name: degree Brix
+    description:
+      "A unit of proportion used in measuring the dissolved sugar-to-water mass ratio
+      of a liquid. Named after Adolf Brix."
+
+  - id: J19
+    name: degree Fahrenheit hour square foot per British thermal unit (thermochemical)
+
+  - id: J2
+    name: joule per kilogram
+
+  - id: J20
+    name: degree Fahrenheit per kelvin
+
+  - id: J21
+    name: degree Fahrenheit per bar
+
+  - id: J22
+    name:
+      degree Fahrenheit hour square foot per British thermal unit (international
+      table)
+
+  - id: J23
+    name: degree Fahrenheit per hour
+
+  - id: J24
+    name: degree Fahrenheit per minute
+
+  - id: J25
+    name: degree Fahrenheit per second
+
+  - id: J26
+    name: reciprocal degree Fahrenheit
+
+  - id: J27
+    name: degree Oechsle
+    description:
+      "A unit of density as a measure of sugar content of must, the unfermented
+      liqueur from which wine is made. Named after Ferdinand Oechsle."
+
+  - id: J28
+    name: degree Rankine per hour
+
+  - id: J29
+    name: degree Rankine per minute
+
+  - id: J30
+    name: degree Rankine per second
+
+  - id: J31
+    name: degree Twaddell
+    description:
+      "A unit of density for liquids that are heavier than water. 1 degree Twaddle
+      represents a difference in specific gravity of 0.005."
+
+  - id: J32
+    name: micropoise
+
+  - id: J33
+    name: microgram per kilogram
+
+  - id: J34
+    name: microgram per cubic metre kelvin
+
+  - id: J35
+    name: microgram per cubic metre bar
+
+  - id: J36
+    name: microlitre per litre
+
+  - id: J38
+    name: baud
+    description:
+      "A unit of signal transmission speed equal to one signalling event per
+      second."
+
+  - id: J39
+    name: British thermal unit (mean)
+
+  - id: J40
+    name:
+      British thermal unit (international table) foot per hour square foot degree
+      Fahrenheit
+
+  - id: J41
+    name:
+      British thermal unit (international table) inch per hour square foot degree
+      Fahrenheit
+
+  - id: J42
+    name:
+      British thermal unit (international table) inch per second square foot degree
+      Fahrenheit
+
+  - id: J43
+    name: British thermal unit (international table) per pound degree Fahrenheit
+
+  - id: J44
+    name: British thermal unit (international table) per minute
+
+  - id: J45
+    name: British thermal unit (international table) per second
+
+  - id: J46
+    name: British thermal unit (thermochemical) foot per hour square foot degree
+      Fahrenheit
+
+  - id: J47
+    name: British thermal unit (thermochemical) per hour
+
+  - id: J48
+    name: British thermal unit (thermochemical) inch per hour square foot degree
+      Fahrenheit
+
+  - id: J49
+    name:
+      British thermal unit (thermochemical) inch per second square foot degree
+      Fahrenheit
+
+  - id: J50
+    name: British thermal unit (thermochemical) per pound degree Fahrenheit
+
+  - id: J51
+    name: British thermal unit (thermochemical) per minute
+
+  - id: J52
+    name: British thermal unit (thermochemical) per second
+
+  - id: J53
+    name: coulomb square metre per kilogram
+
+  - id: J54
+    name: megabaud
+    description:
+      "A unit of signal transmission speed equal to 10⁶ (1000000) signaling events per
+      second."
+
+  - id: J55
+    name: watt second
+
+  - id: J56
+    name: bar per bar
+
+  - id: J57
+    name: barrel (UK petroleum)
+
+  - id: J58
+    name: barrel (UK petroleum) per minute
+
+  - id: J59
+    name: barrel (UK petroleum) per day
+
+  - id: J60
+    name: barrel (UK petroleum) per hour
+
+  - id: J61
+    name: barrel (UK petroleum) per second
+
+  - id: J62
+    name: barrel (US petroleum) per hour
+
+  - id: J63
+    name: barrel (US petroleum) per second
+
+  - id: J64
+    name: bushel (UK) per day
+
+  - id: J65
+    name: bushel (UK) per hour
+
+  - id: J66
+    name: bushel (UK) per minute
+
+  - id: J67
+    name: bushel (UK) per second
+
+  - id: J68
+    name: bushel (US dry) per day
+
+  - id: J69
+    name: bushel (US dry) per hour
+
+  - id: J70
+    name: bushel (US dry) per minute
+
+  - id: J71
+    name: bushel (US dry) per second
+
+  - id: J72
+    name: centinewton metre
+
+  - id: J73
+    name: centipoise per kelvin
+
+  - id: J74
+    name: centipoise per bar
+
+  - id: J75
+    name: calorie (mean)
+
+  - id: J76
+    name: calorie (international table) per gram degree Celsius
+
+  - id: J78
+    name: calorie (thermochemical) per centimetre second degree Celsius
+
+  - id: J79
+    name: calorie (thermochemical) per gram degree Celsius
+
+  - id: J81
+    name: calorie (thermochemical) per minute
+
+  - id: J82
+    name: calorie (thermochemical) per second
+
+  - id: J83
+    name: clo
+
+  - id: J84
+    name: centimetre per second kelvin
+
+  - id: J85
+    name: centimetre per second bar
+
+  - id: J87
+    name: cubic centimetre per cubic metre
+
+  - id: J90
+    name: cubic decimetre per day
+
+  - id: J91
+    name: cubic decimetre per cubic metre
+
+  - id: J92
+    name: cubic decimetre per minute
+
+  - id: J93
+    name: cubic decimetre per second
+
+  - id: J95
+    name: ounce (UK fluid) per day
+
+  - id: J96
+    name: ounce (UK fluid) per hour
+
+  - id: J97
+    name: ounce (UK fluid) per minute
+
+  - id: J98
+    name: ounce (UK fluid) per second
+
+  - id: J99
+    name: ounce (US fluid) per day
+
+  - id: JE
+    name: joule per kelvin
+
+  - id: JK
+    name: megajoule per kilogram
+
+  - id: JM
+    name: megajoule per cubic metre
+
+  - id: JNT
+    name: pipeline joint
+    description: "A count of the number of pipeline joints."
+
+  - id: JOU
+    name: joule
+
+  - id: JPS
+    name: hundred metre
+    description: "A unit of count defining the number of 100 metre lengths."
+
+  - id: JWL
+    name: number of jewels
+    description: "A unit of count defining the number of jewels (jewel: precious
+      stone)."
+
+  - id: K1
+    name: kilowatt demand
+    description:
+      "A unit of measure defining the power load measured at predetermined
+      intervals."
+
+  - id: K10
+    name: ounce (US fluid) per hour
+
+  - id: K11
+    name: ounce (US fluid) per minute
+
+  - id: K12
+    name: ounce (US fluid) per second
+
+  - id: K13
+    name: foot per degree Fahrenheit
+
+  - id: K14
+    name: foot per hour
+
+  - id: K15
+    name: foot pound-force per hour
+
+  - id: K16
+    name: foot pound-force per minute
+
+  - id: K17
+    name: foot per psi
+
+  - id: K18
+    name: foot per second degree Fahrenheit
+
+  - id: K19
+    name: foot per second psi
+
+  - id: K2
+    name: kilovolt ampere reactive demand
+    description:
+      "A unit of measure defining the reactive power demand equal to one kilovolt
+      ampere of reactive power."
+
+  - id: K20
+    name: reciprocal cubic foot
+
+  - id: K21
+    name: cubic foot per degree Fahrenheit
+
+  - id: K22
+    name: cubic foot per day
+
+  - id: K23
+    name: cubic foot per psi
+
+  - id: K26
+    name: gallon (UK) per day
+
+  - id: K27
+    name: gallon (UK) per hour
+
+  - id: K28
+    name: gallon (UK) per second
+
+  - id: K3
+    name: kilovolt ampere reactive hour
+    description:
+      "A unit of measure defining the accumulated reactive energy equal to one
+      kilovolt ampere of reactive power per hour."
+
+  - id: K30
+    name: gallon (US liquid) per second
+
+  - id: K31
+    name: gram-force per square centimetre
+
+  - id: K32
+    name: gill (UK) per day
+
+  - id: K33
+    name: gill (UK) per hour
+
+  - id: K34
+    name: gill (UK) per minute
+
+  - id: K35
+    name: gill (UK) per second
+
+  - id: K36
+    name: gill (US) per day
+
+  - id: K37
+    name: gill (US) per hour
+
+  - id: K38
+    name: gill (US) per minute
+
+  - id: K39
+    name: gill (US) per second
+
+  - id: K40
+    name: standard acceleration of free fall
+
+  - id: K41
+    name: grain per gallon (US)
+
+  - id: K42
+    name: horsepower (boiler)
+
+  - id: K43
+    name: horsepower (electric)
+
+  - id: K45
+    name: inch per degree Fahrenheit
+
+  - id: K46
+    name: inch per psi
+
+  - id: K47
+    name: inch per second degree Fahrenheit
+
+  - id: K48
+    name: inch per second psi
+
+  - id: K49
+    name: reciprocal cubic inch
+
+  - id: K50
+    name: kilobaud
+    description:
+      "A unit of signal transmission speed equal to 10³ (1000) signaling events per
+      second."
+
+  - id: K51
+    name: kilocalorie (mean)
+
+  - id: K52
+    name: kilocalorie (international table) per hour metre degree Celsius
+
+  - id: K53
+    name: kilocalorie (thermochemical)
+
+  - id: K54
+    name: kilocalorie (thermochemical) per minute
+
+  - id: K55
+    name: kilocalorie (thermochemical) per second
+
+  - id: K58
+    name: kilomole per hour
+
+  - id: K59
+    name: kilomole per cubic metre kelvin
+
+  - id: K6
+    name: kilolitre
+
+  - id: K60
+    name: kilomole per cubic metre bar
+
+  - id: K61
+    name: kilomole per minute
+
+  - id: K62
+    name: litre per litre
+
+  - id: K63
+    name: reciprocal litre
+
+  - id: K64
+    name: pound (avoirdupois) per degree Fahrenheit
+
+  - id: K65
+    name: pound (avoirdupois) square foot
+
+  - id: K66
+    name: pound (avoirdupois) per day
+
+  - id: K67
+    name: pound per foot hour
+
+  - id: K68
+    name: pound per foot second
+
+  - id: K69
+    name: pound (avoirdupois) per cubic foot degree Fahrenheit
+
+  - id: K70
+    name: pound (avoirdupois) per cubic foot psi
+
+  - id: K71
+    name: pound (avoirdupois) per gallon (UK)
+
+  - id: K73
+    name: pound (avoirdupois) per hour degree Fahrenheit
+
+  - id: K74
+    name: pound (avoirdupois) per hour psi
+
+  - id: K75
+    name: pound (avoirdupois) per cubic inch degree Fahrenheit
+
+  - id: K76
+    name: pound (avoirdupois) per cubic inch psi
+
+  - id: K77
+    name: pound (avoirdupois) per psi
+
+  - id: K78
+    name: pound (avoirdupois) per minute
+
+  - id: K79
+    name: pound (avoirdupois) per minute degree Fahrenheit
+
+  - id: K80
+    name: pound (avoirdupois) per minute psi
+
+  - id: K81
+    name: pound (avoirdupois) per second
+
+  - id: K82
+    name: pound (avoirdupois) per second degree Fahrenheit
+
+  - id: K83
+    name: pound (avoirdupois) per second psi
+
+  - id: K84
+    name: pound per cubic yard
+
+  - id: K85
+    name: pound-force per square foot
+
+  - id: K86
+    name: pound-force per square inch degree Fahrenheit
+
+  - id: K87
+    name: psi cubic inch per second
+
+  - id: K88
+    name: psi litre per second
+
+  - id: K89
+    name: psi cubic metre per second
+
+  - id: K90
+    name: psi cubic yard per second
+
+  - id: K91
+    name: pound-force second per square foot
+
+  - id: K92
+    name: pound-force second per square inch
+
+  - id: K93
+    name: reciprocal psi
+
+  - id: K94
+    name: quart (UK liquid) per day
+
+  - id: K95
+    name: quart (UK liquid) per hour
+
+  - id: K96
+    name: quart (UK liquid) per minute
+
+  - id: K97
+    name: quart (UK liquid) per second
+
+  - id: K98
+    name: quart (US liquid) per day
+
+  - id: K99
+    name: quart (US liquid) per hour
+
+  - id: KA
+    name: cake
+    description:
+      "A unit of count defining the number of cakes (cake: object shaped into a flat,
+      compact mass)."
+
+  - id: KAT
+    name: katal
+    description:
+      "A unit of catalytic activity defining the catalytic activity of enzymes and
+      other catalysts."
+
+  - id: KB
+    name: kilocharacter
+    description: "A unit of information equal to 10³ (1000) characters."
+
+  - id: KBA
+    name: kilobar
+
+  - id: KCC
+    name: kilogram of choline chloride
+    description: "A unit of mass equal to one thousand grams of choline chloride."
+
+  - id: KDW
+    name: kilogram drained net weight
+    description:
+      "A unit of mass defining the net number of kilograms of a product, disregarding
+      the liquid content of the product."
+
+  - id: KEL
+    name: kelvin
+    description: "Refer ISO 80000-5 (Quantities and units — Part 5: Thermodynamics)"
+
+  - id: KGM
+    name: kilogram
+    description: "A unit of mass equal to one thousand grams."
+
+  - id: KGS
+    name: kilogram per second
+
+  - id: KHY
+    name: kilogram of hydrogen peroxide
+    description: "A unit of mass equal to one thousand grams of hydrogen peroxide."
+
+  - id: KHZ
+    name: kilohertz
+
+  - id: KI
+    name: kilogram per millimetre width
+
+  - id: KIC
+    name: kilogram, including container
+    description:
+      "A unit of mass defining the number of kilograms of a product, including its
+      container."
+
+  - id: KIP
+    name: kilogram, including inner packaging
+    description:
+      "A unit of mass defining the number of kilograms of a product, including its
+      inner packaging materials."
+
+  - id: KJ
+    name: kilosegment
+    description: "A unit of information equal to 10³ (1000) segments."
+
+  - id: KJO
+    name: kilojoule
+
+  - id: KL
+    name: kilogram per metre
+
+  - id: KLK
+    name: lactic dry material percentage
+    description:
+      "A unit of proportion defining the percentage of dry lactic material in a
+      product."
+
+  - id: KLX
+    name: kilolux
+    description: "A unit of illuminance equal to one thousand lux."
+
+  - id: KMA
+    name: kilogram of methylamine
+    description: "A unit of mass equal to one thousand grams of methylamine."
+
+  - id: KMH
+    name: kilometre per hour
+
+  - id: KMK
+    name: square kilometre
+
+  - id: KMQ
+    name: kilogram per cubic metre
+    description:
+      "A unit of weight expressed in kilograms of a substance that fills a volume of
+      one cubic metre."
+
+  - id: KMT
+    name: kilometre
+
+  - id: KNI
+    name: kilogram of nitrogen
+    description: "A unit of mass equal to one thousand grams of nitrogen."
+
+  - id: KNM
+    name: kilonewton per square metre
+    description: "Pressure expressed in kN/m2."
+
+  - id: KNS
+    name: kilogram named substance
+    description: "A unit of mass equal to one kilogram of a named substance."
+
+  - id: KNT
+    name: knot
+
+  - id: KO
+    name: milliequivalence caustic potash per gram of product
+    description:
+      "A unit of count defining the number of milligrams of potassium hydroxide per
+      gram of product as a measure of the concentration of potassium hydroxide in the
+      product."
+
+  - id: KPA
+    name: kilopascal
+
+  - id: KPH
+    name: kilogram of potassium hydroxide (caustic potash)
+    description:
+      "A unit of mass equal to one thousand grams of potassium hydroxide (caustic
+      potash)."
+
+  - id: KPO
+    name: kilogram of potassium oxide
+    description: "A unit of mass equal to one thousand grams of potassium oxide."
+
+  - id: KPP
+    name: kilogram of phosphorus pentoxide (phosphoric anhydride)
+    description:
+      "A unit of mass equal to one thousand grams of phosphorus pentoxide phosphoric
+      anhydride."
+
+  - id: KR
+    name: kiloroentgen
+
+  - id: KSD
+    name: kilogram of substance 90 % dry
+    description:
+      "A unit of mass equal to one thousand grams of a named substance that is 90%
+      dry."
+
+  - id: KSH
+    name: kilogram of sodium hydroxide (caustic soda)
+    description:
+      "A unit of mass equal to one thousand grams of sodium hydroxide (caustic
+      soda)."
+
+  - id: KT
+    name: kit
+    description:
+      "A unit of count defining the number of kits (kit: tub, barrel or
+      pail)."
+
+  - id: KTN
+    name: kilotonne
+
+  - id: KUR
+    name: kilogram of uranium
+    description: "A unit of mass equal to one thousand grams of uranium."
+
+  - id: KVA
+    name: kilovolt - ampere
+
+  - id: KVR
+    name: kilovar
+
+  - id: KVT
+    name: kilovolt
+
+  - id: KW
+    name: kilogram per millimetre
+
+  - id: KWH
+    name: kilowatt hour
+
+  - id: KWO
+    name: kilogram of tungsten trioxide
+    description: "A unit of mass equal to one thousand grams of tungsten trioxide."
+
+  - id: KWT
+    name: kilowatt
+
+  - id: KWY
+    name: kilowatt year
+
+  - id: KX
+    name: millilitre per kilogram
+
+  - id: L10
+    name: quart (US liquid) per minute
+
+  - id: L11
+    name: quart (US liquid) per second
+
+  - id: L12
+    name: metre per second kelvin
+
+  - id: L13
+    name: metre per second bar
+
+  - id: L14
+    name: square metre hour degree Celsius per kilocalorie (international table)
+
+  - id: L15
+    name: millipascal second per kelvin
+
+  - id: L16
+    name: millipascal second per bar
+
+  - id: L17
+    name: milligram per cubic metre kelvin
+
+  - id: L18
+    name: milligram per cubic metre bar
+
+  - id: L19
+    name: millilitre per litre
+
+  - id: L2
+    name: litre per minute
+
+  - id: L20
+    name: reciprocal cubic millimetre
+
+  - id: L21
+    name: cubic millimetre per cubic metre
+
+  - id: L23
+    name: mole per hour
+
+  - id: L24
+    name: mole per kilogram kelvin
+
+  - id: L25
+    name: mole per kilogram bar
+
+  - id: L26
+    name: mole per litre kelvin
+
+  - id: L27
+    name: mole per litre bar
+
+  - id: L28
+    name: mole per cubic metre kelvin
+
+  - id: L29
+    name: mole per cubic metre bar
+
+  - id: L30
+    name: mole per minute
+
+  - id: L31
+    name: milliroentgen aequivalent men
+
+  - id: L32
+    name: nanogram per kilogram
+
+  - id: L33
+    name: ounce (avoirdupois) per day
+
+  - id: L34
+    name: ounce (avoirdupois) per hour
+
+  - id: L35
+    name: ounce (avoirdupois) per minute
+
+  - id: L36
+    name: ounce (avoirdupois) per second
+
+  - id: L37
+    name: ounce (avoirdupois) per gallon (UK)
+
+  - id: L38
+    name: ounce (avoirdupois) per gallon (US)
+
+  - id: L39
+    name: ounce (avoirdupois) per cubic inch
+
+  - id: L40
+    name: ounce (avoirdupois)-force
+
+  - id: L41
+    name: ounce (avoirdupois)-force inch
+
+  - id: L42
+    name: picosiemens per metre
+
+  - id: L43
+    name: peck (UK)
+
+  - id: L44
+    name: peck (UK) per day
+
+  - id: L45
+    name: peck (UK) per hour
+
+  - id: L46
+    name: peck (UK) per minute
+
+  - id: L47
+    name: peck (UK) per second
+
+  - id: L48
+    name: peck (US dry) per day
+
+  - id: L49
+    name: peck (US dry) per hour
+
+  - id: L50
+    name: peck (US dry) per minute
+
+  - id: L51
+    name: peck (US dry) per second
+
+  - id: L52
+    name: psi per psi
+
+  - id: L53
+    name: pint (UK) per day
+
+  - id: L54
+    name: pint (UK) per hour
+
+  - id: L55
+    name: pint (UK) per minute
+
+  - id: L56
+    name: pint (UK) per second
+
+  - id: L57
+    name: pint (US liquid) per day
+
+  - id: L58
+    name: pint (US liquid) per hour
+
+  - id: L59
+    name: pint (US liquid) per minute
+
+  - id: L60
+    name: pint (US liquid) per second
+
+  - id: L63
+    name: slug per day
+
+  - id: L64
+    name: slug per foot second
+
+  - id: L65
+    name: slug per cubic foot
+
+  - id: L66
+    name: slug per hour
+
+  - id: L67
+    name: slug per minute
+
+  - id: L68
+    name: slug per second
+
+  - id: L69
+    name: tonne per kelvin
+
+  - id: L70
+    name: tonne per bar
+
+  - id: L71
+    name: tonne per day
+
+  - id: L72
+    name: tonne per day kelvin
+
+  - id: L73
+    name: tonne per day bar
+
+  - id: L74
+    name: tonne per hour kelvin
+
+  - id: L75
+    name: tonne per hour bar
+
+  - id: L76
+    name: tonne per cubic metre kelvin
+
+  - id: L77
+    name: tonne per cubic metre bar
+
+  - id: L78
+    name: tonne per minute
+
+  - id: L79
+    name: tonne per minute kelvin
+
+  - id: L80
+    name: tonne per minute bar
+
+  - id: L81
+    name: tonne per second
+
+  - id: L82
+    name: tonne per second kelvin
+
+  - id: L83
+    name: tonne per second bar
+
+  - id: L84
+    name: ton (UK shipping)
+
+  - id: L85
+    name: ton long per day
+
+  - id: L86
+    name: ton (US shipping)
+
+  - id: L87
+    name: ton short per degree Fahrenheit
+
+  - id: L88
+    name: ton short per day
+
+  - id: L89
+    name: ton short per hour degree Fahrenheit
+
+  - id: L90
+    name: ton short per hour psi
+
+  - id: L91
+    name: ton short per psi
+
+  - id: L92
+    name: ton (UK long) per cubic yard
+
+  - id: L93
+    name: ton (US short) per cubic yard
+
+  - id: L94
+    name: ton-force (US short)
+
+  - id: L95
+    name: common year
+
+  - id: L96
+    name: sidereal year
+
+  - id: L98
+    name: yard per degree Fahrenheit
+
+  - id: L99
+    name: yard per psi
+
+  - id: LA
+    name: pound per cubic inch
+
+  - id: LAC
+    name: lactose excess percentage
+    description:
+      "A unit of proportion defining the percentage of lactose in a product that
+      exceeds a defined percentage level."
+
+  - id: LBR
+    name: pound
+
+  - id: LBT
+    name: troy pound (US)
+
+  - id: LD
+    name: litre per day
+
+  - id: LEF
+    name: leaf
+    description: "A unit of count defining the number of leaves."
+
+  - id: LF
+    name: linear foot
+    description:
+      "A unit of count defining the number of feet (12-inch) in length of a uniform
+      width object."
+
+  - id: LH
+    name: labour hour
+    description: "A unit of time defining the number of labour hours."
+
+  - id: LK
+    name: link
+    description: "A unit of distance equal to 0.01 chain."
+
+  - id: LM
+    name: linear metre
+    description:
+      "A unit of count defining the number of metres in length of a uniform width
+      object."
+
+  - id: LN
+    name: length
+    description:
+      "A unit of distance defining the linear extent of an item measured from end to
+      end."
+
+  - id: LO
+    name: lot [unit of procurement]
+    description:
+      "A unit of count defining the number of lots (lot: a collection of associated
+      items)."
+
+  - id: LP
+    name: liquid pound
+    description: "A unit of mass defining the number of pounds of a liquid
+      substance."
+
+  - id: LPA
+    name: litre of pure alcohol
+    description: "A unit of volume equal to one litre of pure alcohol."
+
+  - id: LR
+    name: layer
+    description: "A unit of count defining the number of layers."
+
+  - id: LS
+    name: lump sum
+    description:
+      "A unit of count defining the number of whole or a complete monetary
+      amounts."
+
+  - id: LTN
+    name: ton (UK) or long ton (US)
+    description: "Synonym: gross ton (2240 lb)"
+
+  - id: LTR
+    name: litre
+
+  - id: LUB
+    name: metric ton, lubricating oil
+    description:
+      "A unit of mass defining the number of metric tons of lubricating
+      oil."
+
+  - id: LUM
+    name: lumen
+
+  - id: LUX
+    name: lux
+
+  - id: LY
+    name: linear yard
+    description:
+      "A unit of count defining the number of 36-inch units in length of a uniform
+      width object."
+
+  - id: M1
+    name: milligram per litre
+
+  - id: M10
+    name: reciprocal cubic yard
+
+  - id: M11
+    name: cubic yard per degree Fahrenheit
+
+  - id: M12
+    name: cubic yard per day
+
+  - id: M13
+    name: cubic yard per hour
+
+  - id: M14
+    name: cubic yard per psi
+
+  - id: M15
+    name: cubic yard per minute
+
+  - id: M16
+    name: cubic yard per second
+
+  - id: M17
+    name: kilohertz metre
+
+  - id: M18
+    name: gigahertz metre
+
+  - id: M19
+    name: Beaufort
+    description:
+      "An empirical measure for describing wind speed based mainly on observed sea
+      conditions. The Beaufort scale indicates the wind speed by numbers that typically range
+      from 0 for calm, to 12 for hurricane."
+
+  - id: M20
+    name: reciprocal megakelvin or megakelvin to the power minus one
+
+  - id: M21
+    name: reciprocal kilovolt - ampere reciprocal hour
+
+  - id: M22
+    name: millilitre per square centimetre minute
+
+  - id: M23
+    name: newton per centimetre
+
+  - id: M24
+    name: ohm kilometre
+
+  - id: M25
+    name: percent per degree Celsius
+    description:
+      "A unit of proportion, equal to 0.01, in relation to a temperature of one
+      degree."
+
+  - id: M26
+    name: gigaohm per metre
+
+  - id: M27
+    name: megahertz metre
+
+  - id: M29
+    name: kilogram per kilogram
+
+  - id: M30
+    name: reciprocal volt - ampere reciprocal second
+
+  - id: M31
+    name: kilogram per kilometre
+
+  - id: M32
+    name: pascal second per litre
+
+  - id: M33
+    name: millimole per litre
+
+  - id: M34
+    name: newton metre per square metre
+
+  - id: M35
+    name: millivolt - ampere
+
+  - id: M36
+    name: 30-day month
+    description:
+      "A unit of count defining the number of months expressed in multiples of 30
+      days, one day equals 24 hours."
+
+  - id: M37
+    name: actual/360
+    description:
+      "A unit of count defining the number of years expressed in multiples of 360
+      days, one day equals 24 hours."
+
+  - id: M38
+    name: kilometre per second squared
+    description:
+      "1000-fold of the SI base unit metre divided by the power of the SI base unit
+      second by exponent 2."
+
+  - id: M39
+    name: centimetre per second squared
+    description:
+      "0,01-fold of the SI base unit metre divided by the power of the SI base unit
+      second by exponent 2."
+
+  - id: M4
+    name: monetary value
+    description: "A unit of measure expressed as a monetary amount."
+
+  - id: M40
+    name: yard per second squared
+    description:
+      "Unit of the length according to the Anglo-American and Imperial system of units
+      divided by the power of the SI base unit second by exponent 2."
+
+  - id: M41
+    name: millimetre per second squared
+    description:
+      "0,001-fold of the SI base unit metre divided by the power of the SI base unit
+      second by exponent 2."
+
+  - id: M42
+    name: mile (statute mile) per second squared
+    description:
+      "Unit of the length according to the Imperial system of units divided by the
+      power of the SI base unit second by exponent 2."
+
+  - id: M43
+    name: mil
+    description:
+      "Unit to indicate an angle at military zone, equal to the 6400th part of the
+      full circle of the 360° or 2·p·rad."
+
+  - id: M44
+    name: revolution
+    description:
+      "Unit to identify an angle of the full circle of 360° or 2·p·rad (Refer ISO/TC12
+      SI Guide)."
+
+  - id: M45
+    name: degree [unit of angle] per second squared
+    description:
+      "360 part of a full circle divided by the power of the SI base unit second and
+      the exponent 2."
+
+  - id: M46
+    name: revolution per minute
+    description: "Unit of the angular velocity."
+
+  - id: M47
+    name: circular mil
+    description:
+      "Unit of an area, of which the size is given by a diameter of length of 1 mm
+      (0,001 in) based on the formula: area = p·(diameter/2)²."
+
+  - id: M48
+    name: square mile (based on U.S. survey foot)
+    description:
+      "Unit of the area, which is mainly common in the agriculture and
+      forestry."
+
+  - id: M49
+    name: chain (based on U.S. survey foot)
+    description: "Unit of the length according the Anglo-American system of units."
+
+  - id: M5
+    name: microcurie
+
+  - id: M50
+    name: furlong
+    description:
+      "Unit commonly used in Great Britain at rural distances: 1 furlong = 40 rods =
+      10 chains (UK) = 1/8 mile = 1/10 furlong = 220 yards = 660 foot."
+
+  - id: M51
+    name: foot (U.S. survey)
+    description: "Unit commonly used in the United States for ordnance survey."
+
+  - id: M52
+    name: mile (based on U.S. survey foot)
+    description: "Unit commonly used in the United States for ordnance survey."
+
+  - id: M53
+    name: metre per pascal
+    description: "SI base unit metre divided by the derived SI unit pascal."
+
+  - id: M55
+    name: metre per radiant
+    description:
+      "Unit of the translation factor for implementation from rotation to linear
+      movement."
+
+  - id: M56
+    name: shake
+    description: "Unit for a very short period."
+
+  - id: M57
+    name: mile per minute
+    description: "Unit of velocity from the Imperial system of units."
+
+  - id: M58
+    name: mile per second
+    description: "Unit of the velocity from the Imperial system of units."
+
+  - id: M59
+    name: metre per second pascal
+    description:
+      "SI base unit meter divided by the product of SI base unit second and the
+      derived SI unit pascal."
+
+  - id: M60
+    name: metre per hour
+    description: "SI base unit metre divided by the unit hour."
+
+  - id: M61
+    name: inch per year
+    description:
+      "Unit of the length according to the Anglo-American and Imperial system of units
+      divided by the unit common year with 365 days."
+
+  - id: M62
+    name: kilometre per second
+    description:
+      "1000-fold of the SI base unit metre divided by the SI base unit
+      second."
+
+  - id: M63
+    name: inch per minute
+    description:
+      "Unit inch according to the Anglo-American and Imperial system of units divided
+      by the unit minute."
+
+  - id: M64
+    name: yard per second
+    description:
+      "Unit yard according to the Anglo-American and Imperial system of units divided
+      by the SI base unit second."
+
+  - id: M65
+    name: yard per minute
+    description:
+      "Unit yard according to the Anglo-American and Imperial system of units divided
+      by the unit minute."
+
+  - id: M66
+    name: yard per hour
+    description:
+      "Unit yard according to the Anglo-American and Imperial system of units divided
+      by the unit hour."
+
+  - id: M67
+    name: acre-foot (based on U.S. survey foot)
+    description:
+      "Unit of the volume, which is used in the United States to measure/gauge the
+      capacity of reservoirs."
+
+  - id: M68
+    name: cord (128 ft3)
+    description:
+      "Traditional unit of the volume of stacked firewood which has been measured with
+      a cord."
+
+  - id: M69
+    name: cubic mile (UK statute)
+    description: "Unit of volume according to the Imperial system of units."
+
+  - id: M7
+    name: micro-inch
+
+  - id: M70
+    name: ton, register
+    description: "Traditional unit of the cargo capacity."
+
+  - id: M71
+    name: cubic metre per pascal
+    description:
+      "Power of the SI base unit meter by exponent 3 divided by the derived SI base
+      unit pascal."
+
+  - id: M72
+    name: bel
+    description: "Logarithmic relationship to base 10."
+
+  - id: M73
+    name: kilogram per cubic metre pascal
+    description:
+      "SI base unit kilogram divided by the product of the power of the SI base unit
+      metre with exponent 3 and the derived SI unit pascal."
+
+  - id: M74
+    name: kilogram per pascal
+    description: "SI base unit kilogram divided by the derived SI unit pascal."
+
+  - id: M75
+    name: kilopound-force
+    description:
+      "1000-fold of the unit of the force pound-force (lbf) according to the
+      Anglo-American system of units with the relationship."
+
+  - id: M76
+    name: poundal
+    description:
+      "Non SI-conforming unit of the power, which corresponds to a mass of a pound
+      multiplied with the acceleration of a foot per square second."
+
+  - id: M77
+    name: kilogram metre per second squared
+    description:
+      "Product of the SI base unit kilogram and the SI base unit metre divided by the
+      power of the SI base unit second by exponent 2."
+
+  - id: M78
+    name: pond
+    description:
+      "0,001-fold of the unit of the weight, defined as a mass of 1 kg which finds out
+      about a weight strength from 1 kp by the gravitational force at sea level which
+      corresponds to a strength of 9,806 65 newton."
+
+  - id: M79
+    name: square foot per hour
+    description:
+      "Power of the unit foot according to the Anglo-American and Imperial system of
+      units by exponent 2 divided by the unit of time hour."
+
+  - id: M80
+    name: stokes per pascal
+    description:
+      "CGS (Centimetre-Gram-Second system) unit stokes divided by the derived SI unit
+      pascal."
+
+  - id: M81
+    name: square centimetre per second
+    description:
+      "0,000 1-fold of the power of the SI base unit metre by exponent 2 divided by
+      the SI base unit second."
+
+  - id: M82
+    name: square metre per second pascal
+    description:
+      "Power of the SI base unit metre with the exponent 2 divided by the SI base unit
+      second and the derived SI unit pascal."
+
+  - id: M83
+    name: denier
+    description:
+      "Traditional unit for the indication of the linear mass of textile fibers and
+      yarns."
+
+  - id: M84
+    name: pound per yard
+    description: "Unit for linear mass according to avoirdupois system of units."
+
+  - id: M85
+    name: ton, assay
+    description:
+      "Non SI-conforming unit of the mass used in the mineralogy to determine the
+      concentration of precious metals in ore according to the mass of the precious metal in
+      milligrams in a sample of the mass of an assay sound (number of troy ounces in a short
+      ton (1 000 lb))."
+
+  - id: M86
+    name: pfund
+    description: "Outdated unit of the mass used in Germany."
+
+  - id: M87
+    name: kilogram per second pascal
+    description:
+      "SI base unit kilogram divided by the product of the SI base unit second and the
+      derived SI unit pascal."
+
+  - id: M88
+    name: tonne per month
+    description: "Unit tonne divided by the unit month."
+
+  - id: M89
+    name: tonne per year
+    description: "Unit tonne divided by the unit year with 365 days."
+
+  - id: M9
+    name: million Btu per 1000 cubic foot
+
+  - id: M90
+    name: kilopound per hour
+    description:
+      "1000-fold of the unit of the mass avoirdupois pound according to the
+      avoirdupois unit system divided by the unit hour."
+
+  - id: M91
+    name: pound per pound
+    description:
+      "Proportion of the mass consisting of the avoirdupois pound according to the
+      avoirdupois unit system divided by the avoirdupois pound according to the avoirdupois
+      unit system."
+
+  - id: M92
+    name: pound-force foot
+    description:
+      "Product of the unit pound-force according to the Anglo-American system of units
+      and the unit foot according to the Anglo-American and the Imperial system of
+      units."
+
+  - id: M93
+    name: newton metre per radian
+    description:
+      "Product of the derived SI unit newton and the SI base unit metre divided by the
+      unit radian."
+
+  - id: M94
+    name: kilogram metre
+    description:
+      "Unit of imbalance as a product of the SI base unit kilogram and the SI base
+      unit metre."
+
+  - id: M95
+    name: poundal foot
+    description:
+      "Product of the non SI-conforming unit of the force poundal and the unit foot
+      according to the Anglo-American and Imperial system of units ."
+
+  - id: M96
+    name: poundal inch
+    description:
+      "Product of the non SI-conforming unit of the force poundal and the unit inch
+      according to the Anglo-American and Imperial system of units ."
+
+  - id: M97
+    name: dyne metre
+    description: "CGS (Centimetre-Gram-Second system) unit of the rotational
+      moment."
+
+  - id: M98
+    name: kilogram centimetre per second
+    description:
+      "Product of the SI base unit kilogram and the 0,01-fold of the SI base unit
+      metre divided by the SI base unit second."
+
+  - id: M99
+    name: gram centimetre per second
+    description:
+      "Product of the 0,001-fold of the SI base unit kilogram and the 0,01-fold of the
+      SI base unit metre divided by the SI base unit second."
+
+  - id: MAH
+    name: megavolt ampere reactive hour
+    description:
+      "A unit of electrical reactive power defining the total amount of reactive power
+      across a power system."
+
+  - id: MAL
+    name: megalitre
+
+  - id: MAM
+    name: megametre
+
+  - id: MAR
+    name: megavar
+    description:
+      "A unit of electrical reactive power represented by a current of one thousand
+      amperes flowing due a potential difference of one thousand volts where the sine of the
+      phase angle between them is 1."
+
+  - id: MAW
+    name: megawatt
+    description:
+      "A unit of power defining the rate of energy transferred or consumed when a
+      current of 1000 amperes flows due to a potential of 1000 volts at unity power
+      factor."
+
+  - id: MBE
+    name: thousand standard brick equivalent
+    description:
+      "A unit of count defining the number of one thousand brick equivalent
+      units."
+
+  - id: MBF
+    name: thousand board foot
+    description: "A unit of volume equal to one thousand board foot."
+
+  - id: MBR
+    name: millibar
+
+  - id: MC
+    name: microgram
+
+  - id: MCU
+    name: millicurie
+
+  - id: MD
+    name: air dry metric ton
+    description:
+      "A unit of count defining the number of metric tons of a product, disregarding
+      the water content of the product."
+
+  - id: MGM
+    name: milligram
+
+  - id: MHZ
+    name: megahertz
+
+  - id: MIK
+    name: square mile (statute mile)
+
+  - id: MIL
+    name: thousand
+
+  - id: MIN
+    name: minute [unit of time]
+
+  - id: MIO
+    name: million
+
+  - id: MIU
+    name: million international unit
+    description: "A unit of count defining the number of international units in multiples of 10."
+
+  - id: MKD
+    name: Square Metre Day
+
+  - id: MKM
+    name: Square Metre Month
+
+  - id: MKW
+    name: Square Metre Week
+
+  - id: MLD
+    name: milliard
+    description: "Synonym: billion (US)"
+
+  - id: MLT
+    name: millilitre
+
+  - id: MMK
+    name: square millimetre
+
+  - id: MMQ
+    name: cubic millimetre
+
+  - id: MMT
+    name: millimetre
+
+  - id: MND
+    name: kilogram, dry weight
+    description:
+      "A unit of mass defining the number of kilograms of a product, disregarding the
+      water content of the product."
+
+  - id: MNJ
+    name: Mega Joule per Normalised cubic Metre
+
+  - id: MON
+    name: month
+    description: "Unit of time equal to 1/12 of a year of 365,25 days."
+
+  - id: MPA
+    name: megapascal
+
+  - id: MQD
+    name: Cubic Metre Day
+
+  - id: MQH
+    name: cubic metre per hour
+
+  - id: MQM
+    name: Cubic Metre Month
+
+  - id: MQS
+    name: cubic metre per second
+
+  - id: MQW
+    name: Cubic Metre Week
+
+  - id: MRD
+    name: Metre Day
+
+  - id: MRM
+    name: Metre Month
+
+  - id: MRW
+    name: Metre Week
+
+  - id: MSK
+    name: metre per second squared
+
+  - id: MTK
+    name: square metre
+
+  - id: MTQ
+    name: cubic metre
+    description: "Synonym: metre cubed"
+
+  - id: MTR
+    name: metre
+
+  - id: MTS
+    name: metre per second
+
+  - id: MTZ
+    name: milihertz
+
+  - id: MVA
+    name: megavolt - ampere
+
+  - id: MWH
+    name: megawatt hour (1000 kW.h)
+    description:
+      "A unit of power defining the total amount of bulk energy transferred or
+      consumed."
+
+  - id: N1
+    name: pen calorie
+    description:
+      "A unit of count defining the number of calories prescribed daily for
+      parenteral/enteral therapy."
+
+  - id: N10
+    name: pound foot per second
+    description:
+      "Product of the avoirdupois pound according to the avoirdupois unit system and
+      the unit foot according to the Anglo-American and Imperial system of units divided by
+      the SI base unit second."
+
+  - id: N11
+    name: pound inch per second
+    description:
+      "Product of the avoirdupois pound according to the avoirdupois unit system and
+      the unit inch according to the Anglo-American and Imperial system of units divided by
+      the SI base unit second."
+
+  - id: N12
+    name: Pferdestaerke
+    description:
+      "Obsolete unit of the power relating to DIN 1301-3:1979: 1 PS = 735,498 75
+      W."
+
+  - id: N13
+    name: centimetre of mercury (0 ºC)
+    description:
+      "Non SI-conforming unit of pressure, at which a value of 1 cmHg meets the static
+      pressure, which is generated by a mercury at a temperature of 0 °C with a height of 1
+      centimetre ."
+
+  - id: N14
+    name: centimetre of water (4 ºC)
+    description:
+      "Non SI-conforming unit of pressure, at which a value of 1 cmH2O meets the
+      static pressure, which is generated by a head of water at a temperature of 4 °C with a
+      height of 1 centimetre ."
+
+  - id: N15
+    name: foot of water (39.2 ºF)
+    description:
+      "Non SI-conforming unit of pressure according to the Anglo-American and Imperial
+      system for units, whereas the value of 1 ftH2O is equivalent to the static pressure,
+      which is generated by a head of water at a temperature 39,2°F with a height of 1 foot
+      ."
+
+  - id: N16
+    name: inch of mercury (32 ºF)
+    description:
+      "Non SI-conforming unit of pressure according to the Anglo-American and Imperial
+      system for units, whereas the value of 1 inHg meets the static pressure, which is
+      generated by a mercury at a temperature of 32°F with a height of 1 inch."
+
+  - id: N17
+    name: inch of mercury (60 ºF)
+    description:
+      "Non SI-conforming unit of pressure according to the Anglo-American and Imperial
+      system for units, whereas the value of 1 inHg meets the static pressure, which is
+      generated by a mercury at a temperature of 60°F with a height of 1 inch."
+
+  - id: N18
+    name: inch of water (39.2 ºF)
+    description:
+      "Non SI-conforming unit of pressure according to the Anglo-American and Imperial
+      system for units, whereas the value of 1 inH2O meets the static pressure, which is
+      generated by a head of water at a temperature of 39,2°F with a height of 1 inch
+      ."
+
+  - id: N19
+    name: inch of water (60 ºF)
+    description:
+      "Non SI-conforming unit of pressure according to the Anglo-American and Imperial
+      system for units, whereas the value of 1 inH2O meets the static pressure, which is
+      generated by a head of water at a temperature of 60°F with a height of 1 inch
+      ."
+
+  - id: N20
+    name: kip per square inch
+    description:
+      "Non SI-conforming unit of the pressure according to the Anglo-American system
+      of units as the 1000-fold of the unit of the force pound-force divided by the power of
+      the unit inch by exponent 2."
+
+  - id: N21
+    name: poundal per square foot
+    description:
+      "Non SI-conforming unit of pressure by the Imperial system of units according to
+      NIST: 1 pdl/ft² = 1,488 164 Pa."
+
+  - id: N22
+    name: ounce (avoirdupois) per square inch
+    description:
+      "Unit of the surface specific mass (avoirdupois ounce according to the
+      avoirdupois system of units according to the surface square inch according to the
+      Anglo-American and Imperial system of units)."
+
+  - id: N23
+    name: conventional metre of water
+    description:
+      "Not SI-conforming unit of pressure, whereas a value of 1 mH2O is equivalent to
+      the static pressure, which is produced by one metre high water column ."
+
+  - id: N24
+    name: gram per square millimetre
+    description:
+      "0,001-fold of the SI base unit kilogram divided by the 0.000 001-fold of the
+      power of the SI base unit meter by exponent 2."
+
+  - id: N25
+    name: pound per square yard
+    description:
+      "Unit for areal-related mass as a unit pound according to the avoirdupois unit
+      system divided by the power of the unit yard according to the Anglo-American and
+      Imperial system of units with exponent 2."
+
+  - id: N26
+    name: poundal per square inch
+    description:
+      "Non SI-conforming unit of the pressure according to the Imperial system of
+      units (poundal by square inch)."
+
+  - id: N27
+    name: foot to the fourth power
+    description:
+      "Power of the unit foot according to the Anglo-American and Imperial system of
+      units by exponent 4 according to NIST: 1 ft4 = 8,630 975 m4."
+
+  - id: N28
+    name: cubic decimetre per kilogram
+    description:
+      "0,001 fold of the power of the SI base unit meter by exponent 3 divided by the
+      SI based unit kilogram."
+
+  - id: N29
+    name: cubic foot per pound
+    description:
+      "Power of the unit foot according to the Anglo-American and Imperial system of
+      units by exponent 3 divided by the unit avoirdupois pound according to the avoirdupois
+      unit system."
+
+  - id: N3
+    name: print point
+
+  - id: N30
+    name: cubic inch per pound
+    description:
+      "Power of the unit inch according to the Anglo-American and Imperial system of
+      units by exponent 3 divided by the avoirdupois pound according to the avoirdupois unit
+      system ."
+
+  - id: N31
+    name: kilonewton per metre
+    description:
+      "1000-fold of the derived SI unit newton divided by the SI base unit
+      metre."
+
+  - id: N32
+    name: poundal per inch
+    description:
+      "Non SI-conforming unit of the surface tension according to the Imperial unit
+      system as quotient poundal by inch."
+
+  - id: N33
+    name: pound-force per yard
+    description:
+      "Unit of force per unit length based on the Anglo-American system of
+      units."
+
+  - id: N34
+    name: poundal second per square foot
+    description: "Non SI-conforming unit of viscosity."
+
+  - id: N35
+    name: poise per pascal
+    description:
+      "CGS (Centimetre-Gram-Second system) unit poise divided by the derived SI unit
+      pascal."
+
+  - id: N36
+    name: newton second per square metre
+    description:
+      "Unit of the dynamic viscosity as a product of unit of the pressure (newton by
+      square metre) multiplied with the SI base unit second."
+
+  - id: N37
+    name: kilogram per metre second
+    description:
+      "Unit of the dynamic viscosity as a quotient SI base unit kilogram divided by
+      the SI base unit metre and by the SI base unit second."
+
+  - id: N38
+    name: kilogram per metre minute
+    description:
+      "Unit of the dynamic viscosity as a quotient SI base unit kilogram divided by
+      the SI base unit metre and by the unit minute."
+
+  - id: N39
+    name: kilogram per metre day
+    description:
+      "Unit of the dynamic viscosity as a quotient SI base unit kilogram divided by
+      the SI base unit metre and by the unit day."
+
+  - id: N40
+    name: kilogram per metre hour
+    description:
+      "Unit of the dynamic viscosity as a quotient SI base unit kilogram divided by
+      the SI base unit metre and by the unit hour."
+
+  - id: N41
+    name: gram per centimetre second
+    description:
+      "Unit of the dynamic viscosity as a quotient of the 0,001-fold of the SI base
+      unit kilogram divided by the 0,01-fold of the SI base unit metre and SI base unit
+      second."
+
+  - id: N42
+    name: poundal second per square inch
+    description:
+      "Non SI-conforming unit of dynamic viscosity according to the Imperial system of
+      units as product unit of the pressure (poundal by square inch) multiplied by the SI base
+      unit second."
+
+  - id: N43
+    name: pound per foot minute
+    description:
+      "Unit of the dynamic viscosity according to the Anglo-American unit
+      system."
+
+  - id: N44
+    name: pound per foot day
+    description:
+      "Unit of the dynamic viscosity according to the Anglo-American unit
+      system."
+
+  - id: N45
+    name: cubic metre per second pascal
+    description:
+      "Power of the SI base unit meter by exponent 3 divided by the product of the SI
+      base unit second and the derived SI base unit pascal."
+
+  - id: N46
+    name: foot poundal
+    description: "Unit of the work (force-path)."
+
+  - id: N47
+    name: inch poundal
+    description:
+      "Unit of work (force multiplied by path) according to the Imperial system of
+      units as a product unit inch multiplied by poundal."
+
+  - id: N48
+    name: watt per square centimetre
+    description:
+      "Derived SI unit watt divided by the power of the 0,01-fold the SI base unit
+      metre by exponent 2."
+
+  - id: N49
+    name: watt per square inch
+    description:
+      "Derived SI unit watt divided by the power of the unit inch according to the
+      Anglo-American and Imperial system of units by exponent 2."
+
+  - id: N50
+    name: British thermal unit (international table) per square foot hour
+    description:
+      "Unit of the surface heat flux according to the Imperial system of
+      units."
+
+  - id: N51
+    name: British thermal unit (thermochemical) per square foot hour
+    description:
+      "Unit of the surface heat flux according to the Imperial system of
+      units."
+
+  - id: N52
+    name: British thermal unit (thermochemical) per square foot minute
+    description:
+      "Unit of the surface heat flux according to the Imperial system of
+      units."
+
+  - id: N53
+    name: British thermal unit (international table) per square foot second
+    description:
+      "Unit of the surface heat flux according to the Imperial system of
+      units."
+
+  - id: N54
+    name: British thermal unit (thermochemical) per square foot second
+    description:
+      "Unit of the surface heat flux according to the Imperial system of
+      units."
+
+  - id: N55
+    name: British thermal unit (international table) per square inch second
+    description:
+      "Unit of the surface heat flux according to the Imperial system of
+      units."
+
+  - id: N56
+    name: calorie (thermochemical) per square centimetre minute
+    description:
+      "Unit of the surface heat flux according to the Imperial system of
+      units."
+
+  - id: N57
+    name: calorie (thermochemical) per square centimetre second
+    description:
+      "Unit of the surface heat flux according to the Imperial system of
+      units."
+
+  - id: N58
+    name: British thermal unit (international table) per cubic foot
+    description: "Unit of the energy density according to the Imperial system of
+      units."
+
+  - id: N59
+    name: British thermal unit (thermochemical) per cubic foot
+    description: "Unit of the energy density according to the Imperial system of
+      units."
+
+  - id: N60
+    name: British thermal unit (international table) per degree Fahrenheit
+    description: "Unit of the heat capacity according to the Imperial system of
+      units."
+
+  - id: N61
+    name: British thermal unit (thermochemical) per degree Fahrenheit
+    description: "Unit of the heat capacity according to the Imperial system of
+      units."
+
+  - id: N62
+    name: British thermal unit (international table) per degree Rankine
+    description: "Unit of the heat capacity according to the Imperial system of
+      units."
+
+  - id: N63
+    name: British thermal unit (thermochemical) per degree Rankine
+    description: "Unit of the heat capacity according to the Imperial system of
+      units."
+
+  - id: N64
+    name: British thermal unit (thermochemical) per pound degree Rankine
+    description:
+      "Unit of the heat capacity (British thermal unit according to the international
+      table according to the Rankine degree) according to the Imperial system of units divided
+      by the unit avoirdupois pound according to the avoirdupois system of
+      units."
+
+  - id: N65
+    name: kilocalorie (international table) per gram kelvin
+    description:
+      "Unit of the mass-related heat capacity as quotient 1000-fold of the calorie
+      (international table) divided by the product of the 0,001-fold of the SI base units
+      kilogram and kelvin."
+
+  - id: N66
+    name: British thermal unit (39 ºF)
+    description:
+      "Unit of heat energy according to the Imperial system of units in a reference
+      temperature of 39 °F."
+
+  - id: N67
+    name: British thermal unit (59 ºF)
+    description:
+      "Unit of heat energy according to the Imperial system of units in a reference
+      temperature of 59 °F."
+
+  - id: N68
+    name: British thermal unit (60 ºF)
+    description:
+      "Unit of head energy according to the Imperial system of units at a reference
+      temperature of 60 °F."
+
+  - id: N69
+    name: calorie (20 ºC)
+    description:
+      "Unit for quantity of heat, which is to be required for 1 g air free water at a
+      constant pressure from 101,325 kPa, to warm up the pressure of standard atmosphere at
+      sea level, from 19,5 °C on 20,5 °C."
+
+  - id: N70
+    name: quad (1015 BtuIT)
+    description: "Unit of heat energy according to the imperial system of units."
+
+  - id: N71
+    name: therm (EC)
+    description:
+      "Unit of heat energy in commercial use, within the EU defined: 1 thm (EC) = 100
+      000 BtuIT."
+
+  - id: N72
+    name: therm (U.S.)
+    description: "Unit of heat energy in commercial use."
+
+  - id: N73
+    name: British thermal unit (thermochemical) per pound
+    description:
+      "Unit of the heat energy according to the Imperial system of units divided the
+      unit avoirdupois pound according to the avoirdupois system of units."
+
+  - id: N74
+    name: British thermal unit (international table) per hour square foot degree
+      Fahrenheit
+    description:
+      "Unit of the heat transition coefficient according to the Imperial system of
+      units."
+
+  - id: N75
+    name: British thermal unit (thermochemical) per hour square foot degree Fahrenheit
+    description:
+      "Unit of the heat transition coefficient according to the imperial system of
+      units."
+
+  - id: N76
+    name:
+      British thermal unit (international table) per second square foot degree
+      Fahrenheit
+    description:
+      "Unit of the heat transition coefficient according to the imperial system of
+      units."
+
+  - id: N77
+    name: British thermal unit (thermochemical) per second square foot degree Fahrenheit
+    description:
+      "Unit of the heat transition coefficient according to the imperial system of
+      units."
+
+  - id: N78
+    name: kilowatt per square metre kelvin
+    description:
+      "1000-fold of the derived SI unit watt divided by the product of the power of
+      the SI base unit metre by exponent 2 and the SI base unit kelvin."
+
+  - id: N79
+    name: kelvin per pascal
+    description: "SI base unit kelvin divided by the derived SI unit pascal."
+
+  - id: N80
+    name: watt per metre degree Celsius
+    description:
+      "Derived SI unit watt divided by the product of the SI base unit metre and the
+      unit for temperature degree Celsius."
+
+  - id: N81
+    name: kilowatt per metre kelvin
+    description:
+      "1000-fold of the derived SI unit watt divided by the product of the SI base
+      unit metre and the SI base unit kelvin."
+
+  - id: N82
+    name: kilowatt per metre degree Celsius
+    description:
+      "1000-fold of the derived SI unit watt divided by the product of the SI base
+      unit metre and the unit for temperature degree Celsius."
+
+  - id: N83
+    name: metre per degree Celcius metre
+    description:
+      "SI base unit metre divided by the product of the unit degree Celsius and the SI
+      base unit metre."
+
+  - id: N84
+    name: degree Fahrenheit hour per British thermal unit (international table)
+    description:
+      "Non SI-conforming unit of the thermal resistance according to the Imperial
+      system of units."
+
+  - id: N85
+    name: degree Fahrenheit hour per British thermal unit (thermochemical)
+    description:
+      "Non SI-conforming unit of the thermal resistance according to the Imperial
+      system of units."
+
+  - id: N86
+    name: degree Fahrenheit second per British thermal unit (international table)
+    description:
+      "Non SI-conforming unit of the thermal resistance according to the Imperial
+      system of units."
+
+  - id: N87
+    name: degree Fahrenheit second per British thermal unit (thermochemical)
+    description:
+      "Non SI-conforming unit of the thermal resistance according to the Imperial
+      system of units."
+
+  - id: N88
+    name:
+      degree Fahrenheit hour square foot per British thermal unit (international table)
+      inch
+    description:
+      "Unit of specific thermal resistance according to the Imperial system of
+      units."
+
+  - id: N89
+    name:
+      degree Fahrenheit hour square foot per British thermal unit (thermochemical)
+      inch
+    description:
+      "Unit of specific thermal resistance according to the Imperial system of
+      units."
+
+  - id: N90
+    name: kilofarad
+    description: "1000-fold of the derived SI unit farad."
+
+  - id: N91
+    name: reciprocal joule
+    description: "Reciprocal of the derived SI unit joule."
+
+  - id: N92
+    name: picosiemens
+    description: "0,000 000 000 001-fold of the derived SI unit siemens."
+
+  - id: N93
+    name: ampere per pascal
+    description: "SI base unit ampere divided by the derived SI unit pascal."
+
+  - id: N94
+    name: franklin
+    description:
+      "CGS (Centimetre-Gram-Second system) unit of the electrical charge, where the
+      charge amounts to exactly 1 Fr where the force of 1 dyn on an equal load is performed at
+      a distance of 1 cm."
+
+  - id: N95
+    name: ampere minute
+    description:
+      "A unit of electric charge defining the amount of charge accumulated by a steady
+      flow of one ampere for one minute.."
+
+  - id: N96
+    name: biot
+    description:
+      "CGS (Centimetre-Gram-Second system) unit of the electric power which is defined
+      by a force of 2 dyn per cm between two parallel conductors of infinite length with
+      negligible cross-section in the distance of 1 cm."
+
+  - id: N97
+    name: gilbert
+    description:
+      "CGS (Centimetre-Gram-Second system) unit of the magnetomotive force, which is
+      defined by the work to increase the magnetic potential of a positive common pol with 1
+      erg."
+
+  - id: N98
+    name: volt per pascal
+    description: "Derived SI unit volt divided by the derived SI unit pascal."
+
+  - id: N99
+    name: picovolt
+    description: "0,000 000 000 001-fold of the derived SI unit volt."
+
+  - id: NA
+    name: milligram per kilogram
+
+  - id: NAR
+    name: number of articles
+    description: "A unit of count defining the number of articles (article: item)."
+
+  - id: NCL
+    name: number of cells
+    description:
+      "A unit of count defining the number of cells (cell: an enclosed or
+      circumscribed space, cavity, or volume)."
+
+  - id: NEW
+    name: newton
+
+  - id: NF
+    name: message
+    description: "A unit of count defining the number of messages."
+
+  - id: NIL
+    name: nil
+    description: "A unit of count defining the number of instances of nothing."
+
+  - id: NIU
+    name: number of international units
+    description: "A unit of count defining the number of international units."
+
+  - id: NL
+    name: load
+    description:
+      "A unit of volume defining the number of loads (load: a quantity of items
+      carried or processed at one time)."
+
+  - id: NM3
+    name: Normalised cubic metre
+    description:
+      "Normalised cubic metre (temperature 0°C and pressure 101325 millibars
+      )"
+
+  - id: NMI
+    name: nautical mile
+
+  - id: NMP
+    name: number of packs
+    description:
+      "A unit of count defining the number of packs (pack: a collection of objects
+      packaged together)."
+
+  - id: NPT
+    name: number of parts
+    description:
+      "A unit of count defining the number of parts (part: component of a larger
+      entity)."
+
+  - id: NT
+    name: net ton
+    description:
+      "A unit of mass equal to 2000 pounds, see ton (US). Refer International
+      Convention on tonnage measurement of Ships."
+
+  - id: NTU
+    name: Nephelometric turbidity unit
+
+  - id: NU
+    name: newton metre
+
+  - id: NX
+    name: part per thousand
+    description: "A unit of proportion equal to 10⁻³. Synonym: per mille"
+
+  - id: OA
+    name: panel
+    description:
+      "A unit of count defining the number of panels (panel: a distinct, usually
+      rectangular, section of a surface)."
+
+  - id: ODE
+    name: ozone depletion equivalent
+    description:
+      "A unit of mass defining the ozone depletion potential in kilograms of a product
+      relative to the calculated depletion for the reference substance, Trichlorofluoromethane
+      (CFC-11)."
+
+  - id: OHM
+    name: ohm
+
+  - id: ON
+    name: ounce per square yard
+
+  - id: ONZ
+    name: ounce (avoirdupois)
+
+  - id: OPM
+    name: oscillations per minute
+    description: "The number of oscillations per minute."
+
+  - id: OT
+    name: overtime hour
+    description: "A unit of time defining the number of overtime hours."
+
+  - id: OZA
+    name: fluid ounce (US)
+
+  - id: OZI
+    name: fluid ounce (UK)
+
+  - id: P1
+    name: percent
+    description: "A unit of proportion equal to 0.01."
+
+  - id: P10
+    name: coulomb per metre
+    description: "Derived SI unit coulomb divided by the SI base unit metre."
+
+  - id: P11
+    name: kiloweber
+    description: "1000 fold of the derived SI unit weber."
+
+  - id: P12
+    name: gamma
+    description: "Unit of magnetic flow density."
+
+  - id: P13
+    name: kilotesla
+    description: "1000-fold of the derived SI unit tesla."
+
+  - id: P14
+    name: joule per second
+    description:
+      "Quotient of the derived SI unit joule divided by the SI base unit
+      second."
+
+  - id: P15
+    name: joule per minute
+    description: "Quotient from the derived SI unit joule divided by the unit
+      minute."
+
+  - id: P16
+    name: joule per hour
+    description: "Quotient from the derived SI unit joule divided by the unit hour."
+
+  - id: P17
+    name: joule per day
+    description: "Quotient from the derived SI unit joule divided by the unit day."
+
+  - id: P18
+    name: kilojoule per second
+    description:
+      "Quotient from the 1000-fold of the derived SI unit joule divided by the SI base
+      unit second."
+
+  - id: P19
+    name: kilojoule per minute
+    description:
+      "Quotient from the 1000-fold of the derived SI unit joule divided by the unit
+      minute."
+
+  - id: P2
+    name: pound per foot
+
+  - id: P20
+    name: kilojoule per hour
+    description:
+      "Quotient from the 1000-fold of the derived SI unit joule divided by the unit
+      hour."
+
+  - id: P21
+    name: kilojoule per day
+    description:
+      "Quotient from the 1000-fold of the derived SI unit joule divided by the unit
+      day."
+
+  - id: P22
+    name: nanoohm
+    description: "0,000 000 001-fold of the derived SI unit ohm."
+
+  - id: P23
+    name: ohm circular-mil per foot
+    description: "Unit of resistivity."
+
+  - id: P24
+    name: kilohenry
+    description: "1000-fold of the derived SI unit henry."
+
+  - id: P25
+    name: lumen per square foot
+    description:
+      "Derived SI unit lumen divided by the power of the unit foot according to the
+      Anglo-American and Imperial system of units by exponent 2."
+
+  - id: P26
+    name: phot
+    description:
+      "CGS (Centimetre-Gram-Second system) unit of luminance, defined as lumen by
+      square centimetre."
+
+  - id: P27
+    name: footcandle
+    description:
+      "Non SI conform traditional unit, defined as density of light which impinges on
+      a surface which has a distance of one foot from a light source, which shines with an
+      intensity of an international candle."
+
+  - id: P28
+    name: candela per square inch
+    description:
+      "SI base unit candela divided by the power of unit inch according to the
+      Anglo-American and Imperial system of units by exponent 2."
+
+  - id: P29
+    name: footlambert
+    description:
+      "Unit of the luminance according to the Anglo-American system of units, defined
+      as emitted or reflected luminance of a lm/ft²."
+
+  - id: P30
+    name: lambert
+    description:
+      "CGS (Centimetre-Gram-Second system) unit of luminance, defined as the emitted
+      or reflected luminance by one lumen per square centimetre."
+
+  - id: P31
+    name: stilb
+    description:
+      "CGS (Centimetre-Gram-Second system) unit of luminance, defined as emitted or
+      reflected luminance by one lumen per square centimetre."
+
+  - id: P32
+    name: candela per square foot
+    description:
+      "Base unit SI candela divided by the power of the unit foot according to the
+      Anglo-American and Imperial system of units by exponent 2."
+
+  - id: P33
+    name: kilocandela
+    description: "1000-fold of the SI base unit candela."
+
+  - id: P34
+    name: millicandela
+    description: "0,001-fold of the SI base unit candela."
+
+  - id: P35
+    name: Hefner-Kerze
+    description:
+      "Obsolete, non-legal unit of the power in Germany relating to DIN 1301-3:1979: 1
+      HK = 0,903 cd."
+
+  - id: P36
+    name: international candle
+    description:
+      "Obsolete, non-legal unit of the power in Germany relating to DIN 1301-3:1979: 1
+      HK = 1,019 cd."
+
+  - id: P37
+    name: British thermal unit (international table) per square foot
+    description:
+      "Unit of the areal-related energy transmission according to the Imperial system
+      of units."
+
+  - id: P38
+    name: British thermal unit (thermochemical) per square foot
+    description:
+      "Unit of the areal-related energy transmission according to the Imperial system
+      of units."
+
+  - id: P39
+    name: calorie (thermochemical) per square centimetre
+    description:
+      "Unit of the areal-related energy transmission according to the Imperial system
+      of units."
+
+  - id: P40
+    name: langley
+    description:
+      "CGS (Centimetre-Gram-Second system) unit of the areal-related energy
+      transmission (as a measure of the incident quantity of heat of solar radiation on the
+      earth's surface)."
+
+  - id: P41
+    name: decade (logarithmic)
+    description:
+      "1 Dec := log2 10 ˜ 3,32 according to the logarithm for frequency range between
+      f1 and f2, when f2/f1 = 10."
+
+  - id: P42
+    name: pascal squared second
+    description:
+      "Unit of the set as a product of the power of derived SI unit pascal with
+      exponent 2 and the SI base unit second."
+
+  - id: P43
+    name: bel per metre
+    description: "Unit bel divided by the SI base unit metre."
+
+  - id: P44
+    name: pound mole
+    description:
+      "Non SI-conforming unit of quantity of a substance relating that one pound mole
+      of a chemical composition corresponds to the same number of pounds as the molecular
+      weight of one molecule of this composition in atomic mass units."
+
+  - id: P45
+    name: pound mole per second
+    description:
+      "Non SI-conforming unit of the power of the amount of substance non-SI compliant
+      unit of the molar flux relating that a pound mole of a chemical composition the same
+      number of pound corresponds like the molecular weight of a molecule of this composition
+      in atomic mass units."
+
+  - id: P46
+    name: pound mole per minute
+    description:
+      "Non SI-conforming unit of the power of the amount of substance non-SI compliant
+      unit of the molar flux relating that a pound mole of a chemical composition the same
+      number of pound corresponds like the molecular weight of a molecule of this composition
+      in atomic mass units."
+
+  - id: P47
+    name: kilomole per kilogram
+    description: "1000-fold of the SI base unit mol divided by the SI base unit
+      kilogram."
+
+  - id: P48
+    name: pound mole per pound
+    description:
+      "Non SI-conforming unit of the material molar flux divided by the avoirdupois
+      pound for mass according to the avoirdupois unit system."
+
+  - id: P49
+    name: newton square metre per ampere
+    description:
+      "Product of the derived SI unit newton and the power of SI base unit metre with
+      exponent 2 divided by the SI base unit ampere."
+
+  - id: P5
+    name: five pack
+    description:
+      "A unit of count defining the number of five-packs (five-pack: set of five items
+      packaged together)."
+
+  - id: P50
+    name: weber metre
+    description: "Product of the derived SI unit weber and SI base unit metre."
+
+  - id: P51
+    name: mol per kilogram pascal
+    description:
+      "SI base unit mol divided by the product of the SI base unit kilogram and the
+      derived SI unit pascal."
+
+  - id: P52
+    name: mol per cubic metre pascal
+    description:
+      "SI base unit mol divided by the product of the power from the SI base unit
+      metre with exponent 3 and the derived SI unit pascal."
+
+  - id: P53
+    name: unit pole
+    description:
+      "CGS (Centimetre-Gram-Second system) unit for magnetic flux of a magnetic pole
+      (according to the interaction of identical poles of 1 dyn at a distance of a
+      cm)."
+
+  - id: P54
+    name: milligray per second
+    description:
+      "0,001-fold of the derived SI unit gray divided by the SI base unit
+      second."
+
+  - id: P55
+    name: microgray per second
+    description:
+      "0,000 001-fold of the derived SI unit gray divided by the SI base unit
+      second."
+
+  - id: P56
+    name: nanogray per second
+    description:
+      "0,000 000 001-fold of the derived SI unit gray divided by the SI base unit
+      second."
+
+  - id: P57
+    name: gray per minute
+    description: "SI derived unit gray divided by the unit minute."
+
+  - id: P58
+    name: milligray per minute
+    description: "0,001-fold of the derived SI unit gray divided by the unit
+      minute."
+
+  - id: P59
+    name: microgray per minute
+    description: "0,000 001-fold of the derived SI unit gray divided by the unit
+      minute."
+
+  - id: P60
+    name: nanogray per minute
+    description:
+      "0,000 000 001-fold of the derived SI unit gray divided by the unit
+      minute."
+
+  - id: P61
+    name: gray per hour
+    description: "SI derived unit gray divided by the unit hour."
+
+  - id: P62
+    name: milligray per hour
+    description: "0,001-fold of the derived SI unit gray divided by the unit hour."
+
+  - id: P63
+    name: microgray per hour
+    description: "0,000 001-fold of the derived SI unit gray divided by the unit
+      hour."
+
+  - id: P64
+    name: nanogray per hour
+    description:
+      "0,000 000 001-fold of the derived SI unit gray divided by the unit
+      hour."
+
+  - id: P65
+    name: sievert per second
+    description: "Derived SI unit sievert divided by the SI base unit second."
+
+  - id: P66
+    name: millisievert per second
+    description:
+      "0,001-fold of the derived SI unit sievert divided by the SI base unit
+      second."
+
+  - id: P67
+    name: microsievert per second
+    description:
+      "0,000 001-fold of the derived SI unit sievert divided by the SI base unit
+      second."
+
+  - id: P68
+    name: nanosievert per second
+    description:
+      "0,000 000 001-fold of the derived SI unit sievert divided by the SI base unit
+      second."
+
+  - id: P69
+    name: rem per second
+    description:
+      "Unit for the equivalent tin rate relating to DIN 1301-3:1979: 1 rem/s = 0,01
+      J/(kg·s) = 1 Sv/s."
+
+  - id: P70
+    name: sievert per hour
+    description: "Derived SI unit sievert divided by the unit hour."
+
+  - id: P71
+    name: millisievert per hour
+    description: "0,001-fold of the derived SI unit sievert divided by the unit
+      hour."
+
+  - id: P72
+    name: microsievert per hour
+    description:
+      "0,000 001-fold of the derived SI unit sievert divided by the unit
+      hour."
+
+  - id: P73
+    name: nanosievert per hour
+    description:
+      "0,000 000 001-fold of the derived SI unit sievert divided by the unit
+      hour."
+
+  - id: P74
+    name: sievert per minute
+    description: "Derived SI unit sievert divided by the unit minute."
+
+  - id: P75
+    name: millisievert per minute
+    description: "0,001-fold of the derived SI unit sievert divided by the unit
+      minute."
+
+  - id: P76
+    name: microsievert per minute
+    description:
+      "0,000 001-fold of the derived SI unit sievert divided by the unit
+      minute."
+
+  - id: P77
+    name: nanosievert per minute
+    description:
+      "0,000 000 001-fold of the derived SI unit sievert divided by the unit
+      minute."
+
+  - id: P78
+    name: reciprocal square inch
+    description:
+      "Complement of the power of the unit inch according to the Anglo-American and
+      Imperial system of units by exponent 2."
+
+  - id: P79
+    name: pascal square metre per kilogram
+    description:
+      "Unit of the burst index as derived unit for pressure pascal related to the
+      substance, represented as a quotient from the SI base unit kilogram divided by the power
+      of the SI base unit metre by exponent 2."
+
+  - id: P80
+    name: millipascal per metre
+    description:
+      "0,001-fold of the derived SI unit pascal divided by the SI base unit
+      metre."
+
+  - id: P81
+    name: kilopascal per metre
+    description:
+      "1000-fold of the derived SI unit pascal divided by the SI base unit
+      metre."
+
+  - id: P82
+    name: hectopascal per metre
+    description:
+      "100-fold of the derived SI unit pascal divided by the SI base unit
+      metre."
+
+  - id: P83
+    name: standard atmosphere per metre
+    description: "Outdated unit of the pressure divided by the SI base unit metre."
+
+  - id: P84
+    name: technical atmosphere per metre
+    description:
+      "Obsolete and non-legal unit of the pressure which is generated by a 10 metre
+      water column divided by the SI base unit metre."
+
+  - id: P85
+    name: torr per metre
+    description:
+      "CGS (Centimetre-Gram-Second system) unit of the pressure divided by the SI base
+      unit metre."
+
+  - id: P86
+    name: psi per inch
+    description:
+      "Compound unit for pressure (pound-force according to the Anglo-American unit
+      system divided by the power of the unit inch according to the Anglo-American and
+      Imperial system of units with the exponent 2) divided by the unit inch according to the
+      Anglo-American and Imperial system of units ."
+
+  - id: P87
+    name: cubic metre per second square metre
+    description:
+      "Unit of volume flow cubic meters by second related to the transmission surface
+      in square metres."
+
+  - id: P88
+    name: rhe
+    description: "Non SI-conforming unit of fluidity of dynamic viscosity."
+
+  - id: P89
+    name: pound-force foot per inch
+    description:
+      "Unit for length-related rotational moment according to the Anglo-American and
+      Imperial system of units."
+
+  - id: P90
+    name: pound-force inch per inch
+    description:
+      "Unit for length-related rotational moment according to the Anglo-American and
+      Imperial system of units."
+
+  - id: P91
+    name: perm (0 ºC)
+    description:
+      "Traditional unit for the ability of a material to allow the transition of the
+      steam, defined at a temperature of 0 °C as steam transmittance, where the mass of one
+      grain steam penetrates an area of one foot squared at a pressure from one inch mercury
+      per hour."
+
+  - id: P92
+    name: perm (23 ºC)
+    description:
+      "Traditional unit for the ability of a material to allow the transition of the
+      steam, defined at a temperature of 23 °C as steam transmittance at which the mass of one
+      grain of steam penetrates an area of one square foot at a pressure of one inch mercury
+      per hour."
+
+  - id: P93
+    name: byte per second
+    description: "Unit byte divided by the SI base unit second."
+
+  - id: P94
+    name: kilobyte per second
+    description: "1000-fold of the unit byte divided by the SI base unit second."
+
+  - id: P95
+    name: megabyte per second
+    description: "1 000 000-fold of the unit byte divided by the SI base unit
+      second."
+
+  - id: P96
+    name: reciprocal volt
+    description: "Reciprocal of the derived SI unit volt."
+
+  - id: P97
+    name: reciprocal radian
+    description: "Reciprocal of the unit radian."
+
+  - id: P98
+    name: pascal to the power sum of stoichiometric numbers
+    description:
+      "Unit of the equilibrium constant on the basis of the pressure(ISO 80000-9:2009,
+      9-35.a)."
+
+  - id: P99
+    name: mole per cubiv metre to the power sum of stoichiometric numbers
+    description:
+      "Unit of the equilibrium constant on the basis of the concentration (ISO
+      80000-9:2009, 9-36.a)."
+
+  - id: PAL
+    name: pascal
+
+  - id: PD
+    name: pad
+    description:
+      "A unit of count defining the number of pads (pad: block of paper sheets
+      fastened together at one end)."
+
+  - id: PFL
+    name: proof litre
+    description:
+      "A unit of volume equal to one litre of proof spirits, or the alcohol equivalent
+      thereof. Used for measuring the strength of distilled alcoholic liquors, expressed as a
+      percentage of the alcohol content of a standard mixture at a specific
+      temperature."
+
+  - id: PGL
+    name: proof gallon
+    description:
+      "A unit of volume equal to one gallon of proof spirits, or the alcohol
+      equivalent thereof. Used for measuring the strength of distilled alcoholic liquors,
+      expressed as a percentage of the alcohol content of a standard mixture at a specific
+      temperature."
+
+  - id: PI
+    name: pitch
+    description:
+      "A unit of count defining the number of characters that fit in a horizontal
+      inch."
+
+  - id: PLA
+    name: degree Plato
+    description:
+      "A unit of proportion defining the sugar content of a product, especially in
+      relation to beer."
+
+  - id: PO
+    name: pound per inch of length
+
+  - id: PQ
+    name: page per inch
+    description:
+      "A unit of quantity defining the degree of thickness of a bound publication,
+      expressed as the number of pages per inch of thickness."
+
+  - id: PR
+    name: pair
+    description:
+      "A unit of count defining the number of pairs (pair: item described by
+      two's)."
+
+  - id: PS
+    name: pound-force per square inch
+
+  - id: PTD
+    name: dry pint (US)
+
+  - id: PTI
+    name: pint (UK)
+
+  - id: PTL
+    name: liquid pint (US)
+
+  - id: PTN
+    name: portion
+    description:
+      "A quantity of allowance of food allotted to, or enough for, one
+      person."
+
+  - id: Q10
+    name: joule per tesla
+    description:
+      "Unit of the magnetic dipole moment of the molecule as derived SI unit joule
+      divided by the derived SI unit tesla."
+
+  - id: Q11
+    name: erlang
+    description:
+      "Unit of the market value according to the feature of a single feature as a
+      statistical measurement of the existing utilization."
+
+  - id: Q12
+    name: octet
+    description: "Synonym for byte: 1 octet = 8 bit = 1 byte."
+
+  - id: Q13
+    name: octet per second
+    description: "Unit octet divided by the SI base unit second."
+
+  - id: Q14
+    name: shannon
+    description:
+      "Logarithmic unit for information equal to the content of decision of a sentence
+      of two mutually exclusive events, expressed as a logarithm to base 2."
+
+  - id: Q15
+    name: hartley
+    description:
+      "Logarithmic unit for information equal to the content of decision of a sentence
+      of ten mutually exclusive events, expressed as a logarithm to base 10."
+
+  - id: Q16
+    name: natural unit of information
+    description:
+      "Logarithmic unit for information equal to the content of decision of a sentence
+      of ,718 281 828 459 mutually exclusive events, expressed as a logarithm to base Euler
+      value e."
+
+  - id: Q17
+    name: shannon per second
+    description:
+      "Time related logarithmic unit for information equal to the content of decision
+      of a sentence of two mutually exclusive events, expressed as a logarithm to base
+      2."
+
+  - id: Q18
+    name: hartley per second
+    description:
+      "Time related logarithmic unit for information equal to the content of decision
+      of a sentence of ten mutually exclusive events, expressed as a logarithm to base
+      10."
+
+  - id: Q19
+    name: natural unit of information per second
+    description:
+      "Time related logarithmic unit for information equal to the content of decision
+      of a sentence of 2,718 281 828 459 mutually exclusive events, expressed as a logarithm
+      to base of the Euler value e."
+
+  - id: Q20
+    name: second per kilogramm
+    description:
+      "Unit of the Einstein transition probability for spontaneous or inducing
+      emissions and absorption according to ISO 80000-7:2008, expressed as SI base unit second
+      divided by the SI base unit kilogram."
+
+  - id: Q21
+    name: watt square metre
+    description:
+      "Unit of the first radiation constants c1 = 2·p·h·c0², the value of which is
+      3,741 771 18·10?¹6-fold that of the comparative value of the product of the derived SI
+      unit watt multiplied with the power of the SI base unit metre with the exponent
+      2."
+
+  - id: Q22
+    name: second per radian cubic metre
+    description:
+      "Unit of the density of states as an expression of angular frequency as
+      complement of the product of hertz and radiant and the power of SI base unit metre by
+      exponent 3 ."
+
+  - id: Q23
+    name: weber to the power minus one
+    description:
+      "Complement of the derived SI unit weber as unit of the Josephson constant,
+      which value is equal to the 384 597,891-fold of the reference value gigahertz divided by
+      volt."
+
+  - id: Q24
+    name: reciprocal inch
+    description:
+      "Complement of the unit inch according to the Anglo-American and Imperial system
+      of units."
+
+  - id: Q25
+    name: dioptre
+    description:
+      "Unit used at the statement of relative refractive indexes of optical systems as
+      complement of the focal length with correspondence to: 1 dpt = 1/m."
+
+  - id: Q26
+    name: one per one
+    description:
+      "Value of the quotient from two physical units of the same kind as a numerator
+      and denominator whereas the units are shortened mutually."
+
+  - id: Q27
+    name: newton metre per metre
+    description:
+      "Unit for length-related rotational moment as product of the derived SI unit
+      newton and the SI base unit metre divided by the SI base unit metre."
+
+  - id: Q28
+    name: kilogram per square metre pascal second
+    description: "Unit for the ability of a material to allow the transition of
+      steam."
+
+  - id: Q29
+    name: microgram per hectogram
+    description: "Microgram per hectogram."
+
+  - id: Q30
+    name: pH (potential of Hydrogen)
+    description:
+      "The activity of the (solvated) hydrogen ion (a logarithmic measure used to
+      state the acidity or alkalinity of a chemical solution)."
+
+  - id: Q31
+    name: kilojoule per gram
+
+  - id: Q32
+    name: femtolitre
+
+  - id: Q33
+    name: picolitre
+
+  - id: Q34
+    name: nanolitre
+
+  - id: Q35
+    name: megawatts per minute
+    description:
+      "A unit of power defining the total amount of bulk energy transferred or
+      consumer per minute."
+
+  - id: Q36
+    name: square metre per cubic metre
+    description:
+      "A unit of the amount of surface area per unit volume of an object or collection
+      of objects."
+
+  - id: Q37
+    name: Standard cubic metre per day
+    description:
+      "Standard cubic metre (temperature 15°C and pressure 101325 millibars ) per
+      day"
+
+  - id: Q38
+    name: Standard cubic metre per hour
+    description:
+      "Standard cubic metre (temperature 15°C and pressure 101325 millibars ) per
+      hour"
+
+  - id: Q39
+    name: Normalized cubic metre per day
+    description:
+      "Normalized cubic metre (temperature 0°C and pressure 101325 millibars ) per
+      day"
+
+  - id: Q40
+    name: Normalized cubic metre per hour
+    description:
+      "Normalized cubic metre (temperature 0°C and pressure 101325 millibars ) per
+      hour"
+
+  - id: Q3
+    name: meal
+    description:
+      "A unit of count defining the number of meals (meal: an amount of food to be
+      eaten on a single occasion)."
+
+  - id: QA
+    name: page - facsimile
+    description: "A unit of count defining the number of facsimile pages."
+
+  - id: QAN
+    name: quarter (of a year)
+    description: "A unit of time defining the number of quarters (3 months)."
+
+  - id: QB
+    name: page - hardcopy
+    description:
+      "A unit of count defining the number of hardcopy pages (hardcopy page: a page
+      rendered as printed or written output on paper, film, or other permanent
+      medium)."
+
+  - id: QR
+    name: quire
+    description:
+      "A unit of count for paper, expressed as the number of quires (quire: a number
+      of paper sheets, typically 25)."
+
+  - id: QTD
+    name: dry quart (US)
+
+  - id: QTI
+    name: quart (UK)
+
+  - id: QTL
+    name: liquid quart (US)
+
+  - id: QTR
+    name: quarter (UK)
+    description:
+      "A traditional unit of weight equal to 1/4 hundredweight. In the United Kingdom,
+      one quarter equals 28 pounds."
+
+  - id: R1
+    name: pica
+    description:
+      "A unit of count defining the number of picas. (pica: typographical length equal
+      to 12 points or 4.22 mm (approx.))."
+
+  - id: R9
+    name: thousand cubic metre
+    description: "A unit of volume equal to one thousand cubic metres."
+
+  - id: RH
+    name: running or operating hour
+    description: "A unit of time defining the number of hours of operation."
+
+  - id: RM
+    name: ream
+    description:
+      "A unit of count for paper, expressed as the number of reams (ream: a large
+      quantity of paper sheets, typically 500)."
+
+  - id: ROM
+    name: room
+    description: "A unit of count defining the number of rooms."
+
+  - id: RP
+    name: pound per ream
+    description:
+      "A unit of mass for paper, expressed as pounds per ream. (ream: a large quantity
+      of paper, typically 500 sheets)."
+
+  - id: RPM
+    name: revolutions per minute
+    description: "Refer ISO/TC12 SI Guide"
+
+  - id: RPS
+    name: revolutions per second
+    description: "Refer ISO/TC12 SI Guide"
+
+  - id: RT
+    name: revenue ton mile
+    description:
+      "A unit of information typically used for billing purposes, expressed as the
+      number of revenue tons (revenue ton: either a metric ton or a cubic metres, whichever is
+      the larger), moved over a distance of one mile."
+
+  - id: S3
+    name: square foot per second
+    description: "Synonym: foot squared per second"
+
+  - id: S4
+    name: square metre per second
+    description: "Synonym: metre squared per second (square metres/second US)"
+
+  - id: SAN
+    name: half year (6 months)
+    description: "A unit of time defining the number of half years (6 months)."
+
+  - id: SCO
+    name: score
+    description: "A unit of count defining the number of units in multiples of 20."
+
+  - id: SCR
+    name: scruple
+
+  - id: SEC
+    name: second [unit of time]
+
+  - id: SET
+    name: set
+    description:
+      "A unit of count defining the number of sets (set: a number of objects grouped
+      together)."
+
+  - id: SG
+    name: segment
+    description: "A unit of information equal to 64000 bytes."
+
+  - id: SIE
+    name: siemens
+
+  - id: SM3
+    name: Standard cubic metre
+    description:
+      "Standard cubic metre (temperature 15°C and pressure 101325 millibars
+      )"
+
+  - id: SMI
+    name: mile (statute mile)
+
+  - id: SQ
+    name: square
+    description:
+      "A unit of count defining the number of squares (square: rectangular
+      shape)."
+
+  - id: SQR
+    name: square, roofing
+    description:
+      "A unit of count defining the number of squares of roofing materials, measured
+      in multiples of 100 square feet."
+
+  - id: SR
+    name: strip
+    description:
+      "A unit of count defining the number of strips (strip: long narrow piece of an
+      object)."
+
+  - id: STC
+    name: stick
+    description:
+      "A unit of count defining the number of sticks (stick: slender and often
+      cylindrical piece of a substance)."
+
+  - id: STI
+    name: stone (UK)
+
+  - id: STK
+    name: stick, cigarette
+    description:
+      "A unit of count defining the number of cigarettes in the smallest unit for
+      stock-taking and/or duty computation."
+
+  - id: STL
+    name: standard litre
+    description:
+      "A unit of volume defining the number of litres of a product at a temperature of
+      15 degrees Celsius, especially in relation to hydrocarbon oils."
+
+  - id: STN
+    name: ton (US) or short ton (UK/US)
+    description: "Synonym: net ton (2000 lb)"
+
+  - id: STW
+    name: straw
+    description:
+      "A unit of count defining the number of straws (straw: a slender tube used for
+      sucking up liquids)."
+
+  - id: SW
+    name: skein
+    description:
+      "A unit of count defining the number of skeins (skein: a loosely-coiled bundle
+      of yarn or thread)."
+
+  - id: SX
+    name: shipment
+    description:
+      "A unit of count defining the number of shipments (shipment: an amount of goods
+      shipped or transported)."
+
+  - id: SYR
+    name: syringe
+    description:
+      "A unit of count defining the number of syringes (syringe: a small device for
+      pumping, spraying and/or injecting liquids through a small aperture)."
+
+  - id: T0
+    name: telecommunication line in service
+    description: "A unit of count defining the number of lines in service."
+
+  - id: T3
+    name: thousand piece
+    description:
+      "A unit of count defining the number of pieces in multiples of 1000 (piece: a
+      single item, article or exemplar)."
+
+  - id: TAH
+    name: kiloampere hour (thousand ampere hour)
+
+  - id: TAN
+    name: total acid number
+    description:
+      "A unit of chemistry defining the amount of potassium hydroxide (KOH) in
+      milligrams that is needed to neutralize the acids in one gram of oil. It is an important
+      quality measurement of crude oil."
+
+  - id: TI
+    name: thousand square inch
+
+  - id: TIC
+    name: metric ton, including container
+    description:
+      "A unit of mass defining the number of metric tons of a product, including its
+      container."
+
+  - id: TIP
+    name: metric ton, including inner packaging
+    description:
+      "A unit of mass defining the number of metric tons of a product, including its
+      inner packaging materials."
+
+  - id: TKM
+    name: tonne kilometre
+    description:
+      "A unit of information typically used for billing purposes, expressed as the
+      number of tonnes (metric tons) moved over a distance of one kilometre."
+
+  - id: TMS
+    name: kilogram of imported meat, less offal
+    description:
+      "A unit of mass equal to one thousand grams of imported meat, disregarding less
+      valuable by-products such as the entrails."
+
+  - id: TNE
+    name: tonne (metric ton)
+    description: "Synonym: metric ton"
+
+  - id: TP
+    name: ten pack
+    description: "A unit of count defining the number of items in multiples of 10."
+
+  - id: TPI
+    name: teeth per inch
+    description: "The number of teeth per inch."
+
+  - id: TPR
+    name: ten pair
+    description:
+      "A unit of count defining the number of pairs in multiples of 10 (pair: item
+      described by two's)."
+
+  - id: TQD
+    name: thousand cubic metre per day
+    description: "A unit of volume equal to one thousand cubic metres per day."
+
+  - id: TRL
+    name: trillion (EUR)
+
+  - id: TST
+    name: ten set
+    description:
+      "A unit of count defining the number of sets in multiples of 10 (set: a number
+      of objects grouped together)."
+
+  - id: TTS
+    name: ten thousand sticks
+    description:
+      "A unit of count defining the number of sticks in multiples of 10000 (stick:
+      slender and often cylindrical piece of a substance)."
+
+  - id: U1
+    name: treatment
+    description:
+      "A unit of count defining the number of treatments (treatment: subjection to the
+      action of a chemical, physical or biological agent)."
+
+  - id: U2
+    name: tablet
+    description:
+      "A unit of count defining the number of tablets (tablet: a small flat or
+      compressed solid object)."
+
+  - id: UB
+    name: telecommunication line in service average
+    description: "A unit of count defining the average number of lines in service."
+
+  - id: UC
+    name: telecommunication port
+    description: "A unit of count defining the number of network access ports."
+
+  - id: VA
+    name: volt - ampere per kilogram
+
+  - id: VLT
+    name: volt
+
+  - id: VP
+    name: percent volume
+    description:
+      "A measure of concentration, typically expressed as the percentage volume of a
+      solute in a solution."
+
+  - id: W2
+    name: wet kilo
+    description:
+      "A unit of mass defining the number of kilograms of a product, including the
+      water content of the product."
+
+  - id: WA
+    name: watt per kilogram
+
+  - id: WB
+    name: wet pound
+    description:
+      "A unit of mass defining the number of pounds of a material, including the water
+      content of the material."
+
+  - id: WCD
+    name: cord
+    description:
+      "A unit of volume used for measuring lumber. One board foot equals 1/12 of a
+      cubic foot."
+
+  - id: WE
+    name: wet ton
+    description:
+      "A unit of mass defining the number of tons of a material, including the water
+      content of the material."
+
+  - id: WEB
+    name: weber
+
+  - id: WEE
+    name: week
+
+  - id: WG
+    name: wine gallon
+    description: "A unit of volume equal to 231 cubic inches."
+
+  - id: WHR
+    name: watt hour
+
+  - id: WM
+    name: working month
+    description: "A unit of time defining the number of working months."
+
+  - id: WSD
+    name: standard
+    description:
+      "A unit of volume of finished lumber equal to 165 cubic feet. Synonym: standard
+      cubic foot"
+
+  - id: WTT
+    name: watt
+
+  - id: X1
+    name: Gunter's chain
+    description: "A unit of distance used or formerly used by British surveyors."
+
+  - id: YDK
+    name: square yard
+
+  - id: YDQ
+    name: cubic yard
+
+  - id: YRD
+    name: yard
+
+  - id: Z11
+    name: hanging container
+    description: "A unit of count defining the number of hanging containers."
+
+  - id: Z9
+    name: nanomole
+
+  - id: ZP
+    name: page
+    description: "A unit of count defining the number of pages."
+
+  - id: ZZ
+    name: mutually defined
+    description: "A unit of measure as agreed in common between two or more
+      parties."
+
+  # END of Recommendation 20
+
+  # START of Recommendation 21, prefixed with X
+
+  - id: X1A
+    name: Drum, steel
+
+  - id: X1B
+    name: Drum, aluminium
+
+  - id: X1D
+    name: Drum, plywood
+
+  - id: X1F
+    name: Container, flexible
+    description: "A packaging container of flexible construction."
+
+  - id: X1G
+    name: Drum, fibre
+
+  - id: X1W
+    name: Drum, wooden
+
+  - id: X2C
+    name: Barrel, wooden
+
+  - id: X3A
+    name: Jerrican, steel
+
+  - id: X3H
+    name: Jerrican, plastic
+
+  - id: X43
+    name: Bag, super bulk
+    description:
+      "A cloth plastic or paper based bag having the dimensions of the pallet on which
+      it is constructed."
+
+  - id: X44
+    name: Bag, polybag
+    description:
+      "A type of plastic bag, typically used to wrap promotional pieces, publications,
+      product samples, and/or catalogues."
+
+  - id: X4A
+    name: Box, steel
+
+  - id: X4B
+    name: Box, aluminium
+
+  - id: X4C
+    name: Box, natural wood
+
+  - id: X4D
+    name: Box, plywood
+
+  - id: X4F
+    name: Box, reconstituted wood
+
+  - id: X4G
+    name: Box, fibreboard
+
+  - id: X4H
+    name: Box, plastic
+
+  - id: X5H
+    name: Bag, woven plastic
+
+  - id: X5L
+    name: Bag, textile
+
+  - id: X5M
+    name: Bag, paper
+
+  - id: X6H
+    name: Composite packaging, plastic receptacle
+
+  - id: X6P
+    name: Composite packaging, glass receptacle
+
+  - id: X7A
+    name: Case, car
+    description:
+      "A type of portable container designed to store equipment for carriage in an
+      automobile."
+
+  - id: X7B
+    name: Case, wooden
+    description: "A case made of wood for retaining substances or articles."
+
+  - id: X8A
+    name: Pallet, wooden
+    description:
+      "A platform or open-ended box, made of wood, on which goods are retained for
+      ease of mechanical handling during transport and storage."
+
+  - id: X8B
+    name: Crate, wooden
+    description:
+      "A receptacle, made of wood, on which goods are retained for ease of mechanical
+      handling during transport and storage."
+
+  - id: X8C
+    name: Bundle, wooden
+    description: "Loose or unpacked pieces of wood tied or wrapped together."
+
+  - id: XAA
+    name: Intermediate bulk container, rigid plastic
+
+  - id: XAB
+    name: Receptacle, fibre
+    description:
+      "Containment vessel made of fibre used for retaining substances or
+      articles."
+
+  - id: XAC
+    name: Receptacle, paper
+    description: "Containment vessel made of paper for retaining substances or
+      articles."
+
+  - id: XAD
+    name: Receptacle, wooden
+    description: "Containment vessel made of wood for retaining substances or
+      articles."
+
+  - id: XAE
+    name: Aerosol
+
+  - id: XAF
+    name: Pallet, modular, collars 80cms * 60cms
+    description:
+      "Standard sized pallet of dimensions 80 centimeters by 60 centimeters
+      (cms)."
+
+  - id: XAG
+    name: Pallet, shrinkwrapped
+    description:
+      "Pallet load secured with transparent plastic film that has been wrapped around
+      and then shrunk tightly."
+
+  - id: XAH
+    name: Pallet, 100cms * 110cms
+    description:
+      "Standard sized pallet of dimensions 100centimeters by 110 centimeters
+      (cms)."
+
+  - id: XAI
+    name: Clamshell
+
+  - id: XAJ
+    name: Cone
+    description: "Container used in the transport of linear material such as yarn."
+
+  - id: XAL
+    name: Ball
+    description: "A spherical containment vessel for retaining substances or
+      articles."
+
+  - id: XAM
+    name: Ampoule, non-protected
+
+  - id: XAP
+    name: Ampoule, protected
+
+  - id: XAT
+    name: Atomizer
+
+  - id: XAV
+    name: Capsule
+
+  - id: XB4
+    name: Belt
+    description: "A band use to retain multiple articles together."
+
+  - id: XBA
+    name: Barrel
+
+  - id: XBB
+    name: Bobbin
+
+  - id: XBC
+    name: Bottlecrate / bottlerack
+
+  - id: XBD
+    name: Board
+
+  - id: XBE
+    name: Bundle
+
+  - id: XBF
+    name: Balloon, non-protected
+
+  - id: XBG
+    name: Bag
+    description: "A receptacle made of flexible material with an open or closed
+      top."
+
+  - id: XBH
+    name: Bunch
+
+  - id: XBI
+    name: Bin
+
+  - id: XBJ
+    name: Bucket
+
+  - id: XBK
+    name: Basket
+
+  - id: XBL
+    name: Bale, compressed
+
+  - id: XBM
+    name: Basin
+
+  - id: XBN
+    name: Bale, non-compressed
+
+  - id: XBO
+    name: Bottle, non-protected, cylindrical
+    description:
+      "A narrow-necked cylindrical shaped vessel without external protective packing
+      material."
+
+  - id: XBP
+    name: Balloon, protected
+
+  - id: XBQ
+    name: Bottle, protected cylindrical
+    description:
+      "A narrow-necked cylindrical shaped vessel with external protective packing
+      material."
+
+  - id: XBR
+    name: Bar
+
+  - id: XBS
+    name: Bottle, non-protected, bulbous
+    description:
+      "A narrow-necked bulb shaped vessel without external protective packing
+      material."
+
+  - id: XBT
+    name: Bolt
+
+  - id: XBU
+    name: Butt
+
+  - id: XBV
+    name: Bottle, protected bulbous
+    description:
+      "A narrow-necked bulb shaped vessel with external protective packing
+      material."
+
+  - id: XBW
+    name: Box, for liquids
+
+  - id: XBX
+    name: Box
+
+  - id: XBY
+    name: Board, in bundle/bunch/truss
+
+  - id: XBZ
+    name: Bars, in bundle/bunch/truss
+
+  - id: XCA
+    name: Can, rectangular
+
+  - id: XCB
+    name: Crate, beer
+
+  - id: XCC
+    name: Churn
+
+  - id: XCD
+    name: Can, with handle and spout
+
+  - id: XCE
+    name: Creel
+
+  - id: XCF
+    name: Coffer
+
+  - id: XCG
+    name: Cage
+
+  - id: XCH
+    name: Chest
+
+  - id: XCI
+    name: Canister
+
+  - id: XCJ
+    name: Coffin
+
+  - id: XCK
+    name: Cask
+
+  - id: XCL
+    name: Coil
+
+  - id: XCM
+    name: Card
+    description:
+      "A flat package usually made of fibreboard from/to which product is often hung
+      or attached."
+
+  - id: XCN
+    name: Container, not otherwise specified as transport equipment
+
+  - id: XCO
+    name: Carboy, non-protected
+
+  - id: XCP
+    name: Carboy, protected
+
+  - id: XCQ
+    name: Cartridge
+    description:
+      "Package containing a charge such as propelling explosive for firearms or ink
+      toner for a printer."
+
+  - id: XCR
+    name: Crate
+
+  - id: XCS
+    name: Case
+
+  - id: XCT
+    name: Carton
+
+  - id: XCU
+    name: Cup
+
+  - id: XCV
+    name: Cover
+
+  - id: XCW
+    name: Cage, roll
+
+  - id: XCX
+    name: Can, cylindrical
+
+  - id: XCY
+    name: Cylinder
+
+  - id: XCZ
+    name: Canvas
+
+  - id: XDA
+    name: Crate, multiple layer, plastic
+
+  - id: XDB
+    name: Crate, multiple layer, wooden
+
+  - id: XDC
+    name: Crate, multiple layer, cardboard
+
+  - id: XDG
+    name: Cage, Commonwealth Handling Equipment Pool (CHEP)
+
+  - id: XDH
+    name: Box, Commonwealth Handling Equipment Pool (CHEP), Eurobox
+    description: "A box mounted on a pallet base under the control of CHEP."
+
+  - id: XDI
+    name: Drum, iron
+
+  - id: XDJ
+    name: Demijohn, non-protected
+
+  - id: XDK
+    name: Crate, bulk, cardboard
+
+  - id: XDL
+    name: Crate, bulk, plastic
+
+  - id: XDM
+    name: Crate, bulk, wooden
+
+  - id: XDN
+    name: Dispenser
+
+  - id: XDP
+    name: Demijohn, protected
+
+  - id: XDR
+    name: Drum
+
+  - id: XDS
+    name: Tray, one layer no cover, plastic
+
+  - id: XDT
+    name: Tray, one layer no cover, wooden
+
+  - id: XDU
+    name: Tray, one layer no cover, polystyrene
+
+  - id: XDV
+    name: Tray, one layer no cover, cardboard
+
+  - id: XDW
+    name: Tray, two layers no cover, plastic tray
+
+  - id: XDX
+    name: Tray, two layers no cover, wooden
+
+  - id: XDY
+    name: Tray, two layers no cover, cardboard
+
+  - id: XEC
+    name: Bag, plastic
+
+  - id: XED
+    name: Case, with pallet base
+
+  - id: XEE
+    name: Case, with pallet base, wooden
+
+  - id: XEF
+    name: Case, with pallet base, cardboard
+
+  - id: XEG
+    name: Case, with pallet base, plastic
+
+  - id: XEH
+    name: Case, with pallet base, metal
+
+  - id: XEI
+    name: Case, isothermic
+
+  - id: XEN
+    name: Envelope
+
+  - id: XFB
+    name: Flexibag
+    description:
+      "A flexible containment bag made of plastic, typically for the transportation
+      bulk non-hazardous cargoes using standard size shipping containers."
+
+  - id: XFC
+    name: Crate, fruit
+
+  - id: XFD
+    name: Crate, framed
+
+  - id: XFE
+    name: Flexitank
+    description:
+      "A flexible containment tank made of plastic, typically for the transportation
+      bulk non-hazardous cargoes using standard size shipping containers."
+
+  - id: XFI
+    name: Firkin
+
+  - id: XFL
+    name: Flask
+
+  - id: XFO
+    name: Footlocker
+
+  - id: XFP
+    name: Filmpack
+
+  - id: XFR
+    name: Frame
+
+  - id: XFT
+    name: Foodtainer
+
+  - id: XFW
+    name: Cart, flatbed
+    description:
+      "Wheeled flat bedded device on which trays or other regular shaped items are
+      packed for transportation purposes."
+
+  - id: XFX
+    name: Bag, flexible container
+
+  - id: XGB
+    name: Bottle, gas
+    description:
+      "A narrow-necked metal cylinder for retention of liquefied or compressed
+      gas."
+
+  - id: XGI
+    name: Girder
+
+  - id: XGL
+    name: Container, gallon
+    description: "A container with a capacity of one gallon."
+
+  - id: XGR
+    name: Receptacle, glass
+    description: "Containment vessel made of glass for retaining substances or
+      articles."
+
+  - id: XGU
+    name: Tray, containing horizontally stacked flat items
+    description: "Tray containing flat items stacked on top of one another."
+
+  - id: XGY
+    name: Bag, gunny
+    description:
+      "A sack made of gunny or burlap, used for transporting coarse commodities, such
+      as grains, potatoes, and other agricultural products."
+
+  - id: XGZ
+    name: Girders, in bundle/bunch/truss
+
+  - id: XHA
+    name: Basket, with handle, plastic
+
+  - id: XHB
+    name: Basket, with handle, wooden
+
+  - id: XHC
+    name: Basket, with handle, cardboard
+
+  - id: XHG
+    name: Hogshead
+
+  - id: XHN
+    name: Hanger
+    description:
+      "A purpose shaped device with a hook at the top for hanging items from a
+      rail."
+
+  - id: XHR
+    name: Hamper
+
+  - id: XIA
+    name: Package, display, wooden
+
+  - id: XIB
+    name: Package, display, cardboard
+
+  - id: XIC
+    name: Package, display, plastic
+
+  - id: XID
+    name: Package, display, metal
+
+  - id: XIE
+    name: Package, show
+
+  - id: XIF
+    name: Package, flow
+    description:
+      "A flexible tubular package or skin, possibly transparent, often used for
+      containment of foodstuffs (e.g. salami sausage)."
+
+  - id: XIG
+    name: Package, paper wrapped
+
+  - id: XIH
+    name: Drum, plastic
+
+  - id: XIK
+    name: Package, cardboard, with bottle grip-holes
+    description:
+      "Packaging material made out of cardboard that facilitates the separation of
+      individual glass or plastic bottles."
+
+  - id: XIL
+    name: Tray, rigid, lidded stackable (CEN TS 14482:2002)
+    description: "Lidded stackable rigid tray compliant with CEN TS 14482:2002."
+
+  - id: XIN
+    name: Ingot
+
+  - id: XIZ
+    name: Ingots, in bundle/bunch/truss
+
+  - id: XJB
+    name: Bag, jumbo
+    description:
+      "A flexible containment bag, widely used for storage, transportation and
+      handling of powder, flake or granular materials. Typically constructed from woven
+      polypropylene (PP) fabric in the form of cubic bags."
+
+  - id: XJC
+    name: Jerrican, rectangular
+
+  - id: XJG
+    name: Jug
+
+  - id: XJR
+    name: Jar
+
+  - id: XJT
+    name: Jutebag
+
+  - id: XJY
+    name: Jerrican, cylindrical
+
+  - id: XKG
+    name: Keg
+
+  - id: XKI
+    name: Kit
+    description: "A set of articles or implements used for a specific purpose."
+
+  - id: XLE
+    name: Luggage
+    description:
+      "A collection of bags, cases and/or containers which hold personal belongings
+      for a journey."
+
+  - id: XLG
+    name: Log
+
+  - id: XLT
+    name: Lot
+
+  - id: XLU
+    name: Lug
+    description: "A wooden box for the transportation and storage of fruit or
+      vegetables."
+
+  - id: XLV
+    name: Liftvan
+    description:
+      "A wooden or metal container used for packing household goods and personal
+      effects."
+
+  - id: XLZ
+    name: Logs, in bundle/bunch/truss
+
+  - id: XMA
+    name: Crate, metal
+    description: "Containment box made of metal for retaining substances or
+      articles."
+
+  - id: XMB
+    name: Bag, multiply
+
+  - id: XMC
+    name: Crate, milk
+
+  - id: XME
+    name: Container, metal
+    description:
+      "A type of containment box made of metal for retaining substances or articles,
+      not otherwise specified as transport equipment."
+
+  - id: XMR
+    name: Receptacle, metal
+    description: "Containment vessel made of metal for retaining substances or
+      articles."
+
+  - id: XMS
+    name: Sack, multi-wall
+
+  - id: XMT
+    name: Mat
+
+  - id: XMW
+    name: Receptacle, plastic wrapped
+    description:
+      "Containment vessel wrapped with plastic for retaining substances or
+      articles."
+
+  - id: XMX
+    name: Matchbox
+
+  - id: XNA
+    name: Not available
+
+  - id: XNE
+    name: Unpacked or unpackaged
+
+  - id: XNF
+    name: Unpacked or unpackaged, single unit
+
+  - id: XNG
+    name: Unpacked or unpackaged, multiple units
+
+  - id: XNS
+    name: Nest
+
+  - id: XNT
+    name: Net
+
+  - id: XNU
+    name: Net, tube, plastic
+
+  - id: XNV
+    name: Net, tube, textile
+
+  - id: XO1
+    name: Two sided cage on wheels with fixing strap
+
+  - id: XO2
+    name: Trolley
+
+  - id: XO3
+    name: Oneway pallet ISO 0 - 1/2 EURO Pallet
+
+  - id: XO4
+    name: Oneway pallet ISO 1 - 1/1 EURO Pallet
+
+  - id: XO5
+    name: Oneway pallet ISO 2 - 2/1 EURO Pallet
+
+  - id: XO6
+    name: Pallet with exceptional dimensions
+
+  - id: XO7
+    name: Wooden pallet  40 cm x 80 cm
+
+  - id: XO8
+    name: Plastic pallet SRS 60 cm x 80 cm
+
+  - id: XO9
+    name: Plastic pallet SRS 80 cm x 120 cm
+
+  - id: XOA
+    name: Pallet, CHEP 40 cm x 60 cm
+    description:
+      "Commonwealth Handling Equipment Pool (CHEP) standard pallet of dimensions 40
+      centimeters x 60 centimeters."
+
+  - id: XOB
+    name: Pallet, CHEP 80 cm x 120 cm
+    description:
+      "Commonwealth Handling Equipment Pool (CHEP) standard pallet of dimensions 80
+      centimeters x 120 centimeters."
+
+  - id: XOC
+    name: Pallet, CHEP 100 cm x 120 cm
+    description:
+      "Commonwealth Handling Equipment Pool (CHEP) standard pallet of dimensions 100
+      centimeters x 120 centimeters."
+
+  - id: XOD
+    name: Pallet, AS 4068-1993
+    description:
+      "Australian standard pallet of dimensions 115.5 centimeters x 116.5
+      centimeters."
+
+  - id: XOE
+    name: Pallet, ISO T11
+    description:
+      "ISO standard pallet of dimensions 110 centimeters x 110 centimeters, prevalent
+      in Asia - Pacific region."
+
+  - id: XOF
+    name: Platform, unspecified weight or dimension
+    description:
+      "A pallet equivalent shipping platform of unknown dimensions or unknown
+      weight."
+
+  - id: XOG
+    name: Pallet ISO 0 - 1/2 EURO Pallet
+
+  - id: XOH
+    name: Pallet ISO 1 - 1/1 EURO Pallet
+
+  - id: XOI
+    name: Pallet ISO 2 – 2/1 EURO Pallet
+
+  - id: XOK
+    name: Block
+    description:
+      "A solid piece of a hard substance, such as granite, having one or more flat
+      sides."
+
+  - id: XOJ
+    name: 1/4 EURO Pallet
+
+  - id: XOL
+    name: 1/8 EURO Pallet
+
+  - id: XOM
+    name: Synthetic pallet ISO 1
+
+  - id: XON
+    name: Synthetic pallet ISO 2
+
+  - id: XOP
+    name: Wholesaler pallet
+
+  - id: XOQ
+    name: Pallet 80 X 100 cm
+
+  - id: XOR
+    name: Pallet 60 X 100 cm
+
+  - id: XOS
+    name: Oneway pallet
+
+  - id: XOV
+    name: Returnable pallet
+
+  - id: XOW
+    name: Large bag, pallet sized
+
+  - id: XOT
+    name: Octabin
+    description:
+      "A standard cardboard container of large dimensions for storing for example
+      vegetables, granules of plastics or other dry products."
+
+  - id: XOU
+    name: Container, outer
+    description:
+      "A type of containment box that serves as the outer shipping container, not
+      otherwise specified as transport equipment."
+
+  - id: XOX
+    name: A wheeled pallet with raised rim (81 x 67 x 135)
+
+  - id: XOY
+    name: A Wheeled pallet with raised rim (81 x 72 x 135)
+
+  - id: XOZ
+    name: Wheeled pallet with raised rim ( 81 x 60 x 16)
+
+  - id: XP1
+    name: CHEP pallet 60 cm x 80 cm
+
+  - id: XP2
+    name: Pan
+    description: "A shallow, wide, open container, usually of metal."
+
+  - id: XP3
+    name: LPR pallet 60 cm x 80 cm
+
+  - id: XP4
+    name: LPR pallet 80 cm x 120 cm
+
+  - id: XPA
+    name: Packet
+    description: "Small package."
+
+  - id: XPB
+    name: Pallet, box Combined open-ended box and pallet
+
+  - id: XPC
+    name: Parcel
+
+  - id: XPD
+    name: Pallet, modular, collars 80cms * 100cms
+    description:
+      "Standard sized pallet of dimensions 80 centimeters by 100 centimeters
+      (cms)."
+
+  - id: XPE
+    name: Pallet, modular, collars 80cms * 120cms
+    description:
+      "Standard sized pallet of dimensions 80 centimeters by 120 centimeters
+      (cms)."
+
+  - id: XPF
+    name: Pen
+    description: "A small open top enclosure for retaining animals."
+
+  - id: XPG
+    name: Plate
+
+  - id: XPH
+    name: Pitcher
+
+  - id: XPI
+    name: Pipe
+
+  - id: XPJ
+    name: Punnet
+
+  - id: XPK
+    name: Package
+    description: "Standard packaging unit."
+
+  - id: XPL
+    name: Pail
+
+  - id: XPN
+    name: Plank
+
+  - id: XPO
+    name: Pouch
+
+  - id: XPP
+    name: Piece
+    description: "A loose or unpacked article."
+
+  - id: XPR
+    name: Receptacle, plastic
+    description: "Containment vessel made of plastic for retaining substances or
+      articles."
+
+  - id: XPT
+    name: Pot
+
+  - id: XPU
+    name: Tray
+
+  - id: XPV
+    name: Pipes, in bundle/bunch/truss
+
+  - id: XPX
+    name: Pallet
+    description:
+      "Platform or open-ended box, usually made of wood, on which goods are retained
+      for ease of mechanical handling during transport and storage."
+
+  - id: XPY
+    name: Plates, in bundle/bunch/truss
+
+  - id: XPZ
+    name: Planks, in bundle/bunch/truss
+
+  - id: XQA
+    name: Drum, steel, non-removable head
+
+  - id: XQB
+    name: Drum, steel, removable head
+
+  - id: XQC
+    name: Drum, aluminium, non-removable head
+
+  - id: XQD
+    name: Drum, aluminium, removable head
+
+  - id: XQF
+    name: Drum, plastic, non-removable head
+
+  - id: XQG
+    name: Drum, plastic, removable head
+
+  - id: XQH
+    name: Barrel, wooden, bung type
+
+  - id: XQJ
+    name: Barrel, wooden, removable head
+
+  - id: XQK
+    name: Jerrican, steel, non-removable head
+
+  - id: XQL
+    name: Jerrican, steel, removable head
+
+  - id: XQM
+    name: Jerrican, plastic, non-removable head
+
+  - id: XQN
+    name: Jerrican, plastic, removable head
+
+  - id: XQP
+    name: Box, wooden, natural wood, ordinary
+
+  - id: XQQ
+    name: Box, wooden, natural wood, with sift proof walls
+
+  - id: XQR
+    name: Box, plastic, expanded
+
+  - id: XQS
+    name: Box, plastic, solid
+
+  - id: XRD
+    name: Rod
+
+  - id: XRG
+    name: Ring
+
+  - id: XRJ
+    name: Rack, clothing hanger
+
+  - id: XRK
+    name: Rack
+
+  - id: XRL
+    name: Reel
+    description:
+      "Cylindrical rotatory device with a rim at each end on which materials are
+      wound."
+
+  - id: XRO
+    name: Roll
+
+  - id: XRT
+    name: Rednet
+    description:
+      "Containment material made of red mesh netting for retaining articles (e.g.
+      trees)."
+
+  - id: XRZ
+    name: Rods, in bundle/bunch/truss
+
+  - id: XSA
+    name: Sack
+
+  - id: XSB
+    name: Slab
+
+  - id: XSC
+    name: Crate, shallow
+
+  - id: XSD
+    name: Spindle
+
+  - id: XSE
+    name: Sea-chest
+
+  - id: XSH
+    name: Sachet
+
+  - id: XSI
+    name: Skid
+    description:
+      "A low movable platform or pallet to facilitate the handling and transport of
+      goods."
+
+  - id: XSK
+    name: Case, skeleton
+
+  - id: XSL
+    name: Slipsheet
+    description:
+      "Hard plastic sheeting primarily used as the base on which to stack goods to
+      optimise the space within a container. May be used as an alternative to a palletized
+      packaging."
+
+  - id: XSM
+    name: Sheetmetal
+
+  - id: XSO
+    name: Spool
+    description:
+      "A packaging container used in the transport of such items as wire, cable, tape
+      and yarn."
+
+  - id: XSP
+    name: Sheet, plastic wrapping
+
+  - id: XSS
+    name: Case, steel
+
+  - id: XST
+    name: Sheet
+
+  - id: XSU
+    name: Suitcase
+
+  - id: XSV
+    name: Envelope, steel
+
+  - id: XSW
+    name: Shrinkwrapped
+    description:
+      "Goods retained in a transparent plastic film that has been wrapped around and
+      then shrunk tightly on to the goods."
+
+  - id: XSX
+    name: Set
+
+  - id: XSY
+    name: Sleeve
+
+  - id: XSZ
+    name: Sheets, in bundle/bunch/truss
+
+  - id: XT1
+    name: Tablet
+    description: "A loose or unpacked article in the form of a bar, block or piece."
+
+  - id: XTB
+    name: Tub
+
+  - id: XTC
+    name: Tea-chest
+
+  - id: XTD
+    name: Tube, collapsible
+
+  - id: XTE
+    name: Tyre
+    description: "A ring made of rubber and/or metal surrounding a wheel."
+
+  - id: XTG
+    name: Tank container, generic
+    description:
+      "A specially constructed container for transporting liquids and gases in
+      bulk."
+
+  - id: XTI
+    name: Tierce
+
+  - id: XTK
+    name: Tank, rectangular
+
+  - id: XTL
+    name: Tub, with lid
+
+  - id: XTN
+    name: Tin
+
+  - id: XTO
+    name: Tun
+
+  - id: XTR
+    name: Trunk
+
+  - id: XTS
+    name: Truss
+
+  - id: XTT
+    name: Bag, tote
+    description: "A capacious bag or basket."
+
+  - id: XTU
+    name: Tube
+
+  - id: XTV
+    name: Tube, with nozzle
+    description:
+      "A tube made of plastic, metal or cardboard fitted with a nozzle, containing a
+      liquid or semi-liquid product, e.g. silicon."
+
+  - id: XTW
+    name: Pallet, triwall
+    description: "A lightweight pallet made from heavy duty corrugated board."
+
+  - id: XTY
+    name: Tank, cylindrical
+
+  - id: XTZ
+    name: Tubes, in bundle/bunch/truss
+
+  - id: XUC
+    name: Uncaged
+
+  - id: XUN
+    name: Unit
+    description:
+      "A type of package composed of a single item or object, not otherwise specified
+      as a unit of transport equipment."
+
+  - id: XVA
+    name: Vat
+
+  - id: XVG
+    name: Bulk, gas (at 1031 mbar and 15°C)
+
+  - id: XVI
+    name: Vial
+
+  - id: XVK
+    name: Vanpack
+    description: "A type of wooden crate."
+
+  - id: XVL
+    name: Bulk, liquid
+
+  - id: XVO
+    name: Bulk, solid, large particles (“nodules”)
+
+  - id: XVP
+    name: Vacuum-packed
+
+  - id: XVQ
+    name: Bulk, liquefied gas (at abnormal temperature/pressure)
+
+  - id: XVN
+    name: Vehicle
+    description: "A self-propelled means of conveyance."
+
+  - id: XVR
+    name: Bulk, solid, granular particles (“grains”)
+
+  - id: XVS
+    name: Bulk, scrap metal
+    description: "Loose or unpacked scrap metal transported in bulk form."
+
+  - id: XVY
+    name: Bulk, solid, fine particles (“powders”)
+
+  - id: XWA
+    name: Intermediate bulk container
+    description:
+      "A reusable container made of metal, plastic, textile, wood or composite
+      materials used to facilitate transportation of bulk solids and liquids in manageable
+      volumes."
+
+  - id: XWB
+    name: Wickerbottle
+
+  - id: XWC
+    name: Intermediate bulk container, steel
+
+  - id: XWD
+    name: Intermediate bulk container, aluminium
+
+  - id: XWF
+    name: Intermediate bulk container, metal
+
+  - id: XWG
+    name: Intermediate bulk container, steel, pressurised &gt; 10 kpa
+
+  - id: XWH
+    name: Intermediate bulk container, aluminium, pressurised &gt; 10 kpa
+
+  - id: XWJ
+    name: Intermediate bulk container, metal, pressure 10 kpa
+
+  - id: XWK
+    name: Intermediate bulk container, steel, liquid
+
+  - id: XWL
+    name: Intermediate bulk container, aluminium, liquid
+
+  - id: XWM
+    name: Intermediate bulk container, metal, liquid
+
+  - id: XWN
+    name: Intermediate bulk container, woven plastic, without coat/liner
+
+  - id: XWP
+    name: Intermediate bulk container, woven plastic, coated
+
+  - id: XWQ
+    name: Intermediate bulk container, woven plastic, with liner
+
+  - id: XWR
+    name: Intermediate bulk container, woven plastic, coated and liner
+
+  - id: XWS
+    name: Intermediate bulk container, plastic film
+
+  - id: XWT
+    name: Intermediate bulk container, textile with out coat/liner
+
+  - id: XWU
+    name: Intermediate bulk container, natural wood, with inner liner
+
+  - id: XWV
+    name: Intermediate bulk container, textile, coated
+
+  - id: XWW
+    name: Intermediate bulk container, textile, with liner
+
+  - id: XWX
+    name: Intermediate bulk container, textile, coated and liner
+
+  - id: XWY
+    name: Intermediate bulk container, plywood, with inner liner
+
+  - id: XWZ
+    name: Intermediate bulk container, reconstituted wood, with inner liner
+
+  - id: XXA
+    name: Bag, woven plastic, without inner coat/liner
+
+  - id: XXB
+    name: Bag, woven plastic, sift proof
+
+  - id: XXC
+    name: Bag, woven plastic, water resistant
+
+  - id: XXD
+    name: Bag, plastics film
+
+  - id: XXF
+    name: Bag, textile, without inner coat/liner
+
+  - id: XXG
+    name: Bag, textile, sift proof
+
+  - id: XXH
+    name: Bag, textile, water resistant
+
+  - id: XXJ
+    name: Bag, paper, multi-wall
+
+  - id: XXK
+    name: Bag, paper, multi-wall, water resistant
+
+  - id: XYA
+    name: Composite packaging, plastic receptacle in steel drum
+
+  - id: XYB
+    name: Composite packaging, plastic receptacle in steel crate box
+
+  - id: XYC
+    name: Composite packaging, plastic receptacle in aluminium drum
+
+  - id: XYD
+    name: Composite packaging, plastic receptacle in aluminium crate
+
+  - id: XYF
+    name: Composite packaging, plastic receptacle in wooden box
+
+  - id: XYG
+    name: Composite packaging, plastic receptacle in plywood drum
+
+  - id: XYH
+    name: Composite packaging, plastic receptacle in plywood box
+
+  - id: XYJ
+    name: Composite packaging, plastic receptacle in fibre drum
+
+  - id: XYK
+    name: Composite packaging, plastic receptacle in fibreboard box
+
+  - id: XYL
+    name: Composite packaging, plastic receptacle in plastic drum
+
+  - id: XYM
+    name: Composite packaging, plastic receptacle in solid plastic box
+
+  - id: XYN
+    name: Composite packaging, glass receptacle in steel drum
+
+  - id: XYP
+    name: Composite packaging, glass receptacle in steel crate box
+
+  - id: XYQ
+    name: Composite packaging, glass receptacle in aluminium drum
+
+  - id: XYR
+    name: Composite packaging, glass receptacle in aluminium crate
+
+  - id: XYS
+    name: Composite packaging, glass receptacle in wooden box
+
+  - id: XYT
+    name: Composite packaging, glass receptacle in plywood drum
+
+  - id: XYV
+    name: Composite packaging, glass receptacle in wickerwork hamper
+
+  - id: XYW
+    name: Composite packaging, glass receptacle in fibre drum
+
+  - id: XYX
+    name: Composite packaging, glass receptacle in fibreboard box
+
+  - id: XYY
+    name: Composite packaging, glass receptacle in expandable plastic pack
+
+  - id: XYZ
+    name: Composite packaging, glass receptacle in solid plastic pack
+
+  - id: XZA
+    name: Intermediate bulk container, paper, multi-wall
+
+  - id: XZB
+    name: Bag, large
+
+  - id: XZC
+    name: Intermediate bulk container, paper, multi-wall, water resistant
+
+  - id: XZD
+    name: Intermediate bulk container, rigid plastic, with structural equipment, solids
+
+  - id: XZF
+    name: Intermediate bulk container, rigid plastic, freestanding, solids
+
+  - id: XZG
+    name: Intermediate bulk container, rigid plastic, with structural equipment,
+      pressurised
+
+  - id: XZH
+    name: Intermediate bulk container, rigid plastic, freestanding, pressurised
+
+  - id: XZJ
+    name: Intermediate bulk container, rigid plastic, with structural equipment, liquids
+
+  - id: XZK
+    name: Intermediate bulk container, rigid plastic, freestanding, liquids
+
+  - id: XZL
+    name: Intermediate bulk container, composite, rigid plastic, solids
+
+  - id: XZM
+    name: Intermediate bulk container, composite, flexible plastic, solids
+
+  - id: XZN
+    name: Intermediate bulk container, composite, rigid plastic, pressurised
+
+  - id: XZP
+    name: Intermediate bulk container, composite, flexible plastic, pressurised
+
+  - id: XZQ
+    name: Intermediate bulk container, composite, rigid plastic, liquids
+
+  - id: XZR
+    name: Intermediate bulk container, composite, flexible plastic, liquids
+
+  - id: XZS
+    name: Intermediate bulk container, composite
+
+  - id: XZT
+    name: Intermediate bulk container, fibreboard
+
+  - id: XZU
+    name: Intermediate bulk container, flexible
+
+  - id: XZV
+    name: Intermediate bulk container, metal, other than steel
+
+  - id: XZW
+    name: Intermediate bulk container, natural wood
+
+  - id: XZX
+    name: Intermediate bulk container, plywood
+
+  - id: XZY
+    name: Intermediate bulk container, reconstituted wood
+  # END of Recommendation 21

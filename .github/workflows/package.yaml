@@ -1,0 +1,46 @@
+name: Package
+
+on:
+  push:
+    branches:
+      - main
+  release:
+    types:
+      - released
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Prepare version labels
+        uses: k15g/action-version-labels@edge
+        with:
+          prefix: project
+
+      - name: Build
+        run: make build
+
+      - name: Package
+        run: make zip
+
+      - name: Upload resources
+        uses: actions/upload-artifact@v2
+        with:
+          name: codelists-${{ env.PROJECT_VERSION }}
+          path: target/codelist
+          retention-days: 3
+
+      - name: Upload asset
+        uses: k15g/action-github-asset-upload@edge
+        if: startsWith(github.ref, 'refs/tags/v')
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          file: target/codelists.zip
+          name: codelists-${{ env.PROJECT_VERSION }}.zip
+          label: Bundle

@@ -1,0 +1,724 @@
+identifier: D.16B
+status: published
+
+codes:
+  - id: AA
+    name: Advertising
+    description: The service of providing advertising.
+
+  - id: AAA
+    name: Telecommunication
+    description: The service of providing telecommunication activities and/or faclities.
+
+  - id: AAC
+    name: Technical modification
+    description: The service of making technical modifications to a product.
+
+  - id: AAD
+    name: Job-order production
+    description: The service of producing to order.
+
+  - id: AAE
+    name: Outlays
+    description: The service of providing money for outlays on behalf of a trading partner.
+
+  - id: AAF
+    name: Off-premises
+    description: The service of providing services outside the premises of the provider.
+
+  - id: AAH
+    name: Additional processing
+    description: The service of providing additional processing.
+
+  - id: AAI
+    name: Attesting
+    description: The service of certifying validity.
+
+  - id: AAS
+    name: Acceptance
+    description: The service of accepting goods or services.
+
+  - id: AAT
+    name: Rush delivery
+    description: The service to provide a rush delivery.
+
+  - id: AAV
+    name: Special construction
+    description: The service of providing special construction.
+
+  - id: AAY
+    name: Airport facilities
+    description: The service of providing airport facilities.
+
+  - id: AAZ
+    name: Concession
+    description: The service allowing a party to use another party's facilities.
+
+  - id: ABA
+    name: Compulsory storage
+    description: The service provided to hold a compulsory inventory.
+
+  - id: ABB
+    name: Fuel removal
+    description: Remove or off-load fuel from vehicle, vessel or craft.
+
+  - id: ABC
+    name: Into plane
+    description: Service of delivering goods to an aircraft from local storage.
+
+  - id: ABD
+    name: Overtime
+    description: The service of providing labour beyond the established limit of working hours.
+
+  - id: ABF
+    name: Tooling
+    description: The service of providing specific tooling.
+
+  - id: ABK
+    name: Miscellaneous
+    description: Miscellaneous services.
+
+  - id: ABL
+    name: Additional packaging
+    description: The service of providing additional packaging.
+
+  - id: ABN
+    name: Dunnage
+    description:
+      The service of providing additional padding materials required to secure and
+      protect a cargo within a shipping container.
+
+  - id: ABR
+    name: Containerisation
+    description: The service of packing items into a container.
+
+  - id: ABS
+    name: Carton packing
+    description: The service of packing items into a carton.
+
+  - id: ABT
+    name: Hessian wrapped
+    description: The service of hessian wrapping.
+
+  - id: ABU
+    name: Polyethylene wrap packing
+    description: The service of packing in polyethylene wrapping.
+
+  - id: ACF
+    name: Miscellaneous treatment
+    description: Miscellaneous treatment service.
+
+  - id: ACG
+    name: Enamelling treatment
+    description: The service of providing enamelling treatment.
+
+  - id: ACH
+    name: Heat treatment
+    description: The service of treating with heat.
+
+  - id: ACI
+    name: Plating treatment
+    description: The service of providing plating treatment.
+
+  - id: ACJ
+    name: Painting
+    description: The service of painting.
+
+  - id: ACK
+    name: Polishing
+    description: The service of polishing.
+
+  - id: ACL
+    name: Priming
+    description: The service of priming.
+
+  - id: ACM
+    name: Preservation treatment
+    description: The service of preservation treatment.
+
+  - id: ACS
+    name: Fitting
+    description: Fitting service.
+
+  - id: ADC
+    name: Consolidation
+    description: The service of consolidating multiple consignments into one shipment.
+
+  - id: ADE
+    name: Bill of lading
+    description: The service of providing a bill of lading document.
+
+  - id: ADJ
+    name: Airbag
+    description: The service of surrounding a product with an air bag.
+
+  - id: ADK
+    name: Transfer
+    description: The service of transferring.
+
+  - id: ADL
+    name: Slipsheet
+    description: The service of securing a stack of products on a slipsheet.
+
+  - id: ADM
+    name: Binding
+    description: Binding service.
+
+  - id: ADN
+    name: Repair or replacement of broken returnable package
+    description: The service of repairing or replacing a broken returnable package.
+
+  - id: ADO
+    name: Efficient logistics
+    description: A code indicating efficient logistics services.
+
+  - id: ADP
+    name: Merchandising
+    description: A code indicating that merchandising services are in operation.
+
+  - id: ADQ
+    name: Product mix
+    description: A code indicating that product mixing services are in operation.
+
+  - id: ADR
+    name: Other services
+    description: A code indicating that other non-specific services are in operation.
+
+  - id: ADT
+    name: Pick-up
+    description: The service of picking up or collection of goods.
+
+  - id: ADW
+    name: Chronic illness
+    description: The special services provided due to chronic illness.
+
+  - id: ADY
+    name: New product introduction
+    description:
+      A service provided by a buyer when introducing a new product from a suppliers
+      range to the range traded by the buyer.
+
+  - id: ADZ
+    name: Direct delivery
+    description: Direct delivery service.
+
+  - id: AEA
+    name: Diversion
+    description: The service of diverting deliverables.
+
+  - id: AEB
+    name: Disconnect
+    description: The service is a disconnection.
+
+  - id: AEC
+    name: Distribution
+    description: Distribution service.
+
+  - id: AED
+    name: Handling of hazardous cargo
+    description: A service for handling hazardous cargo.
+
+  - id: AEF
+    name: Rents and leases
+    description: The service of renting and/or leasing.
+
+  - id: AEH
+    name: Location differential
+    description: Delivery to a different location than previously contracted.
+
+  - id: AEI
+    name: Aircraft refueling
+    description: Fuel being put into the aircraft.
+
+  - id: AEJ
+    name: Fuel shipped into storage
+    description: Fuel being shipped into a storage system.
+
+  - id: AEK
+    name: Cash on delivery
+    description: The provision of a cash on delivery (COD) service.
+
+  - id: AEL
+    name: Small order processing service
+    description: A service related to the processing of small orders.
+
+  - id: AEM
+    name: Clerical or administrative services
+    description: The provision of clerical or administrative services.
+
+  - id: AEN
+    name: Guarantee
+    description: The service of providing a guarantee.
+
+  - id: AEO
+    name: Collection and recycling
+    description: The service of collection and recycling products.
+
+  - id: AEP
+    name: Copyright fee collection
+    description: The service of collecting copyright fees.
+
+  - id: AES
+    name: Veterinary inspection service
+    description: The service of providing veterinary inspection.
+
+  - id: AET
+    name: Pensioner service
+    description: Special service when the subject is a pensioner.
+
+  - id: AEU
+    name: Medicine free pass holder
+    description: Special service when the subject holds a medicine free pass.
+
+  - id: AEV
+    name: Environmental protection service
+    description: The provision of an environmental protection service.
+
+  - id: AEW
+    name: Environmental clean-up service
+    description: The provision of an environmental clean-up service.
+
+  - id: AEX
+    name: National cheque processing service outside account area
+    description:
+      Service of processing a national cheque outside the ordering customer's bank
+      trading area.
+
+  - id: AEY
+    name: National payment service outside account area
+    description:
+      Service of processing a national payment to a beneficiary holding an account
+      outside the trading area of the ordering customer's bank.
+
+  - id: AEZ
+    name: National payment service within account area
+    description:
+      Service of processing a national payment to a beneficiary holding an account
+      within the trading area of the ordering customer's bank.
+
+  - id: AJ
+    name: Adjustments
+    description: The service of making adjustments.
+
+  - id: AU
+    name: Authentication
+    description: The service of authenticating.
+
+  - id: CA
+    name: Cataloguing
+    description: The provision of cataloguing services.
+
+  - id: CAB
+    name: Cartage
+    description: Movement of goods by heavy duty cart or vehicle.
+
+  - id: CAD
+    name: Certification
+    description: The service of certifying.
+
+  - id: CAE
+    name: Certificate of conformance
+    description: The service of providing a certificate of conformance.
+
+  - id: CAF
+    name: Certificate of origin
+    description: The service of providing a certificate of origin.
+
+  - id: CAI
+    name: Cutting
+    description: The service of cutting.
+
+  - id: CAJ
+    name: Consular service
+    description: The service provided by consulates.
+
+  - id: CAK
+    name: Customer collection
+    description: The service of collecting goods by the customer.
+
+  - id: CAL
+    name: Payroll payment service
+    description: Provision of a payroll payment service.
+
+  - id: CAM
+    name: Cash transportation
+    description: Provision of a cash transportation service.
+
+  - id: CAN
+    name: Home banking service
+    description: Provision of a home banking service.
+
+  - id: CAO
+    name: Bilateral agreement service
+    description: Provision of a service as specified in a bilateral special agreement.
+
+  - id: CAP
+    name: Insurance brokerage service
+    description: Provision of an insurance brokerage service.
+
+  - id: CAQ
+    name: Cheque generation
+    description: Provision of a cheque generation service.
+
+  - id: CAR
+    name: Preferential merchandising location
+    description: Service of assigning a preferential location for merchandising.
+
+  - id: CAS
+    name: Crane
+    description: The service of providing a crane.
+
+  - id: CAT
+    name: Special colour service
+    description: Providing a colour which is different from the default colour.
+
+  - id: CAU
+    name: Sorting
+    description: The provision of sorting services.
+
+  - id: CAV
+    name: Battery collection and recycling
+    description: The service of collecting and recycling batteries.
+
+  - id: CAW
+    name: Product take back fee
+    description: The fee the consumer must pay the manufacturer to take back the product.
+
+  - id: CAX
+    name: Quality control released
+    description: Informs the stockholder it is free to distribute the quality controlled passed goods.
+
+  - id: CAY
+    name: Quality control held
+    description: Instructs the stockholder to withhold distribution of the goods until the manufacturer has completed a quality control assessment.
+
+  - id: CAZ
+    name: Quality control embargo
+    description: Instructs the stockholder to withhold distribution of goods which have failed quality control tests.
+
+  - id: CD
+    name: Car loading
+    description: Car loading service.
+
+  - id: CG
+    name: Cleaning
+    description: Cleaning service.
+
+  - id: CS
+    name: Cigarette stamping
+    description: The service of providing cigarette stamping.
+
+  - id: CT
+    name: Count and recount
+    description: The service of doing a count and recount.
+
+  - id: DAB
+    name: Layout/design
+    description: The service of providing layout/design.
+
+  - id: DAC
+    name: Assortment allowance
+    description: Allowance given when a specific part of a suppliers assortment is purchased by the buyer.
+
+  - id: DAD
+    name: Driver assigned unloading
+    description: The service of unloading by the driver.
+
+  - id: DAF
+    name: Debtor bound
+    description: A special allowance or charge applicable to a specific debtor.
+
+  - id: DAG
+    name: Dealer allowance
+    description: An allowance offered by a party dealing a certain brand or brands of products.
+
+  - id: DAH
+    name: Allowance transferable to the consumer
+    description: An allowance given by the manufacturer which should be transfered to the consumer.
+
+  - id: DAI
+    name: Growth of business
+    description: An allowance or charge related to the growth of business over a pre-determined period of time.
+
+  - id: DAJ
+    name: Introduction allowance
+    description: An allowance related to the introduction of a new product to the range of products traded by a retailer.
+
+  - id: DAK
+    name: Multi-buy promotion
+    description: A code indicating special conditions related to a multi-buy promotion.
+
+  - id: DAL
+    name: Partnership
+    description: An allowance or charge related to the establishment and on-going maintenance of a partnership.
+
+  - id: DAM
+    name: Return handling
+    description: An allowance or change related to the handling of returns.
+
+  - id: DAN
+    name: Minimum order not fulfilled charge
+    description: Charge levied because the minimum order quantity could not be fulfilled.
+
+  - id: DAO
+    name: Point of sales threshold allowance
+    description: Allowance for reaching or exceeding an agreed sales threshold at the point of sales.
+
+  - id: DAP
+    name: Wholesaling discount
+    description: A special discount related to the purchase of products through a wholesaler.
+
+  - id: DAQ
+    name: Documentary credits transfer commission
+    description: Fee for the transfer of transferable documentary credits.
+
+  - id: DL
+    name: Delivery
+    description: The service of providing delivery.
+
+  - id: EG
+    name: Engraving
+    description: The service of providing engraving.
+
+  - id: EP
+    name: Expediting
+    description: The service of expediting.
+
+  - id: ER
+    name: Exchange rate guarantee
+    description: The service of guaranteeing exchange rate.
+
+  - id: FAA
+    name: Fabrication
+    description: The service of providing fabrication.
+
+  - id: FAB
+    name: Freight equalization
+    description: The service of load balancing.
+
+  - id: FAC
+    name: Freight extraordinary handling
+    description: The service of providing freight's extraordinary handling.
+
+  - id: FC
+    name: Freight service
+    description: The service of moving goods, by whatever means, from one place to another.
+
+  - id: FH
+    name: Filling/handling
+    description: The service of providing filling/handling.
+
+  - id: FI
+    name: Financing
+    description: The service of providing financing.
+
+  - id: GAA
+    name: Grinding
+    description: The service of grinding.
+
+  - id: HAA
+    name: Hose
+    description: The service of providing a hose.
+
+  - id: HD
+    name: Handling
+    description: Handling service.
+
+  - id: HH
+    name: Hoisting and hauling
+    description: The service of hoisting and hauling.
+
+  - id: IAA
+    name: Installation
+    description: The service of installing.
+
+  - id: IAB
+    name: Installation and warranty
+    description: The service of installing and providing warranty.
+
+  - id: ID
+    name: Inside delivery
+    description: The service of providing delivery inside.
+
+  - id: IF
+    name: Inspection
+    description: The service of inspection.
+
+  - id: IR
+    name: Installation and training
+    description: The service of providing installation and training.
+
+  - id: IS
+    name: Invoicing
+    description: The service of providing an invoice.
+
+  - id: KO
+    name: Koshering
+    description: The service of preparing food in accordance with Jewish law.
+
+  - id: L1
+    name: Carrier count
+    description: The service of counting by the carrier.
+
+  - id: LA
+    name: Labelling
+    description: Labelling service.
+
+  - id: LAA
+    name: Labour
+    description: The service to provide required labour.
+
+  - id: LAB
+    name: Repair and return
+    description: The service of repairing and returning.
+
+  - id: LF
+    name: Legalisation
+    description: The service of legalising.
+
+  - id: MAE
+    name: Mounting
+    description: The service of mounting.
+
+  - id: MI
+    name: Mail invoice
+    description: The service of mailing an invoice.
+
+  - id: ML
+    name: Mail invoice to each location
+    description: The service of mailing an invoice to each location.
+
+  - id: NAA
+    name: Non-returnable containers
+    description: The service of providing non-returnable containers.
+
+  - id: OA
+    name: Outside cable connectors
+    description: The service of providing outside cable connectors.
+
+  - id: PA
+    name: Invoice with shipment
+    description: The service of including the invoice with the shipment.
+
+  - id: PAA
+    name: Phosphatizing (steel treatment)
+    description: The service of phosphatizing the steel.
+
+  - id: PC
+    name: Packing
+    description: The service of packing.
+
+  - id: PL
+    name: Palletizing
+    description: The service of palletizing.
+
+  - id: RAB
+    name: Repacking
+    description: The service of repacking.
+
+  - id: RAC
+    name: Repair
+    description: The service of repairing.
+
+  - id: RAD
+    name: Returnable container
+    description: The service of providing returnable containers.
+
+  - id: RAF
+    name: Restocking
+    description: The service of restocking.
+
+  - id: RE
+    name: Re-delivery
+    description: The service of re-delivering.
+
+  - id: RF
+    name: Refurbishing
+    description: The service of refurbishing.
+
+  - id: RH
+    name: Rail wagon hire
+    description: The service of providing rail wagons for hire.
+
+  - id: RV
+    name: Loading
+    description: The service of loading goods.
+
+  - id: SA
+    name: Salvaging
+    description: The service of salvaging.
+
+  - id: SAA
+    name: Shipping and handling
+    description: The service of shipping and handling.
+
+  - id: SAD
+    name: Special packaging
+    description: The service of special packaging.
+
+  - id: SAE
+    name: Stamping
+    description: The service of stamping.
+
+  - id: SAI
+    name: Consignee unload
+    description: The service of unloading by the consignee.
+
+  - id: SG
+    name: Shrink-wrap
+    description: The service of shrink-wrapping.
+
+  - id: SH
+    name: Special handling
+    description: The service of special handling.
+
+  - id: SM
+    name: Special finish
+    description: The service of providing a special finish.
+
+  - id: SU
+    name: Set-up
+    description: The service of setting-up.
+
+  - id: TAB
+    name: Tank renting
+    description: The service of providing tanks for hire.
+
+  - id: TAC
+    name: Testing
+    description: The service of testing.
+
+  - id: TT
+    name: Transportation - third party billing
+    description: The service of providing third party billing for transportation.
+
+  - id: TV
+    name: Transportation by vendor
+    description: The service of providing transportation by the vendor.
+
+  - id: V1
+    name: Drop yard
+    description: The service of delivering goods at the yard.
+
+  - id: V2
+    name: Drop dock
+    description: The service of delivering goods at the dock.
+
+  - id: WH
+    name: Warehousing
+    description: The service of storing and handling of goods in a warehouse.
+
+  - id: XAA
+    name: Combine all same day shipment
+    description: The service of combining all shipments for the same day.
+
+  - id: YY
+    name: Split pick-up
+    description: The service of providing split pick-up.
+
+  - id: ZZZ
+    name: Mutually defined
+    description:
+      A code assigned within a code list to be used on an interim basis and as
+      defined among trading partners until a precise code can be assigned to the code
+      list.

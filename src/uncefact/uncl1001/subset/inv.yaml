@@ -1,0 +1,16 @@
+name: Invoice type code
+agency: OpenPeppol AISBL
+version:
+  - d17a
+codes:
+  - 80
+  - 82
+  - 84
+  - 380
+  - 383
+  - 386
+  - 393
+  - 395
+  - 575
+  - 623
+  - 780

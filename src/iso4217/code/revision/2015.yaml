@@ -1,0 +1,534 @@
+identifier: 2015
+status: published
+
+codes:
+  - id: AED
+    name: UAE Dirham
+
+  - id: AFN
+    name: Afghani
+
+  - id: ALL
+    name: Lek
+
+  - id: AMD
+    name: Armenian Dram
+
+  - id: ANG
+    name: Netherlands Antillean Guilder
+
+  - id: AOA
+    name: Kwanza
+
+  - id: ARS
+    name: Argentine Peso
+
+  - id: AUD
+    name: Australian Dollar
+
+  - id: AWG
+    name: Aruban Florin
+
+  - id: AZN
+    name: Azerbaijan Manat
+
+  - id: BAM
+    name: Convertible Mark
+
+  - id: BBD
+    name: Barbados Dollar
+
+  - id: BDT
+    name: Taka
+
+  - id: BGN
+    name: Bulgarian Lev
+
+  - id: BHD
+    name: Bahraini Dinar
+
+  - id: BIF
+    name: Burundi Franc
+
+  - id: BMD
+    name: Bermudian Dollar
+
+  - id: BND
+    name: Brunei Dollar
+
+  - id: BOB
+    name: Boliviano
+
+  - id: BOV
+    name: Mvdol
+
+  - id: BRL
+    name: Brazilian Real
+
+  - id: BSD
+    name: Bahamian Dollar
+
+  - id: BTN
+    name: Ngultrum
+
+  - id: BWP
+    name: Pula
+
+  - id: BYN
+    name: Belarusian Ruble
+
+  - id: BZD
+    name: Belize Dollar
+
+  - id: CAD
+    name: Canadian Dollar
+
+  - id: CDF
+    name: Congolese Franc
+
+  - id: CHE
+    name: WIR Euro
+
+  - id: CHF
+    name: Swiss Franc
+
+  - id: CHW
+    name: WIR Franc
+
+  - id: CLF
+    name: Unidad de Fomento
+
+  - id: CLP
+    name: Chilean Peso
+
+  - id: CNY
+    name: Yuan Renminbi
+
+  - id: COP
+    name: Colombian Peso
+
+  - id: COU
+    name: Unidad de Valor Real
+
+  - id: CRC
+    name: Costa Rican Colon
+
+  - id: CUC
+    name: Peso Convertible
+
+  - id: CUP
+    name: Cuban Peso
+
+  - id: CVE
+    name: Cabo Verde Escudo
+
+  - id: CZK
+    name: Czech Koruna
+
+  - id: DJF
+    name: Djibouti Franc
+
+  - id: DKK
+    name: Danish Krone
+
+  - id: DOP
+    name: Dominican Peso
+
+  - id: DZD
+    name: Algerian Dinar
+
+  - id: EGP
+    name: Egyptian Pound
+
+  - id: ERN
+    name: Nakfa
+
+  - id: ETB
+    name: Ethiopian Birr
+
+  - id: EUR
+    name: Euro
+
+  - id: FJD
+    name: Fiji Dollar
+
+  - id: FKP
+    name: Falkland Islands Pound
+
+  - id: GBP
+    name: Pound Sterling
+
+  - id: GEL
+    name: Lari
+
+  - id: GHS
+    name: Ghana Cedi
+
+  - id: GIP
+    name: Gibraltar Pound
+
+  - id: GMD
+    name: Dalasi
+
+  - id: GNF
+    name: Guinean Franc
+
+  - id: GTQ
+    name: Quetzal
+
+  - id: GYD
+    name: Guyana Dollar
+
+  - id: HKD
+    name: Hong Kong Dollar
+
+  - id: HNL
+    name: Lempira
+
+  - id: HRK
+    name: Kuna
+
+  - id: HTG
+    name: Gourde
+
+  - id: HUF
+    name: Forint
+
+  - id: IDR
+    name: Rupiah
+
+  - id: ILS
+    name: New Israeli Sheqel
+
+  - id: INR
+    name: Indian Rupee
+
+  - id: IQD
+    name: Iraqi Dinar
+
+  - id: IRR
+    name: Iranian Rial
+
+  - id: ISK
+    name: Iceland Krona
+
+  - id: JMD
+    name: Jamaican Dollar
+
+  - id: JOD
+    name: Jordanian Dinar
+
+  - id: JPY
+    name: Yen
+
+  - id: KES
+    name: Kenyan Shilling
+
+  - id: KGS
+    name: Som
+
+  - id: KHR
+    name: Riel
+
+  - id: KMF
+    name: Comorian Franc
+
+  - id: KPW
+    name: North Korean Won
+
+  - id: KRW
+    name: Won
+
+  - id: KWD
+    name: Kuwaiti Dinar
+
+  - id: KYD
+    name: Cayman Islands Dollar
+
+  - id: KZT
+    name: Tenge
+
+  - id: LAK
+    name: Lao Kip
+
+  - id: LBP
+    name: Lebanese Pound
+
+  - id: LKR
+    name: Sri Lanka Rupee
+
+  - id: LRD
+    name: Liberian Dollar
+
+  - id: LSL
+    name: Loti
+
+  - id: LYD
+    name: Libyan Dinar
+
+  - id: MAD
+    name: Moroccan Dirham
+
+  - id: MDL
+    name: Moldovan Leu
+
+  - id: MGA
+    name: Malagasy Ariary
+
+  - id: MKD
+    name: Denar
+
+  - id: MMK
+    name: Kyat
+
+  - id: MNT
+    name: Tugrik
+
+  - id: MOP
+    name: Pataca
+
+  - id: MRU
+    name: Ouguiya
+
+  - id: MUR
+    name: Mauritius Rupee
+
+  - id: MVR
+    name: Rufiyaa
+
+  - id: MWK
+    name: Malawi Kwacha
+
+  - id: MXN
+    name: Mexican Peso
+
+  - id: MXV
+    name: Mexican Unidad de Inversion (UDI)
+
+  - id: MYR
+    name: Malaysian Ringgit
+
+  - id: MZN
+    name: Mozambique Metical
+
+  - id: NAD
+    name: Namibia Dollar
+
+  - id: NGN
+    name: Naira
+
+  - id: NIO
+    name: Cordoba Oro
+
+  - id: NOK
+    name: Norwegian Krone
+
+  - id: NPR
+    name: Nepalese Rupee
+
+  - id: NZD
+    name: New Zealand Dollar
+
+  - id: OMR
+    name: Rial Omani
+
+  - id: PAB
+    name: Balboa
+
+  - id: PEN
+    name: Sol
+
+  - id: PGK
+    name: Kina
+
+  - id: PHP
+    name: Philippine Piso
+
+  - id: PKR
+    name: Pakistan Rupee
+
+  - id: PLN
+    name: Zloty
+
+  - id: PYG
+    name: Guarani
+
+  - id: QAR
+    name: Qatari Rial
+
+  - id: RON
+    name: Romanian Leu
+
+  - id: RSD
+    name: Serbian Dinar
+
+  - id: RUB
+    name: Russian Ruble
+
+  - id: RWF
+    name: Rwanda Franc
+
+  - id: SAR
+    name: Saudi Riyal
+
+  - id: SBD
+    name: Solomon Islands Dollar
+
+  - id: SCR
+    name: Seychelles Rupee
+
+  - id: SDG
+    name: Sudanese Pound
+
+  - id: SEK
+    name: Swedish Krona
+
+  - id: SGD
+    name: Singapore Dollar
+
+  - id: SHP
+    name: Saint Helena Pound
+
+  - id: SLL
+    name: Leone
+
+  - id: SOS
+    name: Somali Shilling
+
+  - id: SRD
+    name: Surinam Dollar
+
+  - id: SSP
+    name: South Sudanese Pound
+
+  - id: STN
+    name: Dobra
+
+  - id: SVC
+    name: El Salvador Colon
+
+  - id: SYP
+    name: Syrian Pound
+
+  - id: SZL
+    name: Lilangeni
+
+  - id: THB
+    name: Baht
+
+  - id: TJS
+    name: Somoni
+
+  - id: TMT
+    name: Turkmenistan New Manat
+
+  - id: TND
+    name: Tunisian Dinar
+
+  - id: TOP
+    name: Pa’anga
+
+  - id: TRY
+    name: Turkish Lira
+
+  - id: TTD
+    name: Trinidad and Tobago Dollar
+
+  - id: TWD
+    name: New Taiwan Dollar
+
+  - id: TZS
+    name: Tanzanian Shilling
+
+  - id: UAH
+    name: Hryvnia
+
+  - id: UGX
+    name: Uganda Shilling
+
+  - id: USD
+    name: US Dollar
+
+  - id: USN
+    name: US Dollar (Next day)
+
+  - id: UYI
+    name: Uruguay Peso en Unidades Indexadas (URUIURUI)
+
+  - id: UYU
+    name: Peso Uruguayo
+
+  - id: UZS
+    name: Uzbekistan Sum
+
+  - id: VEF
+    name: Bolívar
+
+  - id: VND
+    name: Dong
+
+  - id: VUV
+    name: Vatu
+
+  - id: WST
+    name: Tala
+
+  - id: XAF
+    name: CFA Franc BEAC
+
+  - id: XAG
+    name: Silver
+
+  - id: XAU
+    name: Gold
+
+  - id: XBA
+    name: Bond Markets Unit European Composite Unit (EURCO)
+
+  - id: XBB
+    name: Bond Markets Unit European Monetary Unit (E.M.U.-6)
+
+  - id: XBC
+    name: Bond Markets Unit European Unit of Account 9 (E.U.A.-9)
+
+  - id: XBD
+    name: Bond Markets Unit European Unit of Account 17 (E.U.A.-17)
+
+  - id: XCD
+    name: East Caribbean Dollar
+
+  - id: XDR
+    name: SDR (Special Drawing Right)
+
+  - id: XOF
+    name: CFA Franc BCEAO
+
+  - id: XPD
+    name: Palladium
+
+  - id: XPF
+    name: CFP Franc
+
+  - id: XPT
+    name: Platinum
+
+  - id: XSU
+    name: Sucre
+
+  - id: XTS
+    name: Codes specifically reserved for testing purposes
+
+  - id: XUA
+    name: ADB Unit of Account
+
+  - id: YER
+    name: Yemeni Rial
+
+  - id: ZAR
+    name: Rand
+
+  - id: ZMW
+    name: Zambian Kwacha
+
+  - id: ZWL
+    name: Zimbabwe Dollar

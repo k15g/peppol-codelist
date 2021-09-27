@@ -1,0 +1,19 @@
+- id: 4
+  name: Testrapprt
+
+- id: 39
+  name: Pass
+  description: Et offisielt dokument som gir tillatelse til å reise i utenlands.
+
+- id: 40
+  name: Førerkort (nasjonalt)
+  description: Et offisielt dokument som gir tillatelse til å kjøre bil i et gitt land.
+
+- id: 380
+  name: Kommersiell faktura
+
+- id: 381
+  name: Kredittnota
+
+- id: 483
+  name: Visum

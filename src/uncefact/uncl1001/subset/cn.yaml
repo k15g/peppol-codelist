@@ -1,0 +1,10 @@
+name: Credit note type code
+agency: OpenPeppol AISBL
+version:
+  - d17a
+codes:
+  - 81
+  - 83
+  - 381
+  - 396
+  - 532

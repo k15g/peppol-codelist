@@ -1,0 +1,5847 @@
+identifier: 20210921
+date: 2021-09-21
+status: published
+
+codes:
+  # application
+
+  - id: application/1d-interleaved-parityfec
+    name: 1d-interleaved-parityfec
+
+  - id: application/3gpdash-qoe-report+xml
+    name: 3gpdash-qoe-report+xml
+
+  - id: application/3gppHal+json
+    name: 3gppHal+json
+
+  - id: application/3gppHalForms+json
+    name: 3gppHalForms+json
+
+  - id: application/3gpp-ims+xml
+    name: 3gpp-ims+xml
+
+  - id: application/A2L
+    name: A2L
+
+  - id: application/ace+cbor
+    name: ace+cbor
+
+  - id: application/activemessage
+    name: activemessage
+
+  - id: application/activity+json
+    name: activity+json
+
+  - id: application/alto-costmap+json
+    name: alto-costmap+json
+
+  - id: application/alto-costmapfilter+json
+    name: alto-costmapfilter+json
+
+  - id: application/alto-directory+json
+    name: alto-directory+json
+
+  - id: application/alto-endpointprop+json
+    name: alto-endpointprop+json
+
+  - id: application/alto-endpointpropparams+json
+    name: alto-endpointpropparams+json
+
+  - id: application/alto-endpointcost+json
+    name: alto-endpointcost+json
+
+  - id: application/alto-endpointcostparams+json
+    name: alto-endpointcostparams+json
+
+  - id: application/alto-error+json
+    name: alto-error+json
+
+  - id: application/alto-networkmapfilter+json
+    name: alto-networkmapfilter+json
+
+  - id: application/alto-networkmap+json
+    name: alto-networkmap+json
+
+  - id: application/alto-updatestreamcontrol+json
+    name: alto-updatestreamcontrol+json
+
+  - id: application/alto-updatestreamparams+json
+    name: alto-updatestreamparams+json
+
+  - id: application/AML
+    name: AML
+
+  - id: application/andrew-inset
+    name: andrew-inset
+
+  - id: application/applefile
+    name: applefile
+
+  - id: application/at+jwt
+    name: at+jwt
+
+  - id: application/ATF
+    name: ATF
+
+  - id: application/ATFX
+    name: ATFX
+
+  - id: application/atom+xml
+    name: atom+xml
+
+  - id: application/atomcat+xml
+    name: atomcat+xml
+
+  - id: application/atomdeleted+xml
+    name: atomdeleted+xml
+
+  - id: application/atomicmail
+    name: atomicmail
+
+  - id: application/atomsvc+xml
+    name: atomsvc+xml
+
+  - id: application/atsc-dwd+xml
+    name: atsc-dwd+xml
+
+  - id: application/atsc-dynamic-event-message
+    name: atsc-dynamic-event-message
+
+  - id: application/atsc-held+xml
+    name: atsc-held+xml
+
+  - id: application/atsc-rdt+json
+    name: atsc-rdt+json
+
+  - id: application/atsc-rsat+xml
+    name: atsc-rsat+xml
+
+  - id: application/ATXML
+    name: ATXML
+
+  - id: application/auth-policy+xml
+    name: auth-policy+xml
+
+  - id: application/bacnet-xdd+zip
+    name: bacnet-xdd+zip
+
+  - id: application/batch-SMTP
+    name: batch-SMTP
+
+  - id: application/beep+xml
+    name: beep+xml
+
+  - id: application/calendar+json
+    name: calendar+json
+
+  - id: application/calendar+xml
+    name: calendar+xml
+
+  - id: application/call-completion
+    name: call-completion
+
+  - id: application/CALS-1840
+    name: CALS-1840
+
+  - id: application/captive+json
+    name: captive+json
+
+  - id: application/cbor
+    name: cbor
+
+  - id: application/cbor-seq
+    name: cbor-seq
+
+  - id: application/cccex
+    name: cccex
+
+  - id: application/ccmp+xml
+    name: ccmp+xml
+
+  - id: application/ccxml+xml
+    name: ccxml+xml
+
+  - id: application/CDFX+XML
+    name: CDFX+XML
+
+  - id: application/cdmi-capability
+    name: cdmi-capability
+
+  - id: application/cdmi-container
+    name: cdmi-container
+
+  - id: application/cdmi-domain
+    name: cdmi-domain
+
+  - id: application/cdmi-object
+    name: cdmi-object
+
+  - id: application/cdmi-queue
+    name: cdmi-queue
+
+  - id: application/cdni
+    name: cdni
+
+  - id: application/CEA
+    name: CEA
+
+  - id: application/cea-2018+xml
+    name: cea-2018+xml
+
+  - id: application/cellml+xml
+    name: cellml+xml
+
+  - id: application/cfw
+    name: cfw
+
+  - id: application/clr
+    name: clr
+
+  - id: application/clue_info+xml
+    name: clue_info+xml
+
+  - id: application/clue+xml
+    name: clue+xml
+
+  - id: application/cms
+    name: cms
+
+  - id: application/cnrp+xml
+    name: cnrp+xml
+
+  - id: application/coap-group+json
+    name: coap-group+json
+
+  - id: application/coap-payload
+    name: coap-payload
+
+  - id: application/commonground
+    name: commonground
+
+  - id: application/conference-info+xml
+    name: conference-info+xml
+
+  - id: application/cpl+xml
+    name: cpl+xml
+
+  - id: application/cose
+    name: cose
+
+  - id: application/cose-key
+    name: cose-key
+
+  - id: application/cose-key-set
+    name: cose-key-set
+
+  - id: application/csrattrs
+    name: csrattrs
+
+  - id: application/csta+xml
+    name: csta+xml
+
+  - id: application/CSTAdata+xml
+    name: CSTAdata+xml
+
+  - id: application/csvm+json
+    name: csvm+json
+
+  - id: application/cwt
+    name: cwt
+
+  - id: application/cybercash
+    name: cybercash
+
+  - id: application/dash+xml
+    name: dash+xml
+
+  - id: application/dashdelta
+    name: dashdelta
+
+  - id: application/davmount+xml
+    name: davmount+xml
+
+  - id: application/dca-rft
+    name: dca-rft
+
+  - id: application/DCD
+    name: DCD
+
+  - id: application/dec-dx
+    name: dec-dx
+
+  - id: application/dialog-info+xml
+    name: dialog-info+xml
+
+  - id: application/dicom
+    name: dicom
+
+  - id: application/dicom+json
+    name: dicom+json
+
+  - id: application/dicom+xml
+    name: dicom+xml
+
+  - id: application/DII
+    name: DII
+
+  - id: application/DIT
+    name: DIT
+
+  - id: application/dns
+    name: dns
+
+  - id: application/dns+json
+    name: dns+json
+
+  - id: application/dns-message
+    name: dns-message
+
+  - id: application/dots+cbor
+    name: dots+cbor
+
+  - id: application/dskpp+xml
+    name: dskpp+xml
+
+  - id: application/dssc+der
+    name: dssc+der
+
+  - id: application/dssc+xml
+    name: dssc+xml
+
+  - id: application/dvcs
+    name: dvcs
+
+  - id: application/ecmascript
+    name: ecmascript
+
+  - id: application/EDI-consent
+    name: EDI-consent
+
+  - id: application/EDIFACT
+    name: EDIFACT
+
+  - id: application/EDI-X12
+    name: EDI-X12
+
+  - id: application/efi
+    name: efi
+
+  - id: application/elm+json
+    name: elm+json
+
+  - id: application/elm+xml
+    name: elm+xml
+
+  - id: application/EmergencyCallData.cap+xml
+    name: EmergencyCallData.cap+xml
+
+  - id: application/EmergencyCallData.Comment+xml
+    name: EmergencyCallData.Comment+xml
+
+  - id: application/EmergencyCallData.Control+xml
+    name: EmergencyCallData.Control+xml
+
+  - id: application/EmergencyCallData.DeviceInfo+xml
+    name: EmergencyCallData.DeviceInfo+xml
+
+  - id: application/EmergencyCallData.eCall.MSD
+    name: EmergencyCallData.eCall.MSD
+
+  - id: application/EmergencyCallData.ProviderInfo+xml
+    name: EmergencyCallData.ProviderInfo+xml
+
+  - id: application/EmergencyCallData.ServiceInfo+xml
+    name: EmergencyCallData.ServiceInfo+xml
+
+  - id: application/EmergencyCallData.SubscriberInfo+xml
+    name: EmergencyCallData.SubscriberInfo+xml
+
+  - id: application/EmergencyCallData.VEDS+xml
+    name: EmergencyCallData.VEDS+xml
+
+  - id: application/emma+xml
+    name: emma+xml
+
+  - id: application/emotionml+xml
+    name: emotionml+xml
+
+  - id: application/encaprtp
+    name: encaprtp
+
+  - id: application/epp+xml
+    name: epp+xml
+
+  - id: application/epub+zip
+    name: epub+zip
+
+  - id: application/eshop
+    name: eshop
+
+  - id: application/example
+    name: example
+
+  - id: application/exi
+    name: exi
+
+  - id: application/expect-ct-report+json
+    name: expect-ct-report+json
+
+  - id: application/express
+    name: express
+
+  - id: application/fastinfoset
+    name: fastinfoset
+
+  - id: application/fastsoap
+    name: fastsoap
+
+  - id: application/fdt+xml
+    name: fdt+xml
+
+  - id: application/fhir+json
+    name: fhir+json
+
+  - id: application/fhir+xml
+    name: fhir+xml
+
+  - id: application/fits
+    name: fits
+
+  - id: application/flexfec
+    name: flexfec
+
+  - id: application/font-sfnt
+    name: font-sfnt - DEPRECATED in favor of font/sfnt
+
+  - id: application/font-tdpfr
+    name: font-tdpfr
+
+  - id: application/font-woff
+    name: font-woff - DEPRECATED in favor of font/woff
+
+  - id: application/framework-attributes+xml
+    name: framework-attributes+xml
+
+  - id: application/geo+json
+    name: geo+json
+
+  - id: application/geo+json-seq
+    name: geo+json-seq
+
+  - id: application/geopackage+sqlite3
+    name: geopackage+sqlite3
+
+  - id: application/geoxacml+xml
+    name: geoxacml+xml
+
+  - id: application/gltf-buffer
+    name: gltf-buffer
+
+  - id: application/gml+xml
+    name: gml+xml
+
+  - id: application/gzip
+    name: gzip
+
+  - id: application/H224
+    name: H224
+
+  - id: application/held+xml
+    name: held+xml
+
+  - id: application/http
+    name: http
+
+  - id: application/hyperstudio
+    name: hyperstudio
+
+  - id: application/ibe-key-request+xml
+    name: ibe-key-request+xml
+
+  - id: application/ibe-pkg-reply+xml
+    name: ibe-pkg-reply+xml
+
+  - id: application/ibe-pp-data
+    name: ibe-pp-data
+
+  - id: application/iges
+    name: iges
+
+  - id: application/im-iscomposing+xml
+    name: im-iscomposing+xml
+
+  - id: application/index
+    name: index
+
+  - id: application/index.cmd
+    name: index.cmd
+
+  - id: application/index.obj
+    name: index.obj
+
+  - id: application/index.response
+    name: index.response
+
+  - id: application/index.vnd
+    name: index.vnd
+
+  - id: application/inkml+xml
+    name: inkml+xml
+
+  - id: application/IOTP
+    name: IOTP
+
+  - id: application/ipfix
+    name: ipfix
+
+  - id: application/ipp
+    name: ipp
+
+  - id: application/ISUP
+    name: ISUP
+
+  - id: application/its+xml
+    name: its+xml
+
+  - id: application/javascript
+    name: javascript
+
+  - id: application/jf2feed+json
+    name: jf2feed+json
+
+  - id: application/jose
+    name: jose
+
+  - id: application/jose+json
+    name: jose+json
+
+  - id: application/jrd+json
+    name: jrd+json
+
+  - id: application/jscalendar+json
+    name: jscalendar+json
+
+  - id: application/json
+    name: json
+
+  - id: application/json-patch+json
+    name: json-patch+json
+
+  - id: application/json-seq
+    name: json-seq
+
+  - id: application/jwk+json
+    name: jwk+json
+
+  - id: application/jwk-set+json
+    name: jwk-set+json
+
+  - id: application/jwt
+    name: jwt
+
+  - id: application/kpml-request+xml
+    name: kpml-request+xml
+
+  - id: application/kpml-response+xml
+    name: kpml-response+xml
+
+  - id: application/ld+json
+    name: ld+json
+
+  - id: application/lgr+xml
+    name: lgr+xml
+
+  - id: application/link-format
+    name: link-format
+
+  - id: application/load-control+xml
+    name: load-control+xml
+
+  - id: application/lost+xml
+    name: lost+xml
+
+  - id: application/lostsync+xml
+    name: lostsync+xml
+
+  - id: application/lpf+zip
+    name: lpf+zip
+
+  - id: application/LXF
+    name: LXF
+
+  - id: application/mac-binhex40
+    name: mac-binhex40
+
+  - id: application/macwriteii
+    name: macwriteii
+
+  - id: application/mads+xml
+    name: mads+xml
+
+  - id: application/manifest+json
+    name: manifest+json
+
+  - id: application/marc
+    name: marc
+
+  - id: application/marcxml+xml
+    name: marcxml+xml
+
+  - id: application/mathematica
+    name: mathematica
+
+  - id: application/mathml+xml
+    name: mathml+xml
+
+  - id: application/mathml-content+xml
+    name: mathml-content+xml
+
+  - id: application/mathml-presentation+xml
+    name: mathml-presentation+xml
+
+  - id: application/mbms-associated-procedure-description+xml
+    name: mbms-associated-procedure-description+xml
+
+  - id: application/mbms-deregister+xml
+    name: mbms-deregister+xml
+
+  - id: application/mbms-envelope+xml
+    name: mbms-envelope+xml
+
+  - id: application/mbms-msk-response+xml
+    name: mbms-msk-response+xml
+
+  - id: application/mbms-msk+xml
+    name: mbms-msk+xml
+
+  - id: application/mbms-protection-description+xml
+    name: mbms-protection-description+xml
+
+  - id: application/mbms-reception-report+xml
+    name: mbms-reception-report+xml
+
+  - id: application/mbms-register-response+xml
+    name: mbms-register-response+xml
+
+  - id: application/mbms-register+xml
+    name: mbms-register+xml
+
+  - id: application/mbms-schedule+xml
+    name: mbms-schedule+xml
+
+  - id: application/mbms-user-service-description+xml
+    name: mbms-user-service-description+xml
+
+  - id: application/mbox
+    name: mbox
+
+  - id: application/media_control+xml
+    name: media_control+xml
+
+  - id: application/media-policy-dataset+xml
+    name: media-policy-dataset+xml
+
+  - id: application/mediaservercontrol+xml
+    name: mediaservercontrol+xml
+
+  - id: application/merge-patch+json
+    name: merge-patch+json
+
+  - id: application/metalink4+xml
+    name: metalink4+xml
+
+  - id: application/mets+xml
+    name: mets+xml
+
+  - id: application/MF4
+    name: MF4
+
+  - id: application/mikey
+    name: mikey
+
+  - id: application/mipc
+    name: mipc
+
+  - id: application/missing-blocks+cbor-seq
+    name: missing-blocks+cbor-seq
+
+  - id: application/mmt-aei+xml
+    name: mmt-aei+xml
+
+  - id: application/mmt-usd+xml
+    name: mmt-usd+xml
+
+  - id: application/mods+xml
+    name: mods+xml
+
+  - id: application/moss-keys
+    name: moss-keys
+
+  - id: application/moss-signature
+    name: moss-signature
+
+  - id: application/mosskey-data
+    name: mosskey-data
+
+  - id: application/mosskey-request
+    name: mosskey-request
+
+  - id: application/mp21
+    name: mp21
+
+  - id: application/mp4
+    name: mp4
+
+  - id: application/mpeg4-generic
+    name: mpeg4-generic
+
+  - id: application/mpeg4-iod
+    name: mpeg4-iod
+
+  - id: application/mpeg4-iod-xmt
+    name: mpeg4-iod-xmt
+
+  - id: application/mrb-consumer+xml
+    name: mrb-consumer+xml
+
+  - id: application/mrb-publish+xml
+    name: mrb-publish+xml
+
+  - id: application/msc-ivr+xml
+    name: msc-ivr+xml
+
+  - id: application/msc-mixer+xml
+    name: msc-mixer+xml
+
+  - id: application/msword
+    name: msword
+
+  - id: application/mud+json
+    name: mud+json
+
+  - id: application/multipart-core
+    name: multipart-core
+
+  - id: application/mxf
+    name: mxf
+
+  - id: application/n-quads
+    name: n-quads
+
+  - id: application/n-triples
+    name: n-triples
+
+  - id: application/nasdata
+    name: nasdata
+
+  - id: application/news-checkgroups
+    name: news-checkgroups
+
+  - id: application/news-groupinfo
+    name: news-groupinfo
+
+  - id: application/news-transmission
+    name: news-transmission
+
+  - id: application/nlsml+xml
+    name: nlsml+xml
+
+  - id: application/node
+    name: node
+
+  - id: application/nss
+    name: nss
+
+  - id: application/oauth-authz-req+jwt
+    name: oauth-authz-req+jwt
+
+  - id: application/ocsp-request
+    name: ocsp-request
+
+  - id: application/ocsp-response
+    name: ocsp-response
+
+  - id: application/octet-stream
+    name: octet-stream
+
+  - id: application/ODA
+    name: ODA
+
+  - id: application/odm+xml
+    name: odm+xml
+
+  - id: application/ODX
+    name: ODX
+
+  - id: application/oebps-package+xml
+    name: oebps-package+xml
+
+  - id: application/ogg
+    name: ogg
+
+  - id: application/opc-nodeset+xml
+    name: opc-nodeset+xml
+
+  - id: application/oscore
+    name: oscore
+
+  - id: application/oxps
+    name: oxps
+
+  - id: application/p21
+    name: p21
+
+  - id: application/p21+zip
+    name: p21+zip
+
+  - id: application/p2p-overlay+xml
+    name: p2p-overlay+xml
+
+  - id: application/parityfec
+    name: parityfec
+
+  - id: application/passport
+    name: passport
+
+  - id: application/patch-ops-error+xml
+    name: patch-ops-error+xml
+
+  - id: application/pdf
+    name: pdf
+
+  - id: application/PDX
+    name: PDX
+
+  - id: application/pem-certificate-chain
+    name: pem-certificate-chain
+
+  - id: application/pgp-encrypted
+    name: pgp-encrypted
+
+  - id: application/pgp-keys
+    name: pgp-keys
+
+  - id: application/pgp-signature
+    name: pgp-signature
+
+  - id: application/pidf-diff+xml
+    name: pidf-diff+xml
+
+  - id: application/pidf+xml
+    name: pidf+xml
+
+  - id: application/pkcs10
+    name: pkcs10
+
+  - id: application/pkcs7-mime
+    name: pkcs7-mime
+
+  - id: application/pkcs7-signature
+    name: pkcs7-signature
+
+  - id: application/pkcs8
+    name: pkcs8
+
+  - id: application/pkcs8-encrypted
+    name: pkcs8-encrypted
+
+  - id: application/pkcs12
+    name: pkcs12
+
+  - id: application/pkix-attr-cert
+    name: pkix-attr-cert
+
+  - id: application/pkix-cert
+    name: pkix-cert
+
+  - id: application/pkix-crl
+    name: pkix-crl
+
+  - id: application/pkix-pkipath
+    name: pkix-pkipath
+
+  - id: application/pkixcmp
+    name: pkixcmp
+
+  - id: application/pls+xml
+    name: pls+xml
+
+  - id: application/poc-settings+xml
+    name: poc-settings+xml
+
+  - id: application/postscript
+    name: postscript
+
+  - id: application/ppsp-tracker+json
+    name: ppsp-tracker+json
+
+  - id: application/problem+json
+    name: problem+json
+
+  - id: application/problem+xml
+    name: problem+xml
+
+  - id: application/provenance+xml
+    name: provenance+xml
+
+  - id: application/prs.alvestrand.titrax-sheet
+    name: prs.alvestrand.titrax-sheet
+
+  - id: application/prs.cww
+    name: prs.cww
+
+  - id: application/prs.cyn
+    name: prs.cyn
+
+  - id: application/prs.hpub+zip
+    name: prs.hpub+zip
+
+  - id: application/prs.nprend
+    name: prs.nprend
+
+  - id: application/prs.plucker
+    name: prs.plucker
+
+  - id: application/prs.rdf-xml-crypt
+    name: prs.rdf-xml-crypt
+
+  - id: application/prs.xsf+xml
+    name: prs.xsf+xml
+
+  - id: application/pskc+xml
+    name: pskc+xml
+
+  - id: application/pvd+json
+    name: pvd+json
+
+  - id: application/rdf+xml
+    name: rdf+xml
+
+  - id: application/route-apd+xml
+    name: route-apd+xml
+
+  - id: application/route-s-tsid+xml
+    name: route-s-tsid+xml
+
+  - id: application/route-usd+xml
+    name: route-usd+xml
+
+  - id: application/QSIG
+    name: QSIG
+
+  - id: application/raptorfec
+    name: raptorfec
+
+  - id: application/rdap+json
+    name: rdap+json
+
+  - id: application/reginfo+xml
+    name: reginfo+xml
+
+  - id: application/relax-ng-compact-syntax
+    name: relax-ng-compact-syntax
+
+  - id: application/remote-printing
+    name: remote-printing
+
+  - id: application/reputon+json
+    name: reputon+json
+
+  - id: application/resource-lists-diff+xml
+    name: resource-lists-diff+xml
+
+  - id: application/resource-lists+xml
+    name: resource-lists+xml
+
+  - id: application/rfc+xml
+    name: rfc+xml
+
+  - id: application/riscos
+    name: riscos
+
+  - id: application/rlmi+xml
+    name: rlmi+xml
+
+  - id: application/rls-services+xml
+    name: rls-services+xml
+
+  - id: application/rpki-ghostbusters
+    name: rpki-ghostbusters
+
+  - id: application/rpki-manifest
+    name: rpki-manifest
+
+  - id: application/rpki-publication
+    name: rpki-publication
+
+  - id: application/rpki-roa
+    name: rpki-roa
+
+  - id: application/rpki-updown
+    name: rpki-updown
+
+  - id: application/rtf
+    name: rtf
+
+  - id: application/rtploopback
+    name: rtploopback
+
+  - id: application/rtx
+    name: rtx
+
+  - id: application/samlassertion+xml
+    name: samlassertion+xml
+
+  - id: application/samlmetadata+xml
+    name: samlmetadata+xml
+
+  - id: application/sarif-external-properties+json
+    name: sarif-external-properties+json
+
+  - id: application/sarif+json
+    name: sarif+json
+
+  - id: application/sbe
+    name: sbe
+
+  - id: application/sbml+xml
+    name: sbml+xml
+
+  - id: application/scaip+xml
+    name: scaip+xml
+
+  - id: application/scim+json
+    name: scim+json
+
+  - id: application/scvp-cv-request
+    name: scvp-cv-request
+
+  - id: application/scvp-cv-response
+    name: scvp-cv-response
+
+  - id: application/scvp-vp-request
+    name: scvp-vp-request
+
+  - id: application/scvp-vp-response
+    name: scvp-vp-response
+
+  - id: application/sdp
+    name: sdp
+
+  - id: application/secevent+jwt
+    name: secevent+jwt
+
+  - id: application/senml-etch+cbor
+    name: senml-etch+cbor
+
+  - id: application/senml-etch+json
+    name: senml-etch+json
+
+  - id: application/senml-exi
+    name: senml-exi
+
+  - id: application/senml+cbor
+    name: senml+cbor
+
+  - id: application/senml+json
+    name: senml+json
+
+  - id: application/senml+xml
+    name: senml+xml
+
+  - id: application/sensml-exi
+    name: sensml-exi
+
+  - id: application/sensml+cbor
+    name: sensml+cbor
+
+  - id: application/sensml+json
+    name: sensml+json
+
+  - id: application/sensml+xml
+    name: sensml+xml
+
+  - id: application/sep-exi
+    name: sep-exi
+
+  - id: application/sep+xml
+    name: sep+xml
+
+  - id: application/session-info
+    name: session-info
+
+  - id: application/set-payment
+    name: set-payment
+
+  - id: application/set-payment-initiation
+    name: set-payment-initiation
+
+  - id: application/set-registration
+    name: set-registration
+
+  - id: application/set-registration-initiation
+    name: set-registration-initiation
+
+  - id: application/SGML
+    name: SGML
+
+  - id: application/sgml-open-catalog
+    name: sgml-open-catalog
+
+  - id: application/shf+xml
+    name: shf+xml
+
+  - id: application/sieve
+    name: sieve
+
+  - id: application/simple-filter+xml
+    name: simple-filter+xml
+
+  - id: application/simple-message-summary
+    name: simple-message-summary
+
+  - id: application/simpleSymbolContainer
+    name: simpleSymbolContainer
+
+  - id: application/sipc
+    name: sipc
+
+  - id: application/slate
+    name: slate
+
+  - id: application/smil
+    name: smil - OBSOLETED in favor of application/smil+xml
+
+  - id: application/smil+xml
+    name: smil+xml
+
+  - id: application/smpte336m
+    name: smpte336m
+
+  - id: application/soap+fastinfoset
+    name: soap+fastinfoset
+
+  - id: application/soap+xml
+    name: soap+xml
+
+  - id: application/sparql-query
+    name: sparql-query
+
+  - id: application/sparql-results+xml
+    name: sparql-results+xml
+
+  - id: application/spirits-event+xml
+    name: spirits-event+xml
+
+  - id: application/sql
+    name: sql
+
+  - id: application/srgs
+    name: srgs
+
+  - id: application/srgs+xml
+    name: srgs+xml
+
+  - id: application/sru+xml
+    name: sru+xml
+
+  - id: application/ssml+xml
+    name: ssml+xml
+
+  - id: application/stix+json
+    name: stix+json
+
+  - id: application/swid+xml
+    name: swid+xml
+
+  - id: application/tamp-apex-update
+    name: tamp-apex-update
+
+  - id: application/tamp-apex-update-confirm
+    name: tamp-apex-update-confirm
+
+  - id: application/tamp-community-update
+    name: tamp-community-update
+
+  - id: application/tamp-community-update-confirm
+    name: tamp-community-update-confirm
+
+  - id: application/tamp-error
+    name: tamp-error
+
+  - id: application/tamp-sequence-adjust
+    name: tamp-sequence-adjust
+
+  - id: application/tamp-sequence-adjust-confirm
+    name: tamp-sequence-adjust-confirm
+
+  - id: application/tamp-status-query
+    name: tamp-status-query
+
+  - id: application/tamp-status-response
+    name: tamp-status-response
+
+  - id: application/tamp-update
+    name: tamp-update
+
+  - id: application/tamp-update-confirm
+    name: tamp-update-confirm
+
+  - id: application/taxii+json
+    name: taxii+json
+
+  - id: application/td+json
+    name: td+json
+
+  - id: application/tei+xml
+    name: tei+xml
+
+  - id: application/TETRA_ISI
+    name: TETRA_ISI
+
+  - id: application/thraud+xml
+    name: thraud+xml
+
+  - id: application/timestamp-query
+    name: timestamp-query
+
+  - id: application/timestamp-reply
+    name: timestamp-reply
+
+  - id: application/timestamped-data
+    name: timestamped-data
+
+  - id: application/tlsrpt+gzip
+    name: tlsrpt+gzip
+
+  - id: application/tlsrpt+json
+    name: tlsrpt+json
+
+  - id: application/tnauthlist
+    name: tnauthlist
+
+  - id: application/token-introspection+jwt
+    name: token-introspection+jwt
+
+  - id: application/trickle-ice-sdpfrag
+    name: trickle-ice-sdpfrag
+
+  - id: application/trig
+    name: trig
+
+  - id: application/ttml+xml
+    name: ttml+xml
+
+  - id: application/tve-trigger
+    name: tve-trigger
+
+  - id: application/tzif
+    name: tzif
+
+  - id: application/tzif-leap
+    name: tzif-leap
+
+  - id: application/ulpfec
+    name: ulpfec
+
+  - id: application/urc-grpsheet+xml
+    name: urc-grpsheet+xml
+
+  - id: application/urc-ressheet+xml
+    name: urc-ressheet+xml
+
+  - id: application/urc-targetdesc+xml
+    name: urc-targetdesc+xml
+
+  - id: application/urc-uisocketdesc+xml
+    name: urc-uisocketdesc+xml
+
+  - id: application/vcard+json
+    name: vcard+json
+
+  - id: application/vcard+xml
+    name: vcard+xml
+
+  - id: application/vemmi
+    name: vemmi
+
+  - id: application/vnd.1000minds.decision-model+xml
+    name: vnd.1000minds.decision-model+xml
+
+  - id: application/vnd.3gpp.5gnas
+    name: vnd.3gpp.5gnas
+
+  - id: application/vnd.3gpp.access-transfer-events+xml
+    name: vnd.3gpp.access-transfer-events+xml
+
+  - id: application/vnd.3gpp.bsf+xml
+    name: vnd.3gpp.bsf+xml
+
+  - id: application/vnd.3gpp.GMOP+xml
+    name: vnd.3gpp.GMOP+xml
+
+  - id: application/vnd.3gpp.gtpc
+    name: vnd.3gpp.gtpc
+
+  - id: application/vnd.3gpp.interworking-data
+    name: vnd.3gpp.interworking-data
+
+  - id: application/vnd.3gpp.lpp
+    name: vnd.3gpp.lpp
+
+  - id: application/vnd.3gpp.mc-signalling-ear
+    name: vnd.3gpp.mc-signalling-ear
+
+  - id: application/vnd.3gpp.mcdata-affiliation-command+xml
+    name: vnd.3gpp.mcdata-affiliation-command+xml
+
+  - id: application/vnd.3gpp.mcdata-info+xml
+    name: vnd.3gpp.mcdata-info+xml
+
+  - id: application/vnd.3gpp.mcdata-payload
+    name: vnd.3gpp.mcdata-payload
+
+  - id: application/vnd.3gpp.mcdata-service-config+xml
+    name: vnd.3gpp.mcdata-service-config+xml
+
+  - id: application/vnd.3gpp.mcdata-signalling
+    name: vnd.3gpp.mcdata-signalling
+
+  - id: application/vnd.3gpp.mcdata-ue-config+xml
+    name: vnd.3gpp.mcdata-ue-config+xml
+
+  - id: application/vnd.3gpp.mcdata-user-profile+xml
+    name: vnd.3gpp.mcdata-user-profile+xml
+
+  - id: application/vnd.3gpp.mcptt-affiliation-command+xml
+    name: vnd.3gpp.mcptt-affiliation-command+xml
+
+  - id: application/vnd.3gpp.mcptt-floor-request+xml
+    name: vnd.3gpp.mcptt-floor-request+xml
+
+  - id: application/vnd.3gpp.mcptt-info+xml
+    name: vnd.3gpp.mcptt-info+xml
+
+  - id: application/vnd.3gpp.mcptt-location-info+xml
+    name: vnd.3gpp.mcptt-location-info+xml
+
+  - id: application/vnd.3gpp.mcptt-mbms-usage-info+xml
+    name: vnd.3gpp.mcptt-mbms-usage-info+xml
+
+  - id: application/vnd.3gpp.mcptt-service-config+xml
+    name: vnd.3gpp.mcptt-service-config+xml
+
+  - id: application/vnd.3gpp.mcptt-signed+xml
+    name: vnd.3gpp.mcptt-signed+xml
+
+  - id: application/vnd.3gpp.mcptt-ue-config+xml
+    name: vnd.3gpp.mcptt-ue-config+xml
+
+  - id: application/vnd.3gpp.mcptt-ue-init-config+xml
+    name: vnd.3gpp.mcptt-ue-init-config+xml
+
+  - id: application/vnd.3gpp.mcptt-user-profile+xml
+    name: vnd.3gpp.mcptt-user-profile+xml
+
+  - id: application/vnd.3gpp.mcvideo-affiliation-command+xml
+    name: vnd.3gpp.mcvideo-affiliation-command+xml
+
+  - id: application/vnd.3gpp.mcvideo-affiliation-info+xml
+    name: vnd.3gpp.mcvideo-affiliation-info+xml - OBSOLETED in favor of application/vnd.3gpp.mcvideo-info+xml
+
+  - id: application/vnd.3gpp.mcvideo-info+xml
+    name: vnd.3gpp.mcvideo-info+xml
+
+  - id: application/vnd.3gpp.mcvideo-location-info+xml
+    name: vnd.3gpp.mcvideo-location-info+xml
+
+  - id: application/vnd.3gpp.mcvideo-mbms-usage-info+xml
+    name: vnd.3gpp.mcvideo-mbms-usage-info+xml
+
+  - id: application/vnd.3gpp.mcvideo-service-config+xml
+    name: vnd.3gpp.mcvideo-service-config+xml
+
+  - id: application/vnd.3gpp.mcvideo-transmission-request+xml
+    name: vnd.3gpp.mcvideo-transmission-request+xml
+
+  - id: application/vnd.3gpp.mcvideo-ue-config+xml
+    name: vnd.3gpp.mcvideo-ue-config+xml
+
+  - id: application/vnd.3gpp.mcvideo-user-profile+xml
+    name: vnd.3gpp.mcvideo-user-profile+xml
+
+  - id: application/vnd.3gpp.mid-call+xml
+    name: vnd.3gpp.mid-call+xml
+
+  - id: application/vnd.3gpp.ngap
+    name: vnd.3gpp.ngap
+
+  - id: application/vnd.3gpp.pfcp
+    name: vnd.3gpp.pfcp
+
+  - id: application/vnd.3gpp.pic-bw-large
+    name: vnd.3gpp.pic-bw-large
+
+  - id: application/vnd.3gpp.pic-bw-small
+    name: vnd.3gpp.pic-bw-small
+
+  - id: application/vnd.3gpp.pic-bw-var
+    name: vnd.3gpp.pic-bw-var
+
+  - id: application/vnd.3gpp-prose-pc3ch+xml
+    name: vnd.3gpp-prose-pc3ch+xml
+
+  - id: application/vnd.3gpp-prose+xml
+    name: vnd.3gpp-prose+xml
+
+  - id: application/vnd.3gpp.s1ap
+    name: vnd.3gpp.s1ap
+
+  - id: application/vnd.3gpp.sms
+    name: vnd.3gpp.sms
+
+  - id: application/vnd.3gpp.sms+xml
+    name: vnd.3gpp.sms+xml
+
+  - id: application/vnd.3gpp.srvcc-ext+xml
+    name: vnd.3gpp.srvcc-ext+xml
+
+  - id: application/vnd.3gpp.SRVCC-info+xml
+    name: vnd.3gpp.SRVCC-info+xml
+
+  - id: application/vnd.3gpp.state-and-event-info+xml
+    name: vnd.3gpp.state-and-event-info+xml
+
+  - id: application/vnd.3gpp.ussd+xml
+    name: vnd.3gpp.ussd+xml
+
+  - id: application/vnd.3gpp-v2x-local-service-information
+    name: vnd.3gpp-v2x-local-service-information
+
+  - id: application/vnd.3gpp2.bcmcsinfo+xml
+    name: vnd.3gpp2.bcmcsinfo+xml
+
+  - id: application/vnd.3gpp2.sms
+    name: vnd.3gpp2.sms
+
+  - id: application/vnd.3gpp2.tcap
+    name: vnd.3gpp2.tcap
+
+  - id: application/vnd.3lightssoftware.imagescal
+    name: vnd.3lightssoftware.imagescal
+
+  - id: application/vnd.3M.Post-it-Notes
+    name: vnd.3M.Post-it-Notes
+
+  - id: application/vnd.accpac.simply.aso
+    name: vnd.accpac.simply.aso
+
+  - id: application/vnd.accpac.simply.imp
+    name: vnd.accpac.simply.imp
+
+  - id: application/vnd.acucobol
+    name: vnd.acucobol
+
+  - id: application/vnd.acucorp
+    name: vnd.acucorp
+
+  - id: application/vnd.adobe.flash.movie
+    name: vnd.adobe.flash.movie
+
+  - id: application/vnd.adobe.formscentral.fcdt
+    name: vnd.adobe.formscentral.fcdt
+
+  - id: application/vnd.adobe.fxp
+    name: vnd.adobe.fxp
+
+  - id: application/vnd.adobe.partial-upload
+    name: vnd.adobe.partial-upload
+
+  - id: application/vnd.adobe.xdp+xml
+    name: vnd.adobe.xdp+xml
+
+  - id: application/vnd.adobe.xfdf
+    name: vnd.adobe.xfdf
+
+  - id: application/vnd.aether.imp
+    name: vnd.aether.imp
+
+  - id: application/vnd.afpc.afplinedata
+    name: vnd.afpc.afplinedata
+
+  - id: application/vnd.afpc.afplinedata-pagedef
+    name: vnd.afpc.afplinedata-pagedef
+
+  - id: application/vnd.afpc.cmoca-cmresource
+    name: vnd.afpc.cmoca-cmresource
+
+  - id: application/vnd.afpc.foca-charset
+    name: vnd.afpc.foca-charset
+
+  - id: application/vnd.afpc.foca-codedfont
+    name: vnd.afpc.foca-codedfont
+
+  - id: application/vnd.afpc.foca-codepage
+    name: vnd.afpc.foca-codepage
+
+  - id: application/vnd.afpc.modca
+    name: vnd.afpc.modca
+
+  - id: application/vnd.afpc.modca-cmtable
+    name: vnd.afpc.modca-cmtable
+
+  - id: application/vnd.afpc.modca-formdef
+    name: vnd.afpc.modca-formdef
+
+  - id: application/vnd.afpc.modca-mediummap
+    name: vnd.afpc.modca-mediummap
+
+  - id: application/vnd.afpc.modca-objectcontainer
+    name: vnd.afpc.modca-objectcontainer
+
+  - id: application/vnd.afpc.modca-overlay
+    name: vnd.afpc.modca-overlay
+
+  - id: application/vnd.afpc.modca-pagesegment
+    name: vnd.afpc.modca-pagesegment
+
+  - id: application/vnd.ah-barcode
+    name: vnd.ah-barcode
+
+  - id: application/vnd.ahead.space
+    name: vnd.ahead.space
+
+  - id: application/vnd.airzip.filesecure.azf
+    name: vnd.airzip.filesecure.azf
+
+  - id: application/vnd.airzip.filesecure.azs
+    name: vnd.airzip.filesecure.azs
+
+  - id: application/vnd.amadeus+json
+    name: vnd.amadeus+json
+
+  - id: application/vnd.amazon.mobi8-ebook
+    name: vnd.amazon.mobi8-ebook
+
+  - id: application/vnd.americandynamics.acc
+    name: vnd.americandynamics.acc
+
+  - id: application/vnd.amiga.ami
+    name: vnd.amiga.ami
+
+  - id: application/vnd.amundsen.maze+xml
+    name: vnd.amundsen.maze+xml
+
+  - id: application/vnd.android.ota
+    name: vnd.android.ota
+
+  - id: application/vnd.anki
+    name: vnd.anki
+
+  - id: application/vnd.anser-web-certificate-issue-initiation
+    name: vnd.anser-web-certificate-issue-initiation
+
+  - id: application/vnd.antix.game-component
+    name: vnd.antix.game-component
+
+  - id: application/vnd.apache.arrow.file
+    name: vnd.apache.arrow.file
+
+  - id: application/vnd.apache.arrow.stream
+    name: vnd.apache.arrow.stream
+
+  - id: application/vnd.apache.thrift.binary
+    name: vnd.apache.thrift.binary
+
+  - id: application/vnd.apache.thrift.compact
+    name: vnd.apache.thrift.compact
+
+  - id: application/vnd.apache.thrift.json
+    name: vnd.apache.thrift.json
+
+  - id: application/vnd.api+json
+    name: vnd.api+json
+
+  - id: application/vnd.aplextor.warrp+json
+    name: vnd.aplextor.warrp+json
+
+  - id: application/vnd.apothekende.reservation+json
+    name: vnd.apothekende.reservation+json
+
+  - id: application/vnd.apple.installer+xml
+    name: vnd.apple.installer+xml
+
+  - id: application/vnd.apple.keynote
+    name: vnd.apple.keynote
+
+  - id: application/vnd.apple.mpegurl
+    name: vnd.apple.mpegurl
+
+  - id: application/vnd.apple.numbers
+    name: vnd.apple.numbers
+
+  - id: application/vnd.apple.pages
+    name: vnd.apple.pages
+
+  - id: application/vnd.arastra.swi
+    name: vnd.arastra.swi - OBSOLETED in favor of application/vnd.aristanetworks.swi
+
+  - id: application/vnd.aristanetworks.swi
+    name: vnd.aristanetworks.swi
+
+  - id: application/vnd.artisan+json
+    name: vnd.artisan+json
+
+  - id: application/vnd.artsquare
+    name: vnd.artsquare
+
+  - id: application/vnd.astraea-software.iota
+    name: vnd.astraea-software.iota
+
+  - id: application/vnd.audiograph
+    name: vnd.audiograph
+
+  - id: application/vnd.autopackage
+    name: vnd.autopackage
+
+  - id: application/vnd.avalon+json
+    name: vnd.avalon+json
+
+  - id: application/vnd.avistar+xml
+    name: vnd.avistar+xml
+
+  - id: application/vnd.balsamiq.bmml+xml
+    name: vnd.balsamiq.bmml+xml
+
+  - id: application/vnd.banana-accounting
+    name: vnd.banana-accounting
+
+  - id: application/vnd.bbf.usp.error
+    name: vnd.bbf.usp.error
+
+  - id: application/vnd.bbf.usp.msg
+    name: vnd.bbf.usp.msg
+
+  - id: application/vnd.bbf.usp.msg+json
+    name: vnd.bbf.usp.msg+json
+
+  - id: application/vnd.balsamiq.bmpr
+    name: vnd.balsamiq.bmpr
+
+  - id: application/vnd.bekitzur-stech+json
+    name: vnd.bekitzur-stech+json
+
+  - id: application/vnd.bint.med-content
+    name: vnd.bint.med-content
+
+  - id: application/vnd.biopax.rdf+xml
+    name: vnd.biopax.rdf+xml
+
+  - id: application/vnd.blink-idb-value-wrapper
+    name: vnd.blink-idb-value-wrapper
+
+  - id: application/vnd.blueice.multipass
+    name: vnd.blueice.multipass
+
+  - id: application/vnd.bluetooth.ep.oob
+    name: vnd.bluetooth.ep.oob
+
+  - id: application/vnd.bluetooth.le.oob
+    name: vnd.bluetooth.le.oob
+
+  - id: application/vnd.bmi
+    name: vnd.bmi
+
+  - id: application/vnd.bpf
+    name: vnd.bpf
+
+  - id: application/vnd.bpf3
+    name: vnd.bpf3
+
+  - id: application/vnd.businessobjects
+    name: vnd.businessobjects
+
+  - id: application/vnd.byu.uapi+json
+    name: vnd.byu.uapi+json
+
+  - id: application/vnd.cab-jscript
+    name: vnd.cab-jscript
+
+  - id: application/vnd.canon-cpdl
+    name: vnd.canon-cpdl
+
+  - id: application/vnd.canon-lips
+    name: vnd.canon-lips
+
+  - id: application/vnd.capasystems-pg+json
+    name: vnd.capasystems-pg+json
+
+  - id: application/vnd.cendio.thinlinc.clientconf
+    name: vnd.cendio.thinlinc.clientconf
+
+  - id: application/vnd.century-systems.tcp_stream
+    name: vnd.century-systems.tcp_stream
+
+  - id: application/vnd.chemdraw+xml
+    name: vnd.chemdraw+xml
+
+  - id: application/vnd.chess-pgn
+    name: vnd.chess-pgn
+
+  - id: application/vnd.chipnuts.karaoke-mmd
+    name: vnd.chipnuts.karaoke-mmd
+
+  - id: application/vnd.ciedi
+    name: vnd.ciedi
+
+  - id: application/vnd.cinderella
+    name: vnd.cinderella
+
+  - id: application/vnd.cirpack.isdn-ext
+    name: vnd.cirpack.isdn-ext
+
+  - id: application/vnd.citationstyles.style+xml
+    name: vnd.citationstyles.style+xml
+
+  - id: application/vnd.claymore
+    name: vnd.claymore
+
+  - id: application/vnd.cloanto.rp9
+    name: vnd.cloanto.rp9
+
+  - id: application/vnd.clonk.c4group
+    name: vnd.clonk.c4group
+
+  - id: application/vnd.cluetrust.cartomobile-config
+    name: vnd.cluetrust.cartomobile-config
+
+  - id: application/vnd.cluetrust.cartomobile-config-pkg
+    name: vnd.cluetrust.cartomobile-config-pkg
+
+  - id: application/vnd.coffeescript
+    name: vnd.coffeescript
+
+  - id: application/vnd.collabio.xodocuments.document
+    name: vnd.collabio.xodocuments.document
+
+  - id: application/vnd.collabio.xodocuments.document-template
+    name: vnd.collabio.xodocuments.document-template
+
+  - id: application/vnd.collabio.xodocuments.presentation
+    name: vnd.collabio.xodocuments.presentation
+
+  - id: application/vnd.collabio.xodocuments.presentation-template
+    name: vnd.collabio.xodocuments.presentation-template
+
+  - id: application/vnd.collabio.xodocuments.spreadsheet
+    name: vnd.collabio.xodocuments.spreadsheet
+
+  - id: application/vnd.collabio.xodocuments.spreadsheet-template
+    name: vnd.collabio.xodocuments.spreadsheet-template
+
+  - id: application/vnd.collection.doc+json
+    name: vnd.collection.doc+json
+
+  - id: application/vnd.collection+json
+    name: vnd.collection+json
+
+  - id: application/vnd.collection.next+json
+    name: vnd.collection.next+json
+
+  - id: application/vnd.comicbook-rar
+    name: vnd.comicbook-rar
+
+  - id: application/vnd.comicbook+zip
+    name: vnd.comicbook+zip
+
+  - id: application/vnd.commerce-battelle
+    name: vnd.commerce-battelle
+
+  - id: application/vnd.commonspace
+    name: vnd.commonspace
+
+  - id: application/vnd.coreos.ignition+json
+    name: vnd.coreos.ignition+json
+
+  - id: application/vnd.cosmocaller
+    name: vnd.cosmocaller
+
+  - id: application/vnd.contact.cmsg
+    name: vnd.contact.cmsg
+
+  - id: application/vnd.crick.clicker
+    name: vnd.crick.clicker
+
+  - id: application/vnd.crick.clicker.keyboard
+    name: vnd.crick.clicker.keyboard
+
+  - id: application/vnd.crick.clicker.palette
+    name: vnd.crick.clicker.palette
+
+  - id: application/vnd.crick.clicker.template
+    name: vnd.crick.clicker.template
+
+  - id: application/vnd.crick.clicker.wordbank
+    name: vnd.crick.clicker.wordbank
+
+  - id: application/vnd.criticaltools.wbs+xml
+    name: vnd.criticaltools.wbs+xml
+
+  - id: application/vnd.cryptii.pipe+json
+    name: vnd.cryptii.pipe+json
+
+  - id: application/vnd.crypto-shade-file
+    name: vnd.crypto-shade-file
+
+  - id: application/vnd.cryptomator.encrypted
+    name: vnd.cryptomator.encrypted
+
+  - id: application/vnd.cryptomator.vault
+    name: vnd.cryptomator.vault
+
+  - id: application/vnd.ctc-posml
+    name: vnd.ctc-posml
+
+  - id: application/vnd.ctct.ws+xml
+    name: vnd.ctct.ws+xml
+
+  - id: application/vnd.cups-pdf
+    name: vnd.cups-pdf
+
+  - id: application/vnd.cups-postscript
+    name: vnd.cups-postscript
+
+  - id: application/vnd.cups-ppd
+    name: vnd.cups-ppd
+
+  - id: application/vnd.cups-raster
+    name: vnd.cups-raster
+
+  - id: application/vnd.cups-raw
+    name: vnd.cups-raw
+
+  - id: application/vnd.curl
+    name: vnd.curl
+
+  - id: application/vnd.cyan.dean.root+xml
+    name: vnd.cyan.dean.root+xml
+
+  - id: application/vnd.cybank
+    name: vnd.cybank
+
+  - id: application/vnd.cyclonedx+json
+    name: vnd.cyclonedx+json
+
+  - id: application/vnd.cyclonedx+xml
+    name: vnd.cyclonedx+xml
+
+  - id: application/vnd.d2l.coursepackage1p0+zip
+    name: vnd.d2l.coursepackage1p0+zip
+
+  - id: application/vnd.d3m-dataset
+    name: vnd.d3m-dataset
+
+  - id: application/vnd.d3m-problem
+    name: vnd.d3m-problem
+
+  - id: application/vnd.dart
+    name: vnd.dart
+
+  - id: application/vnd.data-vision.rdz
+    name: vnd.data-vision.rdz
+
+  - id: application/vnd.datapackage+json
+    name: vnd.datapackage+json
+
+  - id: application/vnd.dataresource+json
+    name: vnd.dataresource+json
+
+  - id: application/vnd.dbf
+    name: vnd.dbf
+
+  - id: application/vnd.debian.binary-package
+    name: vnd.debian.binary-package
+
+  - id: application/vnd.dece.data
+    name: vnd.dece.data
+
+  - id: application/vnd.dece.ttml+xml
+    name: vnd.dece.ttml+xml
+
+  - id: application/vnd.dece.unspecified
+    name: vnd.dece.unspecified
+
+  - id: application/vnd.dece.zip
+    name: vnd.dece.zip
+
+  - id: application/vnd.denovo.fcselayout-link
+    name: vnd.denovo.fcselayout-link
+
+  - id: application/vnd.desmume.movie
+    name: vnd.desmume.movie
+
+  - id: application/vnd.dir-bi.plate-dl-nosuffix
+    name: vnd.dir-bi.plate-dl-nosuffix
+
+  - id: application/vnd.dm.delegation+xml
+    name: vnd.dm.delegation+xml
+
+  - id: application/vnd.dna
+    name: vnd.dna
+
+  - id: application/vnd.document+json
+    name: vnd.document+json
+
+  - id: application/vnd.dolby.mobile.1
+    name: vnd.dolby.mobile.1
+
+  - id: application/vnd.dolby.mobile.2
+    name: vnd.dolby.mobile.2
+
+  - id: application/vnd.doremir.scorecloud-binary-document
+    name: vnd.doremir.scorecloud-binary-document
+
+  - id: application/vnd.dpgraph
+    name: vnd.dpgraph
+
+  - id: application/vnd.dreamfactory
+    name: vnd.dreamfactory
+
+  - id: application/vnd.drive+json
+    name: vnd.drive+json
+
+  - id: application/vnd.dtg.local
+    name: vnd.dtg.local
+
+  - id: application/vnd.dtg.local.flash
+    name: vnd.dtg.local.flash
+
+  - id: application/vnd.dtg.local.html
+    name: vnd.dtg.local.html
+
+  - id: application/vnd.dvb.ait
+    name: vnd.dvb.ait
+
+  - id: application/vnd.dvb.dvbisl+xml
+    name: vnd.dvb.dvbisl+xml
+
+  - id: application/vnd.dvb.dvbj
+    name: vnd.dvb.dvbj
+
+  - id: application/vnd.dvb.esgcontainer
+    name: vnd.dvb.esgcontainer
+
+  - id: application/vnd.dvb.ipdcdftnotifaccess
+    name: vnd.dvb.ipdcdftnotifaccess
+
+  - id: application/vnd.dvb.ipdcesgaccess
+    name: vnd.dvb.ipdcesgaccess
+
+  - id: application/vnd.dvb.ipdcesgaccess2
+    name: vnd.dvb.ipdcesgaccess2
+
+  - id: application/vnd.dvb.ipdcesgpdd
+    name: vnd.dvb.ipdcesgpdd
+
+  - id: application/vnd.dvb.ipdcroaming
+    name: vnd.dvb.ipdcroaming
+
+  - id: application/vnd.dvb.iptv.alfec-base
+    name: vnd.dvb.iptv.alfec-base
+
+  - id: application/vnd.dvb.iptv.alfec-enhancement
+    name: vnd.dvb.iptv.alfec-enhancement
+
+  - id: application/vnd.dvb.notif-aggregate-root+xml
+    name: vnd.dvb.notif-aggregate-root+xml
+
+  - id: application/vnd.dvb.notif-container+xml
+    name: vnd.dvb.notif-container+xml
+
+  - id: application/vnd.dvb.notif-generic+xml
+    name: vnd.dvb.notif-generic+xml
+
+  - id: application/vnd.dvb.notif-ia-msglist+xml
+    name: vnd.dvb.notif-ia-msglist+xml
+
+  - id: application/vnd.dvb.notif-ia-registration-request+xml
+    name: vnd.dvb.notif-ia-registration-request+xml
+
+  - id: application/vnd.dvb.notif-ia-registration-response+xml
+    name: vnd.dvb.notif-ia-registration-response+xml
+
+  - id: application/vnd.dvb.notif-init+xml
+    name: vnd.dvb.notif-init+xml
+
+  - id: application/vnd.dvb.pfr
+    name: vnd.dvb.pfr
+
+  - id: application/vnd.dvb.service
+    name: vnd.dvb.service
+
+  - id: application/vnd.dxr
+    name: vnd.dxr
+
+  - id: application/vnd.dynageo
+    name: vnd.dynageo
+
+  - id: application/vnd.dzr
+    name: vnd.dzr
+
+  - id: application/vnd.easykaraoke.cdgdownload
+    name: vnd.easykaraoke.cdgdownload
+
+  - id: application/vnd.ecip.rlp
+    name: vnd.ecip.rlp
+
+  - id: application/vnd.ecdis-update
+    name: vnd.ecdis-update
+
+  - id: application/vnd.ecowin.chart
+    name: vnd.ecowin.chart
+
+  - id: application/vnd.ecowin.filerequest
+    name: vnd.ecowin.filerequest
+
+  - id: application/vnd.ecowin.fileupdate
+    name: vnd.ecowin.fileupdate
+
+  - id: application/vnd.ecowin.series
+    name: vnd.ecowin.series
+
+  - id: application/vnd.ecowin.seriesrequest
+    name: vnd.ecowin.seriesrequest
+
+  - id: application/vnd.ecowin.seriesupdate
+    name: vnd.ecowin.seriesupdate
+
+  - id: application/vnd.efi.img
+    name: vnd.efi.img
+
+  - id: application/vnd.efi.iso
+    name: vnd.efi.iso
+
+  - id: application/vnd.emclient.accessrequest+xml
+    name: vnd.emclient.accessrequest+xml
+
+  - id: application/vnd.enliven
+    name: vnd.enliven
+
+  - id: application/vnd.enphase.envoy
+    name: vnd.enphase.envoy
+
+  - id: application/vnd.eprints.data+xml
+    name: vnd.eprints.data+xml
+
+  - id: application/vnd.epson.esf
+    name: vnd.epson.esf
+
+  - id: application/vnd.epson.msf
+    name: vnd.epson.msf
+
+  - id: application/vnd.epson.quickanime
+    name: vnd.epson.quickanime
+
+  - id: application/vnd.epson.salt
+    name: vnd.epson.salt
+
+  - id: application/vnd.epson.ssf
+    name: vnd.epson.ssf
+
+  - id: application/vnd.ericsson.quickcall
+    name: vnd.ericsson.quickcall
+
+  - id: application/vnd.espass-espass+zip
+    name: vnd.espass-espass+zip
+
+  - id: application/vnd.eszigno3+xml
+    name: vnd.eszigno3+xml
+
+  - id: application/vnd.etsi.aoc+xml
+    name: vnd.etsi.aoc+xml
+
+  - id: application/vnd.etsi.asic-s+zip
+    name: vnd.etsi.asic-s+zip
+
+  - id: application/vnd.etsi.asic-e+zip
+    name: vnd.etsi.asic-e+zip
+
+  - id: application/vnd.etsi.cug+xml
+    name: vnd.etsi.cug+xml
+
+  - id: application/vnd.etsi.iptvcommand+xml
+    name: vnd.etsi.iptvcommand+xml
+
+  - id: application/vnd.etsi.iptvdiscovery+xml
+    name: vnd.etsi.iptvdiscovery+xml
+
+  - id: application/vnd.etsi.iptvprofile+xml
+    name: vnd.etsi.iptvprofile+xml
+
+  - id: application/vnd.etsi.iptvsad-bc+xml
+    name: vnd.etsi.iptvsad-bc+xml
+
+  - id: application/vnd.etsi.iptvsad-cod+xml
+    name: vnd.etsi.iptvsad-cod+xml
+
+  - id: application/vnd.etsi.iptvsad-npvr+xml
+    name: vnd.etsi.iptvsad-npvr+xml
+
+  - id: application/vnd.etsi.iptvservice+xml
+    name: vnd.etsi.iptvservice+xml
+
+  - id: application/vnd.etsi.iptvsync+xml
+    name: vnd.etsi.iptvsync+xml
+
+  - id: application/vnd.etsi.iptvueprofile+xml
+    name: vnd.etsi.iptvueprofile+xml
+
+  - id: application/vnd.etsi.mcid+xml
+    name: vnd.etsi.mcid+xml
+
+  - id: application/vnd.etsi.mheg5
+    name: vnd.etsi.mheg5
+
+  - id: application/vnd.etsi.overload-control-policy-dataset+xml
+    name: vnd.etsi.overload-control-policy-dataset+xml
+
+  - id: application/vnd.etsi.pstn+xml
+    name: vnd.etsi.pstn+xml
+
+  - id: application/vnd.etsi.sci+xml
+    name: vnd.etsi.sci+xml
+
+  - id: application/vnd.etsi.simservs+xml
+    name: vnd.etsi.simservs+xml
+
+  - id: application/vnd.etsi.timestamp-token
+    name: vnd.etsi.timestamp-token
+
+  - id: application/vnd.etsi.tsl+xml
+    name: vnd.etsi.tsl+xml
+
+  - id: application/vnd.etsi.tsl.der
+    name: vnd.etsi.tsl.der
+
+  - id: application/vnd.evolv.ecig.profile
+    name: vnd.evolv.ecig.profile
+
+  - id: application/vnd.evolv.ecig.settings
+    name: vnd.evolv.ecig.settings
+
+  - id: application/vnd.evolv.ecig.theme
+    name: vnd.evolv.ecig.theme
+
+  - id: application/vnd.eudora.data
+    name: vnd.eudora.data
+
+  - id: application/vnd.exstream-empower+zip
+    name: vnd.exstream-empower+zip
+
+  - id: application/vnd.exstream-package
+    name: vnd.exstream-package
+
+  - id: application/vnd.ezpix-album
+    name: vnd.ezpix-album
+
+  - id: application/vnd.ezpix-package
+    name: vnd.ezpix-package
+
+  - id: application/vnd.f-secure.mobile
+    name: vnd.f-secure.mobile
+
+  - id: application/vnd.fastcopy-disk-image
+    name: vnd.fastcopy-disk-image
+
+  - id: application/vnd.fdf
+    name: vnd.fdf
+
+  - id: application/vnd.fdsn.mseed
+    name: vnd.fdsn.mseed
+
+  - id: application/vnd.fdsn.seed
+    name: vnd.fdsn.seed
+
+  - id: application/vnd.ffsns
+    name: vnd.ffsns
+
+  - id: application/vnd.ficlab.flb+zip
+    name: vnd.ficlab.flb+zip
+
+  - id: application/vnd.filmit.zfc
+    name: vnd.filmit.zfc
+
+  - id: application/vnd.fints
+    name: vnd.fints
+
+  - id: application/vnd.firemonkeys.cloudcell
+    name: vnd.firemonkeys.cloudcell
+
+  - id: application/vnd.FloGraphIt
+    name: vnd.FloGraphIt
+
+  - id: application/vnd.fluxtime.clip
+    name: vnd.fluxtime.clip
+
+  - id: application/vnd.font-fontforge-sfd
+    name: vnd.font-fontforge-sfd
+
+  - id: application/vnd.framemaker
+    name: vnd.framemaker
+
+  - id: application/vnd.frogans.fnc
+    name: vnd.frogans.fnc - OBSOLETE
+
+  - id: application/vnd.frogans.ltf
+    name: vnd.frogans.ltf - OBSOLETE
+
+  - id: application/vnd.fsc.weblaunch
+    name: vnd.fsc.weblaunch
+
+  - id: application/vnd.fujifilm.fb.docuworks
+    name: vnd.fujifilm.fb.docuworks
+
+  - id: application/vnd.fujifilm.fb.docuworks.binder
+    name: vnd.fujifilm.fb.docuworks.binder
+
+  - id: application/vnd.fujifilm.fb.docuworks.container
+    name: vnd.fujifilm.fb.docuworks.container
+
+  - id: application/vnd.fujifilm.fb.jfi+xml
+    name: vnd.fujifilm.fb.jfi+xml
+
+  - id: application/vnd.fujitsu.oasys
+    name: vnd.fujitsu.oasys
+
+  - id: application/vnd.fujitsu.oasys2
+    name: vnd.fujitsu.oasys2
+
+  - id: application/vnd.fujitsu.oasys3
+    name: vnd.fujitsu.oasys3
+
+  - id: application/vnd.fujitsu.oasysgp
+    name: vnd.fujitsu.oasysgp
+
+  - id: application/vnd.fujitsu.oasysprs
+    name: vnd.fujitsu.oasysprs
+
+  - id: application/vnd.fujixerox.ART4
+    name: vnd.fujixerox.ART4
+
+  - id: application/vnd.fujixerox.ART-EX
+    name: vnd.fujixerox.ART-EX
+
+  - id: application/vnd.fujixerox.ddd
+    name: vnd.fujixerox.ddd
+
+  - id: application/vnd.fujixerox.docuworks
+    name: vnd.fujixerox.docuworks
+
+  - id: application/vnd.fujixerox.docuworks.binder
+    name: vnd.fujixerox.docuworks.binder
+
+  - id: application/vnd.fujixerox.docuworks.container
+    name: vnd.fujixerox.docuworks.container
+
+  - id: application/vnd.fujixerox.HBPL
+    name: vnd.fujixerox.HBPL
+
+  - id: application/vnd.fut-misnet
+    name: vnd.fut-misnet
+
+  - id: application/vnd.futoin+cbor
+    name: vnd.futoin+cbor
+
+  - id: application/vnd.futoin+json
+    name: vnd.futoin+json
+
+  - id: application/vnd.fuzzysheet
+    name: vnd.fuzzysheet
+
+  - id: application/vnd.genomatix.tuxedo
+    name: vnd.genomatix.tuxedo
+
+  - id: application/vnd.gentics.grd+json
+    name: vnd.gentics.grd+json
+
+  - id: application/vnd.geo+json
+    name: vnd.geo+json (OBSOLETED by
+
+  - id: application/vnd.geocube+xml
+    name: vnd.geocube+xml - OBSOLETED by request
+
+  - id: application/vnd.geogebra.file
+    name: vnd.geogebra.file
+
+  - id: application/vnd.geogebra.slides
+    name: vnd.geogebra.slides
+
+  - id: application/vnd.geogebra.tool
+    name: vnd.geogebra.tool
+
+  - id: application/vnd.geometry-explorer
+    name: vnd.geometry-explorer
+
+  - id: application/vnd.geonext
+    name: vnd.geonext
+
+  - id: application/vnd.geoplan
+    name: vnd.geoplan
+
+  - id: application/vnd.geospace
+    name: vnd.geospace
+
+  - id: application/vnd.gerber
+    name: vnd.gerber
+
+  - id: application/vnd.globalplatform.card-content-mgt
+    name: vnd.globalplatform.card-content-mgt
+
+  - id: application/vnd.globalplatform.card-content-mgt-response
+    name: vnd.globalplatform.card-content-mgt-response
+
+  - id: application/vnd.gmx
+    name: vnd.gmx - DEPRECATED
+
+  - id: application/vnd.google-earth.kml+xml
+    name: vnd.google-earth.kml+xml
+
+  - id: application/vnd.google-earth.kmz
+    name: vnd.google-earth.kmz
+
+  - id: application/vnd.gov.sk.e-form+xml
+    name: vnd.gov.sk.e-form+xml
+
+  - id: application/vnd.gov.sk.e-form+zip
+    name: vnd.gov.sk.e-form+zip
+
+  - id: application/vnd.gov.sk.xmldatacontainer+xml
+    name: vnd.gov.sk.xmldatacontainer+xml
+
+  - id: application/vnd.grafeq
+    name: vnd.grafeq
+
+  - id: application/vnd.gridmp
+    name: vnd.gridmp
+
+  - id: application/vnd.groove-account
+    name: vnd.groove-account
+
+  - id: application/vnd.groove-help
+    name: vnd.groove-help
+
+  - id: application/vnd.groove-identity-message
+    name: vnd.groove-identity-message
+
+  - id: application/vnd.groove-injector
+    name: vnd.groove-injector
+
+  - id: application/vnd.groove-tool-message
+    name: vnd.groove-tool-message
+
+  - id: application/vnd.groove-tool-template
+    name: vnd.groove-tool-template
+
+  - id: application/vnd.groove-vcard
+    name: vnd.groove-vcard
+
+  - id: application/vnd.hal+json
+    name: vnd.hal+json
+
+  - id: application/vnd.hal+xml
+    name: vnd.hal+xml
+
+  - id: application/vnd.HandHeld-Entertainment+xml
+    name: vnd.HandHeld-Entertainment+xml
+
+  - id: application/vnd.hbci
+    name: vnd.hbci
+
+  - id: application/vnd.hc+json
+    name: vnd.hc+json
+
+  - id: application/vnd.hcl-bireports
+    name: vnd.hcl-bireports
+
+  - id: application/vnd.hdt
+    name: vnd.hdt
+
+  - id: application/vnd.heroku+json
+    name: vnd.heroku+json
+
+  - id: application/vnd.hhe.lesson-player
+    name: vnd.hhe.lesson-player
+
+  - id: application/vnd.hp-HPGL
+    name: vnd.hp-HPGL
+
+  - id: application/vnd.hp-hpid
+    name: vnd.hp-hpid
+
+  - id: application/vnd.hp-hps
+    name: vnd.hp-hps
+
+  - id: application/vnd.hp-jlyt
+    name: vnd.hp-jlyt
+
+  - id: application/vnd.hp-PCL
+    name: vnd.hp-PCL
+
+  - id: application/vnd.hp-PCLXL
+    name: vnd.hp-PCLXL
+
+  - id: application/vnd.httphone
+    name: vnd.httphone
+
+  - id: application/vnd.hydrostatix.sof-data
+    name: vnd.hydrostatix.sof-data
+
+  - id: application/vnd.hyper-item+json
+    name: vnd.hyper-item+json
+
+  - id: application/vnd.hyper+json
+    name: vnd.hyper+json
+
+  - id: application/vnd.hyperdrive+json
+    name: vnd.hyperdrive+json
+
+  - id: application/vnd.hzn-3d-crossword
+    name: vnd.hzn-3d-crossword
+
+  - id: application/vnd.ibm.afplinedata
+    name: vnd.ibm.afplinedata - OBSOLETED in favor of vnd.afpc.afplinedata
+
+  - id: application/vnd.ibm.electronic-media
+    name: vnd.ibm.electronic-media
+
+  - id: application/vnd.ibm.MiniPay
+    name: vnd.ibm.MiniPay
+
+  - id: application/vnd.ibm.modcap
+    name: vnd.ibm.modcap - OBSOLETED in favor of application/vnd.afpc.modca
+
+  - id: application/vnd.ibm.rights-management
+    name: vnd.ibm.rights-management
+
+  - id: application/vnd.ibm.secure-container
+    name: vnd.ibm.secure-container
+
+  - id: application/vnd.iccprofile
+    name: vnd.iccprofile
+
+  - id: application/vnd.ieee.1905
+    name: vnd.ieee.1905
+
+  - id: application/vnd.igloader
+    name: vnd.igloader
+
+  - id: application/vnd.imagemeter.folder+zip
+    name: vnd.imagemeter.folder+zip
+
+  - id: application/vnd.imagemeter.image+zip
+    name: vnd.imagemeter.image+zip
+
+  - id: application/vnd.immervision-ivp
+    name: vnd.immervision-ivp
+
+  - id: application/vnd.immervision-ivu
+    name: vnd.immervision-ivu
+
+  - id: application/vnd.ims.imsccv1p1
+    name: vnd.ims.imsccv1p1
+
+  - id: application/vnd.ims.imsccv1p2
+    name: vnd.ims.imsccv1p2
+
+  - id: application/vnd.ims.imsccv1p3
+    name: vnd.ims.imsccv1p3
+
+  - id: application/vnd.ims.lis.v2.result+json
+    name: vnd.ims.lis.v2.result+json
+
+  - id: application/vnd.ims.lti.v2.toolconsumerprofile+json
+    name: vnd.ims.lti.v2.toolconsumerprofile+json
+
+  - id: application/vnd.ims.lti.v2.toolproxy.id+json
+    name: vnd.ims.lti.v2.toolproxy.id+json
+
+  - id: application/vnd.ims.lti.v2.toolproxy+json
+    name: vnd.ims.lti.v2.toolproxy+json
+
+  - id: application/vnd.ims.lti.v2.toolsettings+json
+    name: vnd.ims.lti.v2.toolsettings+json
+
+  - id: application/vnd.ims.lti.v2.toolsettings.simple+json
+    name: vnd.ims.lti.v2.toolsettings.simple+json
+
+  - id: application/vnd.informedcontrol.rms+xml
+    name: vnd.informedcontrol.rms+xml
+
+  - id: application/vnd.infotech.project
+    name: vnd.infotech.project
+
+  - id: application/vnd.infotech.project+xml
+    name: vnd.infotech.project+xml
+
+  - id: application/vnd.informix-visionary
+    name: vnd.informix-visionary - OBSOLETED in favor of application/vnd.visionary
+
+  - id: application/vnd.innopath.wamp.notification
+    name: vnd.innopath.wamp.notification
+
+  - id: application/vnd.insors.igm
+    name: vnd.insors.igm
+
+  - id: application/vnd.intercon.formnet
+    name: vnd.intercon.formnet
+
+  - id: application/vnd.intergeo
+    name: vnd.intergeo
+
+  - id: application/vnd.intertrust.digibox
+    name: vnd.intertrust.digibox
+
+  - id: application/vnd.intertrust.nncp
+    name: vnd.intertrust.nncp
+
+  - id: application/vnd.intu.qbo
+    name: vnd.intu.qbo
+
+  - id: application/vnd.intu.qfx
+    name: vnd.intu.qfx
+
+  - id: application/vnd.iptc.g2.catalogitem+xml
+    name: vnd.iptc.g2.catalogitem+xml
+
+  - id: application/vnd.iptc.g2.conceptitem+xml
+    name: vnd.iptc.g2.conceptitem+xml
+
+  - id: application/vnd.iptc.g2.knowledgeitem+xml
+    name: vnd.iptc.g2.knowledgeitem+xml
+
+  - id: application/vnd.iptc.g2.newsitem+xml
+    name: vnd.iptc.g2.newsitem+xml
+
+  - id: application/vnd.iptc.g2.newsmessage+xml
+    name: vnd.iptc.g2.newsmessage+xml
+
+  - id: application/vnd.iptc.g2.packageitem+xml
+    name: vnd.iptc.g2.packageitem+xml
+
+  - id: application/vnd.iptc.g2.planningitem+xml
+    name: vnd.iptc.g2.planningitem+xml
+
+  - id: application/vnd.ipunplugged.rcprofile
+    name: vnd.ipunplugged.rcprofile
+
+  - id: application/vnd.irepository.package+xml
+    name: vnd.irepository.package+xml
+
+  - id: application/vnd.is-xpr
+    name: vnd.is-xpr
+
+  - id: application/vnd.isac.fcs
+    name: vnd.isac.fcs
+
+  - id: application/vnd.jam
+    name: vnd.jam
+
+  - id: application/vnd.iso11783-10+zip
+    name: vnd.iso11783-10+zip
+
+  - id: application/vnd.japannet-directory-service
+    name: vnd.japannet-directory-service
+
+  - id: application/vnd.japannet-jpnstore-wakeup
+    name: vnd.japannet-jpnstore-wakeup
+
+  - id: application/vnd.japannet-payment-wakeup
+    name: vnd.japannet-payment-wakeup
+
+  - id: application/vnd.japannet-registration
+    name: vnd.japannet-registration
+
+  - id: application/vnd.japannet-registration-wakeup
+    name: vnd.japannet-registration-wakeup
+
+  - id: application/vnd.japannet-setstore-wakeup
+    name: vnd.japannet-setstore-wakeup
+
+  - id: application/vnd.japannet-verification
+    name: vnd.japannet-verification
+
+  - id: application/vnd.japannet-verification-wakeup
+    name: vnd.japannet-verification-wakeup
+
+  - id: application/vnd.jcp.javame.midlet-rms
+    name: vnd.jcp.javame.midlet-rms
+
+  - id: application/vnd.jisp
+    name: vnd.jisp
+
+  - id: application/vnd.joost.joda-archive
+    name: vnd.joost.joda-archive
+
+  - id: application/vnd.jsk.isdn-ngn
+    name: vnd.jsk.isdn-ngn
+
+  - id: application/vnd.kahootz
+    name: vnd.kahootz
+
+  - id: application/vnd.kde.karbon
+    name: vnd.kde.karbon
+
+  - id: application/vnd.kde.kchart
+    name: vnd.kde.kchart
+
+  - id: application/vnd.kde.kformula
+    name: vnd.kde.kformula
+
+  - id: application/vnd.kde.kivio
+    name: vnd.kde.kivio
+
+  - id: application/vnd.kde.kontour
+    name: vnd.kde.kontour
+
+  - id: application/vnd.kde.kpresenter
+    name: vnd.kde.kpresenter
+
+  - id: application/vnd.kde.kspread
+    name: vnd.kde.kspread
+
+  - id: application/vnd.kde.kword
+    name: vnd.kde.kword
+
+  - id: application/vnd.kenameaapp
+    name: vnd.kenameaapp
+
+  - id: application/vnd.kidspiration
+    name: vnd.kidspiration
+
+  - id: application/vnd.Kinar
+    name: vnd.Kinar
+
+  - id: application/vnd.koan
+    name: vnd.koan
+
+  - id: application/vnd.kodak-descriptor
+    name: vnd.kodak-descriptor
+
+  - id: application/vnd.las
+    name: vnd.las
+
+  - id: application/vnd.las.las+json
+    name: vnd.las.las+json
+
+  - id: application/vnd.las.las+xml
+    name: vnd.las.las+xml
+
+  - id: application/vnd.laszip
+    name: vnd.laszip
+
+  - id: application/vnd.leap+json
+    name: vnd.leap+json
+
+  - id: application/vnd.liberty-request+xml
+    name: vnd.liberty-request+xml
+
+  - id: application/vnd.llamagraphics.life-balance.desktop
+    name: vnd.llamagraphics.life-balance.desktop
+
+  - id: application/vnd.llamagraphics.life-balance.exchange+xml
+    name: vnd.llamagraphics.life-balance.exchange+xml
+
+  - id: application/vnd.logipipe.circuit+zip
+    name: vnd.logipipe.circuit+zip
+
+  - id: application/vnd.loom
+    name: vnd.loom
+
+  - id: application/vnd.lotus-1-2-3
+    name: vnd.lotus-1-2-3
+
+  - id: application/vnd.lotus-approach
+    name: vnd.lotus-approach
+
+  - id: application/vnd.lotus-freelance
+    name: vnd.lotus-freelance
+
+  - id: application/vnd.lotus-notes
+    name: vnd.lotus-notes
+
+  - id: application/vnd.lotus-organizer
+    name: vnd.lotus-organizer
+
+  - id: application/vnd.lotus-screencam
+    name: vnd.lotus-screencam
+
+  - id: application/vnd.lotus-wordpro
+    name: vnd.lotus-wordpro
+
+  - id: application/vnd.macports.portpkg
+    name: vnd.macports.portpkg
+
+  - id: application/vnd.mapbox-vector-tile
+    name: vnd.mapbox-vector-tile
+
+  - id: application/vnd.marlin.drm.actiontoken+xml
+    name: vnd.marlin.drm.actiontoken+xml
+
+  - id: application/vnd.marlin.drm.conftoken+xml
+    name: vnd.marlin.drm.conftoken+xml
+
+  - id: application/vnd.marlin.drm.license+xml
+    name: vnd.marlin.drm.license+xml
+
+  - id: application/vnd.marlin.drm.mdcf
+    name: vnd.marlin.drm.mdcf
+
+  - id: application/vnd.mason+json
+    name: vnd.mason+json
+
+  - id: application/vnd.maxmind.maxmind-db
+    name: vnd.maxmind.maxmind-db
+
+  - id: application/vnd.mcd
+    name: vnd.mcd
+
+  - id: application/vnd.medcalcdata
+    name: vnd.medcalcdata
+
+  - id: application/vnd.mediastation.cdkey
+    name: vnd.mediastation.cdkey
+
+  - id: application/vnd.meridian-slingshot
+    name: vnd.meridian-slingshot
+
+  - id: application/vnd.MFER
+    name: vnd.MFER
+
+  - id: application/vnd.mfmp
+    name: vnd.mfmp
+
+  - id: application/vnd.micro+json
+    name: vnd.micro+json
+
+  - id: application/vnd.micrografx.flo
+    name: vnd.micrografx.flo
+
+  - id: application/vnd.micrografx.igx
+    name: vnd.micrografx.igx
+
+  - id: application/vnd.microsoft.portable-executable
+    name: vnd.microsoft.portable-executable
+
+  - id: application/vnd.microsoft.windows.thumbnail-cache
+    name: vnd.microsoft.windows.thumbnail-cache
+
+  - id: application/vnd.miele+json
+    name: vnd.miele+json
+
+  - id: application/vnd.mif
+    name: vnd.mif
+
+  - id: application/vnd.minisoft-hp3000-save
+    name: vnd.minisoft-hp3000-save
+
+  - id: application/vnd.mitsubishi.misty-guard.trustweb
+    name: vnd.mitsubishi.misty-guard.trustweb
+
+  - id: application/vnd.Mobius.DAF
+    name: vnd.Mobius.DAF
+
+  - id: application/vnd.Mobius.DIS
+    name: vnd.Mobius.DIS
+
+  - id: application/vnd.Mobius.MBK
+    name: vnd.Mobius.MBK
+
+  - id: application/vnd.Mobius.MQY
+    name: vnd.Mobius.MQY
+
+  - id: application/vnd.Mobius.MSL
+    name: vnd.Mobius.MSL
+
+  - id: application/vnd.Mobius.PLC
+    name: vnd.Mobius.PLC
+
+  - id: application/vnd.Mobius.TXF
+    name: vnd.Mobius.TXF
+
+  - id: application/vnd.mophun.application
+    name: vnd.mophun.application
+
+  - id: application/vnd.mophun.certificate
+    name: vnd.mophun.certificate
+
+  - id: application/vnd.motorola.flexsuite
+    name: vnd.motorola.flexsuite
+
+  - id: application/vnd.motorola.flexsuite.adsi
+    name: vnd.motorola.flexsuite.adsi
+
+  - id: application/vnd.motorola.flexsuite.fis
+    name: vnd.motorola.flexsuite.fis
+
+  - id: application/vnd.motorola.flexsuite.gotap
+    name: vnd.motorola.flexsuite.gotap
+
+  - id: application/vnd.motorola.flexsuite.kmr
+    name: vnd.motorola.flexsuite.kmr
+
+  - id: application/vnd.motorola.flexsuite.ttc
+    name: vnd.motorola.flexsuite.ttc
+
+  - id: application/vnd.motorola.flexsuite.wem
+    name: vnd.motorola.flexsuite.wem
+
+  - id: application/vnd.motorola.iprm
+    name: vnd.motorola.iprm
+
+  - id: application/vnd.mozilla.xul+xml
+    name: vnd.mozilla.xul+xml
+
+  - id: application/vnd.ms-artgalry
+    name: vnd.ms-artgalry
+
+  - id: application/vnd.ms-asf
+    name: vnd.ms-asf
+
+  - id: application/vnd.ms-cab-compressed
+    name: vnd.ms-cab-compressed
+
+  - id: application/vnd.ms-3mfdocument
+    name: vnd.ms-3mfdocument
+
+  - id: application/vnd.ms-excel
+    name: vnd.ms-excel
+
+  - id: application/vnd.ms-excel.addin.macroEnabled.12
+    name: vnd.ms-excel.addin.macroEnabled.12
+
+  - id: application/vnd.ms-excel.sheet.binary.macroEnabled.12
+    name: vnd.ms-excel.sheet.binary.macroEnabled.12
+
+  - id: application/vnd.ms-excel.sheet.macroEnabled.12
+    name: vnd.ms-excel.sheet.macroEnabled.12
+
+  - id: application/vnd.ms-excel.template.macroEnabled.12
+    name: vnd.ms-excel.template.macroEnabled.12
+
+  - id: application/vnd.ms-fontobject
+    name: vnd.ms-fontobject
+
+  - id: application/vnd.ms-htmlhelp
+    name: vnd.ms-htmlhelp
+
+  - id: application/vnd.ms-ims
+    name: vnd.ms-ims
+
+  - id: application/vnd.ms-lrm
+    name: vnd.ms-lrm
+
+  - id: application/vnd.ms-office.activeX+xml
+    name: vnd.ms-office.activeX+xml
+
+  - id: application/vnd.ms-officetheme
+    name: vnd.ms-officetheme
+
+  - id: application/vnd.ms-playready.initiator+xml
+    name: vnd.ms-playready.initiator+xml
+
+  - id: application/vnd.ms-powerpoint
+    name: vnd.ms-powerpoint
+
+  - id: application/vnd.ms-powerpoint.addin.macroEnabled.12
+    name: vnd.ms-powerpoint.addin.macroEnabled.12
+
+  - id: application/vnd.ms-powerpoint.presentation.macroEnabled.12
+    name: vnd.ms-powerpoint.presentation.macroEnabled.12
+
+  - id: application/vnd.ms-powerpoint.slide.macroEnabled.12
+    name: vnd.ms-powerpoint.slide.macroEnabled.12
+
+  - id: application/vnd.ms-powerpoint.slideshow.macroEnabled.12
+    name: vnd.ms-powerpoint.slideshow.macroEnabled.12
+
+  - id: application/vnd.ms-powerpoint.template.macroEnabled.12
+    name: vnd.ms-powerpoint.template.macroEnabled.12
+
+  - id: application/vnd.ms-PrintDeviceCapabilities+xml
+    name: vnd.ms-PrintDeviceCapabilities+xml
+
+  - id: application/vnd.ms-PrintSchemaTicket+xml
+    name: vnd.ms-PrintSchemaTicket+xml
+
+  - id: application/vnd.ms-project
+    name: vnd.ms-project
+
+  - id: application/vnd.ms-tnef
+    name: vnd.ms-tnef
+
+  - id: application/vnd.ms-windows.devicepairing
+    name: vnd.ms-windows.devicepairing
+
+  - id: application/vnd.ms-windows.nwprinting.oob
+    name: vnd.ms-windows.nwprinting.oob
+
+  - id: application/vnd.ms-windows.printerpairing
+    name: vnd.ms-windows.printerpairing
+
+  - id: application/vnd.ms-windows.wsd.oob
+    name: vnd.ms-windows.wsd.oob
+
+  - id: application/vnd.ms-wmdrm.lic-chlg-req
+    name: vnd.ms-wmdrm.lic-chlg-req
+
+  - id: application/vnd.ms-wmdrm.lic-resp
+    name: vnd.ms-wmdrm.lic-resp
+
+  - id: application/vnd.ms-wmdrm.meter-chlg-req
+    name: vnd.ms-wmdrm.meter-chlg-req
+
+  - id: application/vnd.ms-wmdrm.meter-resp
+    name: vnd.ms-wmdrm.meter-resp
+
+  - id: application/vnd.ms-word.document.macroEnabled.12
+    name: vnd.ms-word.document.macroEnabled.12
+
+  - id: application/vnd.ms-word.template.macroEnabled.12
+    name: vnd.ms-word.template.macroEnabled.12
+
+  - id: application/vnd.ms-works
+    name: vnd.ms-works
+
+  - id: application/vnd.ms-wpl
+    name: vnd.ms-wpl
+
+  - id: application/vnd.ms-xpsdocument
+    name: vnd.ms-xpsdocument
+
+  - id: application/vnd.msa-disk-image
+    name: vnd.msa-disk-image
+
+  - id: application/vnd.mseq
+    name: vnd.mseq
+
+  - id: application/vnd.msign
+    name: vnd.msign
+
+  - id: application/vnd.multiad.creator
+    name: vnd.multiad.creator
+
+  - id: application/vnd.multiad.creator.cif
+    name: vnd.multiad.creator.cif
+
+  - id: application/vnd.musician
+    name: vnd.musician
+
+  - id: application/vnd.music-niff
+    name: vnd.music-niff
+
+  - id: application/vnd.muvee.style
+    name: vnd.muvee.style
+
+  - id: application/vnd.mynfc
+    name: vnd.mynfc
+
+  - id: application/vnd.ncd.control
+    name: vnd.ncd.control
+
+  - id: application/vnd.ncd.reference
+    name: vnd.ncd.reference
+
+  - id: application/vnd.nearst.inv+json
+    name: vnd.nearst.inv+json
+
+  - id: application/vnd.nebumind.line
+    name: vnd.nebumind.line
+
+  - id: application/vnd.nervana
+    name: vnd.nervana
+
+  - id: application/vnd.netfpx
+    name: vnd.netfpx
+
+  - id: application/vnd.neurolanguage.nlu
+    name: vnd.neurolanguage.nlu
+
+  - id: application/vnd.nimn
+    name: vnd.nimn
+
+  - id: application/vnd.nintendo.snes.rom
+    name: vnd.nintendo.snes.rom
+
+  - id: application/vnd.nintendo.nitro.rom
+    name: vnd.nintendo.nitro.rom
+
+  - id: application/vnd.nitf
+    name: vnd.nitf
+
+  - id: application/vnd.noblenet-directory
+    name: vnd.noblenet-directory
+
+  - id: application/vnd.noblenet-sealer
+    name: vnd.noblenet-sealer
+
+  - id: application/vnd.noblenet-web
+    name: vnd.noblenet-web
+
+  - id: application/vnd.nokia.catalogs
+    name: vnd.nokia.catalogs
+
+  - id: application/vnd.nokia.conml+wbxml
+    name: vnd.nokia.conml+wbxml
+
+  - id: application/vnd.nokia.conml+xml
+    name: vnd.nokia.conml+xml
+
+  - id: application/vnd.nokia.iptv.config+xml
+    name: vnd.nokia.iptv.config+xml
+
+  - id: application/vnd.nokia.iSDS-radio-presets
+    name: vnd.nokia.iSDS-radio-presets
+
+  - id: application/vnd.nokia.landmark+wbxml
+    name: vnd.nokia.landmark+wbxml
+
+  - id: application/vnd.nokia.landmark+xml
+    name: vnd.nokia.landmark+xml
+
+  - id: application/vnd.nokia.landmarkcollection+xml
+    name: vnd.nokia.landmarkcollection+xml
+
+  - id: application/vnd.nokia.ncd
+    name: vnd.nokia.ncd
+
+  - id: application/vnd.nokia.n-gage.ac+xml
+    name: vnd.nokia.n-gage.ac+xml
+
+  - id: application/vnd.nokia.n-gage.data
+    name: vnd.nokia.n-gage.data
+
+  - id: application/vnd.nokia.n-gage.symbian.install
+    name: vnd.nokia.n-gage.symbian.install - OBSOLETE; no replacement given
+
+  - id: application/vnd.nokia.pcd+wbxml
+    name: vnd.nokia.pcd+wbxml
+
+  - id: application/vnd.nokia.pcd+xml
+    name: vnd.nokia.pcd+xml
+
+  - id: application/vnd.nokia.radio-preset
+    name: vnd.nokia.radio-preset
+
+  - id: application/vnd.nokia.radio-presets
+    name: vnd.nokia.radio-presets
+
+  - id: application/vnd.novadigm.EDM
+    name: vnd.novadigm.EDM
+
+  - id: application/vnd.novadigm.EDX
+    name: vnd.novadigm.EDX
+
+  - id: application/vnd.novadigm.EXT
+    name: vnd.novadigm.EXT
+
+  - id: application/vnd.ntt-local.content-share
+    name: vnd.ntt-local.content-share
+
+  - id: application/vnd.ntt-local.file-transfer
+    name: vnd.ntt-local.file-transfer
+
+  - id: application/vnd.ntt-local.ogw_remote-access
+    name: vnd.ntt-local.ogw_remote-access
+
+  - id: application/vnd.ntt-local.sip-ta_remote
+    name: vnd.ntt-local.sip-ta_remote
+
+  - id: application/vnd.ntt-local.sip-ta_tcp_stream
+    name: vnd.ntt-local.sip-ta_tcp_stream
+
+  - id: application/vnd.oasis.opendocument.chart
+    name: vnd.oasis.opendocument.chart
+
+  - id: application/vnd.oasis.opendocument.chart-template
+    name: vnd.oasis.opendocument.chart-template
+
+  - id: application/vnd.oasis.opendocument.database
+    name: vnd.oasis.opendocument.database
+
+  - id: application/vnd.oasis.opendocument.formula
+    name: vnd.oasis.opendocument.formula
+
+  - id: application/vnd.oasis.opendocument.formula-template
+    name: vnd.oasis.opendocument.formula-template
+
+  - id: application/vnd.oasis.opendocument.graphics
+    name: vnd.oasis.opendocument.graphics
+
+  - id: application/vnd.oasis.opendocument.graphics-template
+    name: vnd.oasis.opendocument.graphics-template
+
+  - id: application/vnd.oasis.opendocument.image
+    name: vnd.oasis.opendocument.image
+
+  - id: application/vnd.oasis.opendocument.image-template
+    name: vnd.oasis.opendocument.image-template
+
+  - id: application/vnd.oasis.opendocument.presentation
+    name: vnd.oasis.opendocument.presentation
+
+  - id: application/vnd.oasis.opendocument.presentation-template
+    name: vnd.oasis.opendocument.presentation-template
+
+  - id: application/vnd.oasis.opendocument.spreadsheet
+    name: vnd.oasis.opendocument.spreadsheet
+
+  - id: application/vnd.oasis.opendocument.spreadsheet-template
+    name: vnd.oasis.opendocument.spreadsheet-template
+
+  - id: application/vnd.oasis.opendocument.text
+    name: vnd.oasis.opendocument.text
+
+  - id: application/vnd.oasis.opendocument.text-master
+    name: vnd.oasis.opendocument.text-master
+
+  - id: application/vnd.oasis.opendocument.text-template
+    name: vnd.oasis.opendocument.text-template
+
+  - id: application/vnd.oasis.opendocument.text-web
+    name: vnd.oasis.opendocument.text-web
+
+  - id: application/vnd.obn
+    name: vnd.obn
+
+  - id: application/vnd.ocf+cbor
+    name: vnd.ocf+cbor
+
+  - id: application/vnd.oci.image.manifest.v1+json
+    name: vnd.oci.image.manifest.v1+json
+
+  - id: application/vnd.oftn.l10n+json
+    name: vnd.oftn.l10n+json
+
+  - id: application/vnd.oipf.contentaccessdownload+xml
+    name: vnd.oipf.contentaccessdownload+xml
+
+  - id: application/vnd.oipf.contentaccessstreaming+xml
+    name: vnd.oipf.contentaccessstreaming+xml
+
+  - id: application/vnd.oipf.cspg-hexbinary
+    name: vnd.oipf.cspg-hexbinary
+
+  - id: application/vnd.oipf.dae.svg+xml
+    name: vnd.oipf.dae.svg+xml
+
+  - id: application/vnd.oipf.dae.xhtml+xml
+    name: vnd.oipf.dae.xhtml+xml
+
+  - id: application/vnd.oipf.mippvcontrolmessage+xml
+    name: vnd.oipf.mippvcontrolmessage+xml
+
+  - id: application/vnd.oipf.pae.gem
+    name: vnd.oipf.pae.gem
+
+  - id: application/vnd.oipf.spdiscovery+xml
+    name: vnd.oipf.spdiscovery+xml
+
+  - id: application/vnd.oipf.spdlist+xml
+    name: vnd.oipf.spdlist+xml
+
+  - id: application/vnd.oipf.ueprofile+xml
+    name: vnd.oipf.ueprofile+xml
+
+  - id: application/vnd.oipf.userprofile+xml
+    name: vnd.oipf.userprofile+xml
+
+  - id: application/vnd.olpc-sugar
+    name: vnd.olpc-sugar
+
+  - id: application/vnd.oma.bcast.associated-procedure-parameter+xml
+    name: vnd.oma.bcast.associated-procedure-parameter+xml
+
+  - id: application/vnd.oma.bcast.drm-trigger+xml
+    name: vnd.oma.bcast.drm-trigger+xml
+
+  - id: application/vnd.oma.bcast.imd+xml
+    name: vnd.oma.bcast.imd+xml
+
+  - id: application/vnd.oma.bcast.ltkm
+    name: vnd.oma.bcast.ltkm
+
+  - id: application/vnd.oma.bcast.notification+xml
+    name: vnd.oma.bcast.notification+xml
+
+  - id: application/vnd.oma.bcast.provisioningtrigger
+    name: vnd.oma.bcast.provisioningtrigger
+
+  - id: application/vnd.oma.bcast.sgboot
+    name: vnd.oma.bcast.sgboot
+
+  - id: application/vnd.oma.bcast.sgdd+xml
+    name: vnd.oma.bcast.sgdd+xml
+
+  - id: application/vnd.oma.bcast.sgdu
+    name: vnd.oma.bcast.sgdu
+
+  - id: application/vnd.oma.bcast.simple-symbol-container
+    name: vnd.oma.bcast.simple-symbol-container
+
+  - id: application/vnd.oma.bcast.smartcard-trigger+xml
+    name: vnd.oma.bcast.smartcard-trigger+xml
+
+  - id: application/vnd.oma.bcast.sprov+xml
+    name: vnd.oma.bcast.sprov+xml
+
+  - id: application/vnd.oma.bcast.stkm
+    name: vnd.oma.bcast.stkm
+
+  - id: application/vnd.oma.cab-address-book+xml
+    name: vnd.oma.cab-address-book+xml
+
+  - id: application/vnd.oma.cab-feature-handler+xml
+    name: vnd.oma.cab-feature-handler+xml
+
+  - id: application/vnd.oma.cab-pcc+xml
+    name: vnd.oma.cab-pcc+xml
+
+  - id: application/vnd.oma.cab-subs-invite+xml
+    name: vnd.oma.cab-subs-invite+xml
+
+  - id: application/vnd.oma.cab-user-prefs+xml
+    name: vnd.oma.cab-user-prefs+xml
+
+  - id: application/vnd.oma.dcd
+    name: vnd.oma.dcd
+
+  - id: application/vnd.oma.dcdc
+    name: vnd.oma.dcdc
+
+  - id: application/vnd.oma.dd2+xml
+    name: vnd.oma.dd2+xml
+
+  - id: application/vnd.oma.drm.risd+xml
+    name: vnd.oma.drm.risd+xml
+
+  - id: application/vnd.oma.group-usage-list+xml
+    name: vnd.oma.group-usage-list+xml
+
+  - id: application/vnd.oma.lwm2m+cbor
+    name: vnd.oma.lwm2m+cbor
+
+  - id: application/vnd.oma.lwm2m+json
+    name: vnd.oma.lwm2m+json
+
+  - id: application/vnd.oma.lwm2m+tlv
+    name: vnd.oma.lwm2m+tlv
+
+  - id: application/vnd.oma.pal+xml
+    name: vnd.oma.pal+xml
+
+  - id: application/vnd.oma.poc.detailed-progress-report+xml
+    name: vnd.oma.poc.detailed-progress-report+xml
+
+  - id: application/vnd.oma.poc.final-report+xml
+    name: vnd.oma.poc.final-report+xml
+
+  - id: application/vnd.oma.poc.groups+xml
+    name: vnd.oma.poc.groups+xml
+
+  - id: application/vnd.oma.poc.invocation-descriptor+xml
+    name: vnd.oma.poc.invocation-descriptor+xml
+
+  - id: application/vnd.oma.poc.optimized-progress-report+xml
+    name: vnd.oma.poc.optimized-progress-report+xml
+
+  - id: application/vnd.oma.push
+    name: vnd.oma.push
+
+  - id: application/vnd.oma.scidm.messages+xml
+    name: vnd.oma.scidm.messages+xml
+
+  - id: application/vnd.oma.xcap-directory+xml
+    name: vnd.oma.xcap-directory+xml
+
+  - id: application/vnd.omads-email+xml
+    name: vnd.omads-email+xml
+
+  - id: application/vnd.omads-file+xml
+    name: vnd.omads-file+xml
+
+  - id: application/vnd.omads-folder+xml
+    name: vnd.omads-folder+xml
+
+  - id: application/vnd.omaloc-supl-init
+    name: vnd.omaloc-supl-init
+
+  - id: application/vnd.oma-scws-config
+    name: vnd.oma-scws-config
+
+  - id: application/vnd.oma-scws-http-request
+    name: vnd.oma-scws-http-request
+
+  - id: application/vnd.oma-scws-http-response
+    name: vnd.oma-scws-http-response
+
+  - id: application/vnd.onepager
+    name: vnd.onepager
+
+  - id: application/vnd.onepagertamp
+    name: vnd.onepagertamp
+
+  - id: application/vnd.onepagertamx
+    name: vnd.onepagertamx
+
+  - id: application/vnd.onepagertat
+    name: vnd.onepagertat
+
+  - id: application/vnd.onepagertatp
+    name: vnd.onepagertatp
+
+  - id: application/vnd.onepagertatx
+    name: vnd.onepagertatx
+
+  - id: application/vnd.openblox.game-binary
+    name: vnd.openblox.game-binary
+
+  - id: application/vnd.openblox.game+xml
+    name: vnd.openblox.game+xml
+
+  - id: application/vnd.openeye.oeb
+    name: vnd.openeye.oeb
+
+  - id: application/vnd.openstreetmap.data+xml
+    name: vnd.openstreetmap.data+xml
+
+  - id: application/vnd.opentimestamps.ots
+    name: vnd.opentimestamps.ots
+
+  - id: application/vnd.openxmlformats-officedocument.custom-properties+xml
+    name: vnd.openxmlformats-officedocument.custom-properties+xml
+
+  - id: application/vnd.openxmlformats-officedocument.customXmlProperties+xml
+    name: vnd.openxmlformats-officedocument.customXmlProperties+xml
+
+  - id: application/vnd.openxmlformats-officedocument.drawing+xml
+    name: vnd.openxmlformats-officedocument.drawing+xml
+
+  - id: application/vnd.openxmlformats-officedocument.drawingml.chart+xml
+    name: vnd.openxmlformats-officedocument.drawingml.chart+xml
+
+  - id: application/vnd.openxmlformats-officedocument.drawingml.chartshapes+xml
+    name: vnd.openxmlformats-officedocument.drawingml.chartshapes+xml
+
+  - id: application/vnd.openxmlformats-officedocument.drawingml.diagramColors+xml
+    name: vnd.openxmlformats-officedocument.drawingml.diagramColors+xml
+
+  - id: application/vnd.openxmlformats-officedocument.drawingml.diagramData+xml
+    name: vnd.openxmlformats-officedocument.drawingml.diagramData+xml
+
+  - id: application/vnd.openxmlformats-officedocument.drawingml.diagramLayout+xml
+    name: vnd.openxmlformats-officedocument.drawingml.diagramLayout+xml
+
+  - id: application/vnd.openxmlformats-officedocument.drawingml.diagramStyle+xml
+    name: vnd.openxmlformats-officedocument.drawingml.diagramStyle+xml
+
+  - id: application/vnd.openxmlformats-officedocument.extended-properties+xml
+    name: vnd.openxmlformats-officedocument.extended-properties+xml
+
+  - id: application/vnd.openxmlformats-officedocument.presentationml.commentAuthors+xml
+    name: vnd.openxmlformats-officedocument.presentationml.commentAuthors+xml
+
+  - id: application/vnd.openxmlformats-officedocument.presentationml.comments+xml
+    name: vnd.openxmlformats-officedocument.presentationml.comments+xml
+
+  - id: application/vnd.openxmlformats-officedocument.presentationml.handoutMaster+xml
+    name: vnd.openxmlformats-officedocument.presentationml.handoutMaster+xml
+
+  - id: application/vnd.openxmlformats-officedocument.presentationml.notesMaster+xml
+    name: vnd.openxmlformats-officedocument.presentationml.notesMaster+xml
+
+  - id: application/vnd.openxmlformats-officedocument.presentationml.notesSlide+xml
+    name: vnd.openxmlformats-officedocument.presentationml.notesSlide+xml
+
+  - id: application/vnd.openxmlformats-officedocument.presentationml.presentation
+    name: vnd.openxmlformats-officedocument.presentationml.presentation
+
+  - id: application/vnd.openxmlformats-officedocument.presentationml.presentation.main+xml
+    name: vnd.openxmlformats-officedocument.presentationml.presentation.main+xml
+
+  - id: application/vnd.openxmlformats-officedocument.presentationml.presProps+xml
+    name: vnd.openxmlformats-officedocument.presentationml.presProps+xml
+
+  - id: application/vnd.openxmlformats-officedocument.presentationml.slide
+    name: vnd.openxmlformats-officedocument.presentationml.slide
+
+  - id: application/vnd.openxmlformats-officedocument.presentationml.slide+xml
+    name: vnd.openxmlformats-officedocument.presentationml.slide+xml
+
+  - id: application/vnd.openxmlformats-officedocument.presentationml.slideLayout+xml
+    name: vnd.openxmlformats-officedocument.presentationml.slideLayout+xml
+
+  - id: application/vnd.openxmlformats-officedocument.presentationml.slideMaster+xml
+    name: vnd.openxmlformats-officedocument.presentationml.slideMaster+xml
+
+  - id: application/vnd.openxmlformats-officedocument.presentationml.slideshow
+    name: vnd.openxmlformats-officedocument.presentationml.slideshow
+
+  - id: application/vnd.openxmlformats-officedocument.presentationml.slideshow.main+xml
+    name: vnd.openxmlformats-officedocument.presentationml.slideshow.main+xml
+
+  - id: application/vnd.openxmlformats-officedocument.presentationml.slideUpdateInfo+xml
+    name: vnd.openxmlformats-officedocument.presentationml.slideUpdateInfo+xml
+
+  - id: application/vnd.openxmlformats-officedocument.presentationml.tableStyles+xml
+    name: vnd.openxmlformats-officedocument.presentationml.tableStyles+xml
+
+  - id: application/vnd.openxmlformats-officedocument.presentationml.tags+xml
+    name: vnd.openxmlformats-officedocument.presentationml.tags+xml
+
+  - id: application/vnd.openxmlformats-officedocument.presentationml.template
+    name: vnd.openxmlformats-officedocument.presentationml.template
+
+  - id: application/vnd.openxmlformats-officedocument.presentationml.template.main+xml
+    name: vnd.openxmlformats-officedocument.presentationml.template.main+xml
+
+  - id: application/vnd.openxmlformats-officedocument.presentationml.viewProps+xml
+    name: vnd.openxmlformats-officedocument.presentationml.viewProps+xml
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.calcChain+xml
+    name: vnd.openxmlformats-officedocument.spreadsheetml.calcChain+xml
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.chartsheet+xml
+    name: vnd.openxmlformats-officedocument.spreadsheetml.chartsheet+xml
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.comments+xml
+    name: vnd.openxmlformats-officedocument.spreadsheetml.comments+xml
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.connections+xml
+    name: vnd.openxmlformats-officedocument.spreadsheetml.connections+xml
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.dialogsheet+xml
+    name: vnd.openxmlformats-officedocument.spreadsheetml.dialogsheet+xml
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.externalLink+xml
+    name: vnd.openxmlformats-officedocument.spreadsheetml.externalLink+xml
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.pivotCacheDefinition+xml
+    name: vnd.openxmlformats-officedocument.spreadsheetml.pivotCacheDefinition+xml
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.pivotCacheRecords+xml
+    name: vnd.openxmlformats-officedocument.spreadsheetml.pivotCacheRecords+xml
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.pivotTable+xml
+    name: vnd.openxmlformats-officedocument.spreadsheetml.pivotTable+xml
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.queryTable+xml
+    name: vnd.openxmlformats-officedocument.spreadsheetml.queryTable+xml
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.revisionHeaders+xml
+    name: vnd.openxmlformats-officedocument.spreadsheetml.revisionHeaders+xml
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.revisionLog+xml
+    name: vnd.openxmlformats-officedocument.spreadsheetml.revisionLog+xml
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.sharedStrings+xml
+    name: vnd.openxmlformats-officedocument.spreadsheetml.sharedStrings+xml
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+    name: vnd.openxmlformats-officedocument.spreadsheetml.sheet
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+    name: vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.sheetMetadata+xml
+    name: vnd.openxmlformats-officedocument.spreadsheetml.sheetMetadata+xml
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml
+    name: vnd.openxmlformats-officedocument.spreadsheetml.styles+xml
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.table+xml
+    name: vnd.openxmlformats-officedocument.spreadsheetml.table+xml
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.tableSingleCells+xml
+    name: vnd.openxmlformats-officedocument.spreadsheetml.tableSingleCells+xml
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.template
+    name: vnd.openxmlformats-officedocument.spreadsheetml.template
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.template.main+xml
+    name: vnd.openxmlformats-officedocument.spreadsheetml.template.main+xml
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.userNames+xml
+    name: vnd.openxmlformats-officedocument.spreadsheetml.userNames+xml
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.volatileDependencies+xml
+    name: vnd.openxmlformats-officedocument.spreadsheetml.volatileDependencies+xml
+
+  - id: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml
+    name: vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml
+
+  - id: application/vnd.openxmlformats-officedocument.theme+xml
+    name: vnd.openxmlformats-officedocument.theme+xml
+
+  - id: application/vnd.openxmlformats-officedocument.themeOverride+xml
+    name: vnd.openxmlformats-officedocument.themeOverride+xml
+
+  - id: application/vnd.openxmlformats-officedocument.vmlDrawing
+    name: vnd.openxmlformats-officedocument.vmlDrawing
+
+  - id: application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml
+    name: vnd.openxmlformats-officedocument.wordprocessingml.comments+xml
+
+  - id: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+    name: vnd.openxmlformats-officedocument.wordprocessingml.document
+
+  - id: application/vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml
+    name: vnd.openxmlformats-officedocument.wordprocessingml.document.glossary+xml
+
+  - id: application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml
+    name: vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml
+
+  - id: application/vnd.openxmlformats-officedocument.wordprocessingml.endnotes+xml
+    name: vnd.openxmlformats-officedocument.wordprocessingml.endnotes+xml
+
+  - id: application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml
+    name: vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml
+
+  - id: application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml
+    name: vnd.openxmlformats-officedocument.wordprocessingml.footer+xml
+
+  - id: application/vnd.openxmlformats-officedocument.wordprocessingml.footnotes+xml
+    name: vnd.openxmlformats-officedocument.wordprocessingml.footnotes+xml
+
+  - id: application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml
+    name: vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml
+
+  - id: application/vnd.openxmlformats-officedocument.wordprocessingml.settings+xml
+    name: vnd.openxmlformats-officedocument.wordprocessingml.settings+xml
+
+  - id: application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml
+    name: vnd.openxmlformats-officedocument.wordprocessingml.styles+xml
+
+  - id: application/vnd.openxmlformats-officedocument.wordprocessingml.template
+    name: vnd.openxmlformats-officedocument.wordprocessingml.template
+
+  - id: application/vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml
+    name: vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml
+
+  - id: application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml
+    name: vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml
+
+  - id: application/vnd.openxmlformats-package.core-properties+xml
+    name: vnd.openxmlformats-package.core-properties+xml
+
+  - id: application/vnd.openxmlformats-package.digital-signature-xmlsignature+xml
+    name: vnd.openxmlformats-package.digital-signature-xmlsignature+xml
+
+  - id: application/vnd.openxmlformats-package.relationships+xml
+    name: vnd.openxmlformats-package.relationships+xml
+
+  - id: application/vnd.oracle.resource+json
+    name: vnd.oracle.resource+json
+
+  - id: application/vnd.orange.indata
+    name: vnd.orange.indata
+
+  - id: application/vnd.osa.netdeploy
+    name: vnd.osa.netdeploy
+
+  - id: application/vnd.osgeo.mapguide.package
+    name: vnd.osgeo.mapguide.package
+
+  - id: application/vnd.osgi.bundle
+    name: vnd.osgi.bundle
+
+  - id: application/vnd.osgi.dp
+    name: vnd.osgi.dp
+
+  - id: application/vnd.osgi.subsystem
+    name: vnd.osgi.subsystem
+
+  - id: application/vnd.otps.ct-kip+xml
+    name: vnd.otps.ct-kip+xml
+
+  - id: application/vnd.oxli.countgraph
+    name: vnd.oxli.countgraph
+
+  - id: application/vnd.pagerduty+json
+    name: vnd.pagerduty+json
+
+  - id: application/vnd.palm
+    name: vnd.palm
+
+  - id: application/vnd.panoply
+    name: vnd.panoply
+
+  - id: application/vnd.paos.xml
+    name: vnd.paos.xml
+
+  - id: application/vnd.patentdive
+    name: vnd.patentdive
+
+  - id: application/vnd.patientecommsdoc
+    name: vnd.patientecommsdoc
+
+  - id: application/vnd.pawaafile
+    name: vnd.pawaafile
+
+  - id: application/vnd.pcos
+    name: vnd.pcos
+
+  - id: application/vnd.pg.format
+    name: vnd.pg.format
+
+  - id: application/vnd.pg.osasli
+    name: vnd.pg.osasli
+
+  - id: application/vnd.piaccess.application-licence
+    name: vnd.piaccess.application-licence
+
+  - id: application/vnd.picsel
+    name: vnd.picsel
+
+  - id: application/vnd.pmi.widget
+    name: vnd.pmi.widget
+
+  - id: application/vnd.poc.group-advertisement+xml
+    name: vnd.poc.group-advertisement+xml
+
+  - id: application/vnd.pocketlearn
+    name: vnd.pocketlearn
+
+  - id: application/vnd.powerbuilder6
+    name: vnd.powerbuilder6
+
+  - id: application/vnd.powerbuilder6-s
+    name: vnd.powerbuilder6-s
+
+  - id: application/vnd.powerbuilder7
+    name: vnd.powerbuilder7
+
+  - id: application/vnd.powerbuilder75
+    name: vnd.powerbuilder75
+
+  - id: application/vnd.powerbuilder75-s
+    name: vnd.powerbuilder75-s
+
+  - id: application/vnd.powerbuilder7-s
+    name: vnd.powerbuilder7-s
+
+  - id: application/vnd.preminet
+    name: vnd.preminet
+
+  - id: application/vnd.previewsystems.box
+    name: vnd.previewsystems.box
+
+  - id: application/vnd.proteus.magazine
+    name: vnd.proteus.magazine
+
+  - id: application/vnd.psfs
+    name: vnd.psfs
+
+  - id: application/vnd.publishare-delta-tree
+    name: vnd.publishare-delta-tree
+
+  - id: application/vnd.pvi.ptid1
+    name: vnd.pvi.ptid1
+
+  - id: application/vnd.pwg-multiplexed
+    name: vnd.pwg-multiplexed
+
+  - id: application/vnd.pwg-xhtml-print+xml
+    name: vnd.pwg-xhtml-print+xml
+
+  - id: application/vnd.qualcomm.brew-app-res
+    name: vnd.qualcomm.brew-app-res
+
+  - id: application/vnd.quarantainenet
+    name: vnd.quarantainenet
+
+  - id: application/vnd.Quark.QuarkXPress
+    name: vnd.Quark.QuarkXPress
+
+  - id: application/vnd.quobject-quoxdocument
+    name: vnd.quobject-quoxdocument
+
+  - id: application/vnd.radisys.moml+xml
+    name: vnd.radisys.moml+xml
+
+  - id: application/vnd.radisys.msml-audit-conf+xml
+    name: vnd.radisys.msml-audit-conf+xml
+
+  - id: application/vnd.radisys.msml-audit-conn+xml
+    name: vnd.radisys.msml-audit-conn+xml
+
+  - id: application/vnd.radisys.msml-audit-dialog+xml
+    name: vnd.radisys.msml-audit-dialog+xml
+
+  - id: application/vnd.radisys.msml-audit-stream+xml
+    name: vnd.radisys.msml-audit-stream+xml
+
+  - id: application/vnd.radisys.msml-audit+xml
+    name: vnd.radisys.msml-audit+xml
+
+  - id: application/vnd.radisys.msml-conf+xml
+    name: vnd.radisys.msml-conf+xml
+
+  - id: application/vnd.radisys.msml-dialog-base+xml
+    name: vnd.radisys.msml-dialog-base+xml
+
+  - id: application/vnd.radisys.msml-dialog-fax-detect+xml
+    name: vnd.radisys.msml-dialog-fax-detect+xml
+
+  - id: application/vnd.radisys.msml-dialog-fax-sendrecv+xml
+    name: vnd.radisys.msml-dialog-fax-sendrecv+xml
+
+  - id: application/vnd.radisys.msml-dialog-group+xml
+    name: vnd.radisys.msml-dialog-group+xml
+
+  - id: application/vnd.radisys.msml-dialog-speech+xml
+    name: vnd.radisys.msml-dialog-speech+xml
+
+  - id: application/vnd.radisys.msml-dialog-transform+xml
+    name: vnd.radisys.msml-dialog-transform+xml
+
+  - id: application/vnd.radisys.msml-dialog+xml
+    name: vnd.radisys.msml-dialog+xml
+
+  - id: application/vnd.radisys.msml+xml
+    name: vnd.radisys.msml+xml
+
+  - id: application/vnd.rainstor.data
+    name: vnd.rainstor.data
+
+  - id: application/vnd.rapid
+    name: vnd.rapid
+
+  - id: application/vnd.rar
+    name: vnd.rar
+
+  - id: application/vnd.realvnc.bed
+    name: vnd.realvnc.bed
+
+  - id: application/vnd.recordare.musicxml
+    name: vnd.recordare.musicxml
+
+  - id: application/vnd.recordare.musicxml+xml
+    name: vnd.recordare.musicxml+xml
+
+  - id: application/vnd.RenLearn.rlprint
+    name: vnd.RenLearn.rlprint
+
+  - id: application/vnd.resilient.logic
+    name: vnd.resilient.logic
+
+  - id: application/vnd.restful+json
+    name: vnd.restful+json
+
+  - id: application/vnd.rig.cryptonote
+    name: vnd.rig.cryptonote
+
+  - id: application/vnd.route66.link66+xml
+    name: vnd.route66.link66+xml
+
+  - id: application/vnd.rs-274x
+    name: vnd.rs-274x
+
+  - id: application/vnd.ruckus.download
+    name: vnd.ruckus.download
+
+  - id: application/vnd.s3sms
+    name: vnd.s3sms
+
+  - id: application/vnd.sailingtracker.track
+    name: vnd.sailingtracker.track
+
+  - id: application/vnd.sar
+    name: vnd.sar
+
+  - id: application/vnd.sbm.cid
+    name: vnd.sbm.cid
+
+  - id: application/vnd.sbm.mid2
+    name: vnd.sbm.mid2
+
+  - id: application/vnd.scribus
+    name: vnd.scribus
+
+  - id: application/vnd.sealed.3df
+    name: vnd.sealed.3df
+
+  - id: application/vnd.sealed.csf
+    name: vnd.sealed.csf
+
+  - id: application/vnd.sealed.doc
+    name: vnd.sealed.doc
+
+  - id: application/vnd.sealed.eml
+    name: vnd.sealed.eml
+
+  - id: application/vnd.sealed.mht
+    name: vnd.sealed.mht
+
+  - id: application/vnd.sealed.net
+    name: vnd.sealed.net
+
+  - id: application/vnd.sealed.ppt
+    name: vnd.sealed.ppt
+
+  - id: application/vnd.sealed.tiff
+    name: vnd.sealed.tiff
+
+  - id: application/vnd.sealed.xls
+    name: vnd.sealed.xls
+
+  - id: application/vnd.sealedmedia.softseal.html
+    name: vnd.sealedmedia.softseal.html
+
+  - id: application/vnd.sealedmedia.softseal.pdf
+    name: vnd.sealedmedia.softseal.pdf
+
+  - id: application/vnd.seemail
+    name: vnd.seemail
+
+  - id: application/vnd.seis+json
+    name: vnd.seis+json
+
+  - id: application/vnd.sema
+    name: vnd.sema
+
+  - id: application/vnd.semd
+    name: vnd.semd
+
+  - id: application/vnd.semf
+    name: vnd.semf
+
+  - id: application/vnd.shade-save-file
+    name: vnd.shade-save-file
+
+  - id: application/vnd.shana.informed.formdata
+    name: vnd.shana.informed.formdata
+
+  - id: application/vnd.shana.informed.formtemplate
+    name: vnd.shana.informed.formtemplate
+
+  - id: application/vnd.shana.informed.interchange
+    name: vnd.shana.informed.interchange
+
+  - id: application/vnd.shana.informed.package
+    name: vnd.shana.informed.package
+
+  - id: application/vnd.shootproof+json
+    name: vnd.shootproof+json
+
+  - id: application/vnd.shopkick+json
+    name: vnd.shopkick+json
+
+  - id: application/vnd.shp
+    name: vnd.shp
+
+  - id: application/vnd.shx
+    name: vnd.shx
+
+  - id: application/vnd.sigrok.session
+    name: vnd.sigrok.session
+
+  - id: application/vnd.SimTech-MindMapper
+    name: vnd.SimTech-MindMapper
+
+  - id: application/vnd.siren+json
+    name: vnd.siren+json
+
+  - id: application/vnd.smaf
+    name: vnd.smaf
+
+  - id: application/vnd.smart.notebook
+    name: vnd.smart.notebook
+
+  - id: application/vnd.smart.teacher
+    name: vnd.smart.teacher
+
+  - id: application/vnd.snesdev-page-table
+    name: vnd.snesdev-page-table
+
+  - id: application/vnd.software602.filler.form+xml
+    name: vnd.software602.filler.form+xml
+
+  - id: application/vnd.software602.filler.form-xml-zip
+    name: vnd.software602.filler.form-xml-zip
+
+  - id: application/vnd.solent.sdkm+xml
+    name: vnd.solent.sdkm+xml
+
+  - id: application/vnd.spotfire.dxp
+    name: vnd.spotfire.dxp
+
+  - id: application/vnd.spotfire.sfs
+    name: vnd.spotfire.sfs
+
+  - id: application/vnd.sqlite3
+    name: vnd.sqlite3
+
+  - id: application/vnd.sss-cod
+    name: vnd.sss-cod
+
+  - id: application/vnd.sss-dtf
+    name: vnd.sss-dtf
+
+  - id: application/vnd.sss-ntf
+    name: vnd.sss-ntf
+
+  - id: application/vnd.stepmania.package
+    name: vnd.stepmania.package
+
+  - id: application/vnd.stepmania.stepchart
+    name: vnd.stepmania.stepchart
+
+  - id: application/vnd.street-stream
+    name: vnd.street-stream
+
+  - id: application/vnd.sun.wadl+xml
+    name: vnd.sun.wadl+xml
+
+  - id: application/vnd.sus-calendar
+    name: vnd.sus-calendar
+
+  - id: application/vnd.svd
+    name: vnd.svd
+
+  - id: application/vnd.swiftview-ics
+    name: vnd.swiftview-ics
+
+  - id: application/vnd.sycle+xml
+    name: vnd.sycle+xml
+
+  - id: application/vnd.syncml.dm.notification
+    name: vnd.syncml.dm.notification
+
+  - id: application/vnd.syncml.dmddf+xml
+    name: vnd.syncml.dmddf+xml
+
+  - id: application/vnd.syncml.dmtnds+wbxml
+    name: vnd.syncml.dmtnds+wbxml
+
+  - id: application/vnd.syncml.dmtnds+xml
+    name: vnd.syncml.dmtnds+xml
+
+  - id: application/vnd.syncml.dmddf+wbxml
+    name: vnd.syncml.dmddf+wbxml
+
+  - id: application/vnd.syncml.dm+wbxml
+    name: vnd.syncml.dm+wbxml
+
+  - id: application/vnd.syncml.dm+xml
+    name: vnd.syncml.dm+xml
+
+  - id: application/vnd.syncml.ds.notification
+    name: vnd.syncml.ds.notification
+
+  - id: application/vnd.syncml+xml
+    name: vnd.syncml+xml
+
+  - id: application/vnd.tableschema+json
+    name: vnd.tableschema+json
+
+  - id: application/vnd.tao.intent-module-archive
+    name: vnd.tao.intent-module-archive
+
+  - id: application/vnd.tcpdump.pcap
+    name: vnd.tcpdump.pcap
+
+  - id: application/vnd.think-cell.ppttc+json
+    name: vnd.think-cell.ppttc+json
+
+  - id: application/vnd.tml
+    name: vnd.tml
+
+  - id: application/vnd.tmd.mediaflex.api+xml
+    name: vnd.tmd.mediaflex.api+xml
+
+  - id: application/vnd.tmobile-livetv
+    name: vnd.tmobile-livetv
+
+  - id: application/vnd.tri.onesource
+    name: vnd.tri.onesource
+
+  - id: application/vnd.trid.tpt
+    name: vnd.trid.tpt
+
+  - id: application/vnd.triscape.mxs
+    name: vnd.triscape.mxs
+
+  - id: application/vnd.trueapp
+    name: vnd.trueapp
+
+  - id: application/vnd.truedoc
+    name: vnd.truedoc
+
+  - id: application/vnd.ubisoft.webplayer
+    name: vnd.ubisoft.webplayer
+
+  - id: application/vnd.ufdl
+    name: vnd.ufdl
+
+  - id: application/vnd.uiq.theme
+    name: vnd.uiq.theme
+
+  - id: application/vnd.umajin
+    name: vnd.umajin
+
+  - id: application/vnd.unity
+    name: vnd.unity
+
+  - id: application/vnd.uoml+xml
+    name: vnd.uoml+xml
+
+  - id: application/vnd.uplanet.alert
+    name: vnd.uplanet.alert
+
+  - id: application/vnd.uplanet.alert-wbxml
+    name: vnd.uplanet.alert-wbxml
+
+  - id: application/vnd.uplanet.bearer-choice
+    name: vnd.uplanet.bearer-choice
+
+  - id: application/vnd.uplanet.bearer-choice-wbxml
+    name: vnd.uplanet.bearer-choice-wbxml
+
+  - id: application/vnd.uplanet.cacheop
+    name: vnd.uplanet.cacheop
+
+  - id: application/vnd.uplanet.cacheop-wbxml
+    name: vnd.uplanet.cacheop-wbxml
+
+  - id: application/vnd.uplanet.channel
+    name: vnd.uplanet.channel
+
+  - id: application/vnd.uplanet.channel-wbxml
+    name: vnd.uplanet.channel-wbxml
+
+  - id: application/vnd.uplanet.list
+    name: vnd.uplanet.list
+
+  - id: application/vnd.uplanet.listcmd
+    name: vnd.uplanet.listcmd
+
+  - id: application/vnd.uplanet.listcmd-wbxml
+    name: vnd.uplanet.listcmd-wbxml
+
+  - id: application/vnd.uplanet.list-wbxml
+    name: vnd.uplanet.list-wbxml
+
+  - id: application/vnd.uri-map
+    name: vnd.uri-map
+
+  - id: application/vnd.uplanet.signal
+    name: vnd.uplanet.signal
+
+  - id: application/vnd.valve.source.material
+    name: vnd.valve.source.material
+
+  - id: application/vnd.vcx
+    name: vnd.vcx
+
+  - id: application/vnd.vd-study
+    name: vnd.vd-study
+
+  - id: application/vnd.vectorworks
+    name: vnd.vectorworks
+
+  - id: application/vnd.vel+json
+    name: vnd.vel+json
+
+  - id: application/vnd.verimatrix.vcas
+    name: vnd.verimatrix.vcas
+
+  - id: application/vnd.veritone.aion+json
+    name: vnd.veritone.aion+json
+
+  - id: application/vnd.veryant.thin
+    name: vnd.veryant.thin
+
+  - id: application/vnd.ves.encrypted
+    name: vnd.ves.encrypted
+
+  - id: application/vnd.vidsoft.vidconference
+    name: vnd.vidsoft.vidconference
+
+  - id: application/vnd.visio
+    name: vnd.visio
+
+  - id: application/vnd.visionary
+    name: vnd.visionary
+
+  - id: application/vnd.vividence.scriptfile
+    name: vnd.vividence.scriptfile
+
+  - id: application/vnd.vsf
+    name: vnd.vsf
+
+  - id: application/vnd.wap.sic
+    name: vnd.wap.sic
+
+  - id: application/vnd.wap.slc
+    name: vnd.wap.slc
+
+  - id: application/vnd.wap.wbxml
+    name: vnd.wap.wbxml
+
+  - id: application/vnd.wap.wmlc
+    name: vnd.wap.wmlc
+
+  - id: application/vnd.wap.wmlscriptc
+    name: vnd.wap.wmlscriptc
+
+  - id: application/vnd.webturbo
+    name: vnd.webturbo
+
+  - id: application/vnd.wfa.dpp
+    name: vnd.wfa.dpp
+
+  - id: application/vnd.wfa.p2p
+    name: vnd.wfa.p2p
+
+  - id: application/vnd.wfa.wsc
+    name: vnd.wfa.wsc
+
+  - id: application/vnd.windows.devicepairing
+    name: vnd.windows.devicepairing
+
+  - id: application/vnd.wmc
+    name: vnd.wmc
+
+  - id: application/vnd.wmf.bootstrap
+    name: vnd.wmf.bootstrap
+
+  - id: application/vnd.wolfram.mathematica
+    name: vnd.wolfram.mathematica
+
+  - id: application/vnd.wolfram.mathematica.package
+    name: vnd.wolfram.mathematica.package
+
+  - id: application/vnd.wolfram.player
+    name: vnd.wolfram.player
+
+  - id: application/vnd.wordperfect
+    name: vnd.wordperfect
+
+  - id: application/vnd.wqd
+    name: vnd.wqd
+
+  - id: application/vnd.wrq-hp3000-labelled
+    name: vnd.wrq-hp3000-labelled
+
+  - id: application/vnd.wt.stf
+    name: vnd.wt.stf
+
+  - id: application/vnd.wv.csp+xml
+    name: vnd.wv.csp+xml
+
+  - id: application/vnd.wv.csp+wbxml
+    name: vnd.wv.csp+wbxml
+
+  - id: application/vnd.wv.ssp+xml
+    name: vnd.wv.ssp+xml
+
+  - id: application/vnd.xacml+json
+    name: vnd.xacml+json
+
+  - id: application/vnd.xara
+    name: vnd.xara
+
+  - id: application/vnd.xfdl
+    name: vnd.xfdl
+
+  - id: application/vnd.xfdl.webform
+    name: vnd.xfdl.webform
+
+  - id: application/vnd.xmi+xml
+    name: vnd.xmi+xml
+
+  - id: application/vnd.xmpie.cpkg
+    name: vnd.xmpie.cpkg
+
+  - id: application/vnd.xmpie.dpkg
+    name: vnd.xmpie.dpkg
+
+  - id: application/vnd.xmpie.plan
+    name: vnd.xmpie.plan
+
+  - id: application/vnd.xmpie.ppkg
+    name: vnd.xmpie.ppkg
+
+  - id: application/vnd.xmpie.xlim
+    name: vnd.xmpie.xlim
+
+  - id: application/vnd.yamaha.hv-dic
+    name: vnd.yamaha.hv-dic
+
+  - id: application/vnd.yamaha.hv-script
+    name: vnd.yamaha.hv-script
+
+  - id: application/vnd.yamaha.hv-voice
+    name: vnd.yamaha.hv-voice
+
+  - id: application/vnd.yamaha.openscoreformat.osfpvg+xml
+    name: vnd.yamaha.openscoreformat.osfpvg+xml
+
+  - id: application/vnd.yamaha.openscoreformat
+    name: vnd.yamaha.openscoreformat
+
+  - id: application/vnd.yamaha.remote-setup
+    name: vnd.yamaha.remote-setup
+
+  - id: application/vnd.yamaha.smaf-audio
+    name: vnd.yamaha.smaf-audio
+
+  - id: application/vnd.yamaha.smaf-phrase
+    name: vnd.yamaha.smaf-phrase
+
+  - id: application/vnd.yamaha.through-ngn
+    name: vnd.yamaha.through-ngn
+
+  - id: application/vnd.yamaha.tunnel-udpencap
+    name: vnd.yamaha.tunnel-udpencap
+
+  - id: application/vnd.yaoweme
+    name: vnd.yaoweme
+
+  - id: application/vnd.yellowriver-custom-menu
+    name: vnd.yellowriver-custom-menu
+
+  - id: application/vnd.youtube.yt
+    name: vnd.youtube.yt - OBSOLETED in favor of video/vnd.youtube.yt
+
+  - id: application/vnd.zul
+    name: vnd.zul
+
+  - id: application/vnd.zzazz.deck+xml
+    name: vnd.zzazz.deck+xml
+
+  - id: application/voicexml+xml
+    name: voicexml+xml
+
+  - id: application/voucher-cms+json
+    name: voucher-cms+json
+
+  - id: application/vq-rtcpxr
+    name: vq-rtcpxr
+
+  - id: application/wasm
+    name: wasm
+
+  - id: application/watcherinfo+xml
+    name: watcherinfo+xml
+
+  - id: application/webpush-options+json
+    name: webpush-options+json
+
+  - id: application/whoispp-query
+    name: whoispp-query
+
+  - id: application/whoispp-response
+    name: whoispp-response
+
+  - id: application/widget
+    name: widget
+
+  - id: application/wita
+    name: wita
+
+  - id: application/wordperfect5.1
+    name: wordperfect5.1
+
+  - id: application/wsdl+xml
+    name: wsdl+xml
+
+  - id: application/wspolicy+xml
+    name: wspolicy+xml
+
+  - id: application/x-pki-message
+    name: x-pki-message
+
+  - id: application/x-www-form-urlencoded
+    name: x-www-form-urlencoded
+
+  - id: application/x-x509-ca-cert
+    name: x-x509-ca-cert
+
+  - id: application/x-x509-ca-ra-cert
+    name: x-x509-ca-ra-cert
+
+  - id: application/x-x509-next-ca-cert
+    name: x-x509-next-ca-cert
+
+  - id: application/x400-bp
+    name: x400-bp
+
+  - id: application/xacml+xml
+    name: xacml+xml
+
+  - id: application/xcap-att+xml
+    name: xcap-att+xml
+
+  - id: application/xcap-caps+xml
+    name: xcap-caps+xml
+
+  - id: application/xcap-diff+xml
+    name: xcap-diff+xml
+
+  - id: application/xcap-el+xml
+    name: xcap-el+xml
+
+  - id: application/xcap-error+xml
+    name: xcap-error+xml
+
+  - id: application/xcap-ns+xml
+    name: xcap-ns+xml
+
+  - id: application/xcon-conference-info-diff+xml
+    name: xcon-conference-info-diff+xml
+
+  - id: application/xcon-conference-info+xml
+    name: xcon-conference-info+xml
+
+  - id: application/xenc+xml
+    name: xenc+xml
+
+  - id: application/xhtml+xml
+    name: xhtml+xml
+
+  - id: application/xliff+xml
+    name: xliff+xml
+
+  - id: application/xml
+    name: xml
+
+  - id: application/xml-dtd
+    name: xml-dtd
+
+  - id: application/xml-external-parsed-entity
+    name: xml-external-parsed-entity
+
+  - id: application/xml-patch+xml
+    name: xml-patch+xml
+
+  - id: application/xmpp+xml
+    name: xmpp+xml
+
+  - id: application/xop+xml
+    name: xop+xml
+
+  - id: application/xslt+xml
+    name: xslt+xml
+
+  - id: application/xv+xml
+    name: xv+xml
+
+  - id: application/yang
+    name: yang
+
+  - id: application/yang-data+json
+    name: yang-data+json
+
+  - id: application/yang-data+xml
+    name: yang-data+xml
+
+  - id: application/yang-patch+json
+    name: yang-patch+json
+
+  - id: application/yang-patch+xml
+    name: yang-patch+xml
+
+  - id: application/yin+xml
+    name: yin+xml
+
+  - id: application/zip
+    name: zip
+
+  - id: application/zlib
+    name: zlib
+
+  - id: application/zstd
+    name: zstd
+
+  # audio
+  - id: audio/1d-interleaved-parityfec
+    name: 1d-interleaved-parityfec
+
+  - id: audio/32kadpcm
+    name: 32kadpcm
+
+  - id: audio/3gpp
+    name: 3gpp
+
+  - id: audio/3gpp2
+    name: 3gpp2
+
+  - id: audio/aac
+    name: aac
+
+  - id: audio/ac3
+    name: ac3
+
+  - id: audio/AMR
+    name: AMR
+
+  - id: audio/AMR-WB
+    name: AMR-WB
+
+  - id: audio/amr-wb+
+    name: amr-wb+
+
+  - id: audio/aptx
+    name: aptx
+
+  - id: audio/asc
+    name: asc
+
+  - id: audio/ATRAC-ADVANCED-LOSSLESS
+    name: ATRAC-ADVANCED-LOSSLESS
+
+  - id: audio/ATRAC-X
+    name: ATRAC-X
+
+  - id: audio/ATRAC3
+    name: ATRAC3
+
+  - id: audio/basic
+    name: basic
+
+  - id: audio/BV16
+    name: BV16
+
+  - id: audio/BV32
+    name: BV32
+
+  - id: audio/clearmode
+    name: clearmode
+
+  - id: audio/CN
+    name: CN
+
+  - id: audio/DAT12
+    name: DAT12
+
+  - id: audio/dls
+    name: dls
+
+  - id: audio/dsr-es201108
+    name: dsr-es201108
+
+  - id: audio/dsr-es202050
+    name: dsr-es202050
+
+  - id: audio/dsr-es202211
+    name: dsr-es202211
+
+  - id: audio/dsr-es202212
+    name: dsr-es202212
+
+  - id: audio/DV
+    name: DV
+
+  - id: audio/DVI4
+    name: DVI4
+
+  - id: audio/eac3
+    name: eac3
+
+  - id: audio/encaprtp
+    name: encaprtp
+
+  - id: audio/EVRC
+    name: EVRC
+
+  - id: audio/EVRC-QCP
+    name: EVRC-QCP
+
+  - id: audio/EVRC0
+    name: EVRC0
+
+  - id: audio/EVRC1
+    name: EVRC1
+
+  - id: audio/EVRCB
+    name: EVRCB
+
+  - id: audio/EVRCB0
+    name: EVRCB0
+
+  - id: audio/EVRCB1
+    name: EVRCB1
+
+  - id: audio/EVRCNW
+    name: EVRCNW
+
+  - id: audio/EVRCNW0
+    name: EVRCNW0
+
+  - id: audio/EVRCNW1
+    name: EVRCNW1
+
+  - id: audio/EVRCWB
+    name: EVRCWB
+
+  - id: audio/EVRCWB0
+    name: EVRCWB0
+
+  - id: audio/EVRCWB1
+    name: EVRCWB1
+
+  - id: audio/EVS
+    name: EVS
+
+  - id: audio/example
+    name: example
+
+  - id: audio/flexfec
+    name: flexfec
+
+  - id: audio/fwdred
+    name: fwdred
+
+  - id: audio/G711-0
+    name: G711-0
+
+  - id: audio/G719
+    name: G719
+
+  - id: audio/G7221
+    name: G7221
+
+  - id: audio/G722
+    name: G722
+
+  - id: audio/G723
+    name: G723
+
+  - id: audio/G726-16
+    name: G726-16
+
+  - id: audio/G726-24
+    name: G726-24
+
+  - id: audio/G726-32
+    name: G726-32
+
+  - id: audio/G726-40
+    name: G726-40
+
+  - id: audio/G728
+    name: G728
+
+  - id: audio/G729
+    name: G729
+
+  - id: audio/G7291
+    name: G7291
+
+  - id: audio/G729D
+    name: G729D
+
+  - id: audio/G729E
+    name: G729E
+
+  - id: audio/GSM
+    name: GSM
+
+  - id: audio/GSM-EFR
+    name: GSM-EFR
+
+  - id: audio/GSM-HR-08
+    name: GSM-HR-08
+
+  - id: audio/iLBC
+    name: iLBC
+
+  - id: audio/ip-mr_v2.5
+    name: ip-mr_v2.5
+
+  - id: audio/L8
+    name: L8
+
+  - id: audio/L16
+    name: L16
+
+  - id: audio/L20
+    name: L20
+
+  - id: audio/L24
+    name: L24
+
+  - id: audio/LPC
+    name: LPC
+
+  - id: audio/MELP
+    name: MELP
+
+  - id: audio/MELP600
+    name: MELP600
+
+  - id: audio/MELP1200
+    name: MELP1200
+
+  - id: audio/MELP2400
+    name: MELP2400
+
+  - id: audio/mhas
+    name: mhas
+
+  - id: audio/mobile-xmf
+    name: mobile-xmf
+
+  - id: audio/MPA
+    name: MPA
+
+  - id: audio/mp4
+    name: mp4
+
+  - id: audio/MP4A-LATM
+    name: MP4A-LATM
+
+  - id: audio/mpa-robust
+    name: mpa-robust
+
+  - id: audio/mpeg
+    name: mpeg
+
+  - id: audio/mpeg4-generic
+    name: mpeg4-generic
+
+  - id: audio/ogg
+    name: ogg
+
+  - id: audio/opus
+    name: opus
+
+  - id: audio/parityfec
+    name: parityfec
+
+  - id: audio/PCMA
+    name: PCMA
+
+  - id: audio/PCMA-WB
+    name: PCMA-WB
+
+  - id: audio/PCMU
+    name: PCMU
+
+  - id: audio/PCMU-WB
+    name: PCMU-WB
+
+  - id: audio/prs.sid
+    name: prs.sid
+
+  - id: audio/QCELP
+    name: QCELP
+
+  - id: audio/raptorfec
+    name: raptorfec
+
+  - id: audio/RED
+    name: RED
+
+  - id: audio/rtp-enc-aescm128
+    name: rtp-enc-aescm128
+
+  - id: audio/rtploopback
+    name: rtploopback
+
+  - id: audio/rtp-midi
+    name: rtp-midi
+
+  - id: audio/rtx
+    name: rtx
+
+  - id: audio/scip
+    name: scip
+
+  - id: audio/SMV
+    name: SMV
+
+  - id: audio/SMV0
+    name: SMV0
+
+  - id: audio/SMV-QCP
+    name: SMV-QCP
+
+  - id: audio/sofa
+    name: sofa
+
+  - id: audio/sp-midi
+    name: sp-midi
+
+  - id: audio/speex
+    name: speex
+
+  - id: audio/t140c
+    name: t140c
+
+  - id: audio/t38
+    name: t38
+
+  - id: audio/telephone-event
+    name: telephone-event
+
+  - id: audio/TETRA_ACELP
+    name: TETRA_ACELP
+
+  - id: audio/TETRA_ACELP_BB
+    name: TETRA_ACELP_BB
+
+  - id: audio/tone
+    name: tone
+
+  - id: audio/TSVCIS
+    name: TSVCIS
+
+  - id: audio/UEMCLIP
+    name: UEMCLIP
+
+  - id: audio/ulpfec
+    name: ulpfec
+
+  - id: audio/usac
+    name: usac
+
+  - id: audio/VDVI
+    name: VDVI
+
+  - id: audio/VMR-WB
+    name: VMR-WB
+
+  - id: audio/vnd.3gpp.iufp
+    name: vnd.3gpp.iufp
+
+  - id: audio/vnd.4SB
+    name: vnd.4SB
+
+  - id: audio/vnd.audiokoz
+    name: vnd.audiokoz
+
+  - id: audio/vnd.CELP
+    name: vnd.CELP
+
+  - id: audio/vnd.cisco.nse
+    name: vnd.cisco.nse
+
+  - id: audio/vnd.cmles.radio-events
+    name: vnd.cmles.radio-events
+
+  - id: audio/vnd.cns.anp1
+    name: vnd.cns.anp1
+
+  - id: audio/vnd.cns.inf1
+    name: vnd.cns.inf1
+
+  - id: audio/vnd.dece.audio
+    name: vnd.dece.audio
+
+  - id: audio/vnd.digital-winds
+    name: vnd.digital-winds
+
+  - id: audio/vnd.dlna.adts
+    name: vnd.dlna.adts
+
+  - id: audio/vnd.dolby.heaac.1
+    name: vnd.dolby.heaac.1
+
+  - id: audio/vnd.dolby.heaac.2
+    name: vnd.dolby.heaac.2
+
+  - id: audio/vnd.dolby.mlp
+    name: vnd.dolby.mlp
+
+  - id: audio/vnd.dolby.mps
+    name: vnd.dolby.mps
+
+  - id: audio/vnd.dolby.pl2
+    name: vnd.dolby.pl2
+
+  - id: audio/vnd.dolby.pl2x
+    name: vnd.dolby.pl2x
+
+  - id: audio/vnd.dolby.pl2z
+    name: vnd.dolby.pl2z
+
+  - id: audio/vnd.dolby.pulse.1
+    name: vnd.dolby.pulse.1
+
+  - id: audio/vnd.dra
+    name: vnd.dra
+
+  - id: audio/vnd.dts
+    name: vnd.dts
+
+  - id: audio/vnd.dts.hd
+    name: vnd.dts.hd
+
+  - id: audio/vnd.dts.uhd
+    name: vnd.dts.uhd
+
+  - id: audio/vnd.dvb.file
+    name: vnd.dvb.file
+
+  - id: audio/vnd.everad.plj
+    name: vnd.everad.plj
+
+  - id: audio/vnd.hns.audio
+    name: vnd.hns.audio
+
+  - id: audio/vnd.lucent.voice
+    name: vnd.lucent.voice
+
+  - id: audio/vnd.ms-playready.media.pya
+    name: vnd.ms-playready.media.pya
+
+  - id: audio/vnd.nokia.mobile-xmf
+    name: vnd.nokia.mobile-xmf
+
+  - id: audio/vnd.nortel.vbk
+    name: vnd.nortel.vbk
+
+  - id: audio/vnd.nuera.ecelp4800
+    name: vnd.nuera.ecelp4800
+
+  - id: audio/vnd.nuera.ecelp7470
+    name: vnd.nuera.ecelp7470
+
+  - id: audio/vnd.nuera.ecelp9600
+    name: vnd.nuera.ecelp9600
+
+  - id: audio/vnd.octel.sbc
+    name: vnd.octel.sbc
+
+  - id: audio/vnd.presonus.multitrack
+    name: vnd.presonus.multitrack
+
+  - id: audio/vnd.qcelp
+    name: vnd.qcelp - DEPRECATED in favor of audio/qcelp
+
+  - id: audio/vnd.rhetorex.32kadpcm
+    name: vnd.rhetorex.32kadpcm
+
+  - id: audio/vnd.rip
+    name: vnd.rip
+
+  - id: audio/vnd.sealedmedia.softseal.mpeg
+    name: vnd.sealedmedia.softseal.mpeg
+
+  - id: audio/vnd.vmx.cvsd
+    name: vnd.vmx.cvsd
+
+  - id: audio/vorbis
+    name: vorbis
+
+  - id: audio/vorbis-config
+    name: vorbis-config
+
+  # font
+  - id: font/collection
+    name: collection
+
+  - id: font/otf
+    name: otf
+
+  - id: font/sfnt
+    name: sfnt
+
+  - id: font/ttf
+    name: ttf
+
+  - id: font/woff
+    name: woff
+
+  - id: font/woff2
+    name: woff2
+
+  # image
+
+  - id: image/aces
+    name: aces
+
+  - id: image/avci
+    name: avci
+
+  - id: image/avcs
+    name: avcs
+
+  - id: image/avif
+    name: avif
+
+  - id: image/bmp
+    name: bmp
+
+  - id: image/cgm
+    name: cgm
+
+  - id: image/dicom-rle
+    name: dicom-rle
+
+  - id: image/emf
+    name: emf
+
+  - id: image/example
+    name: example
+
+  - id: image/fits
+    name: fits
+
+  - id: image/g3fax
+    name: g3fax
+
+  - id: image/gif
+    name: gif
+
+  - id: image/heic
+    name: heic
+
+  - id: image/heic-sequence
+    name: heic-sequence
+
+  - id: image/heif
+    name: heif
+
+  - id: image/heif-sequence
+    name: heif-sequence
+
+  - id: image/hej2k
+    name: hej2k
+
+  - id: image/hsj2
+    name: hsj2
+
+  - id: image/ief
+    name: ief
+
+  - id: image/jls
+    name: jls
+
+  - id: image/jp2
+    name: jp2
+
+  - id: image/jpeg
+    name: jpeg
+
+  - id: image/jph
+    name: jph
+
+  - id: image/jphc
+    name: jphc
+
+  - id: image/jpm
+    name: jpm
+
+  - id: image/jpx
+    name: jpx
+
+  - id: image/jxr
+    name: jxr
+
+  - id: image/jxrA
+    name: jxrA
+
+  - id: image/jxrS
+    name: jxrS
+
+  - id: image/jxs
+    name: jxs
+
+  - id: image/jxsc
+    name: jxsc
+
+  - id: image/jxsi
+    name: jxsi
+
+  - id: image/jxss
+    name: jxss
+
+  - id: image/ktx
+    name: ktx
+
+  - id: image/ktx2
+    name: ktx2
+
+  - id: image/naplps
+    name: naplps
+
+  - id: image/png
+    name: png
+
+  - id: image/prs.btif
+    name: prs.btif
+
+  - id: image/prs.pti
+    name: prs.pti
+
+  - id: image/pwg-raster
+    name: pwg-raster
+
+  - id: image/svg+xml
+    name: svg+xml
+
+  - id: image/t38
+    name: t38
+
+  - id: image/tiff
+    name: tiff
+
+  - id: image/tiff-fx
+    name: tiff-fx
+
+  - id: image/vnd.adobe.photoshop
+    name: vnd.adobe.photoshop
+
+  - id: image/vnd.airzip.accelerator.azv
+    name: vnd.airzip.accelerator.azv
+
+  - id: image/vnd.cns.inf2
+    name: vnd.cns.inf2
+
+  - id: image/vnd.dece.graphic
+    name: vnd.dece.graphic
+
+  - id: image/vnd.djvu
+    name: vnd.djvu
+
+  - id: image/vnd.dwg
+    name: vnd.dwg
+
+  - id: image/vnd.dxf
+    name: vnd.dxf
+
+  - id: image/vnd.dvb.subtitle
+    name: vnd.dvb.subtitle
+
+  - id: image/vnd.fastbidsheet
+    name: vnd.fastbidsheet
+
+  - id: image/vnd.fpx
+    name: vnd.fpx
+
+  - id: image/vnd.fst
+    name: vnd.fst
+
+  - id: image/vnd.fujixerox.edmics-mmr
+    name: vnd.fujixerox.edmics-mmr
+
+  - id: image/vnd.fujixerox.edmics-rlc
+    name: vnd.fujixerox.edmics-rlc
+
+  - id: image/vnd.globalgraphics.pgb
+    name: vnd.globalgraphics.pgb
+
+  - id: image/vnd.microsoft.icon
+    name: vnd.microsoft.icon
+
+  - id: image/vnd.mix
+    name: vnd.mix
+
+  - id: image/vnd.ms-modi
+    name: vnd.ms-modi
+
+  - id: image/vnd.mozilla.apng
+    name: vnd.mozilla.apng
+
+  - id: image/vnd.net-fpx
+    name: vnd.net-fpx
+
+  - id: image/vnd.pco.b16
+    name: vnd.pco.b16
+
+  - id: image/vnd.radiance
+    name: vnd.radiance
+
+  - id: image/vnd.sealed.png
+    name: vnd.sealed.png
+
+  - id: image/vnd.sealedmedia.softseal.gif
+    name: vnd.sealedmedia.softseal.gif
+
+  - id: image/vnd.sealedmedia.softseal.jpg
+    name: vnd.sealedmedia.softseal.jpg
+
+  - id: image/vnd.svf
+    name: vnd.svf
+
+  - id: image/vnd.tencent.tap
+    name: vnd.tencent.tap
+
+  - id: image/vnd.valve.source.texture
+    name: vnd.valve.source.texture
+
+  - id: image/vnd.wap.wbmp
+    name: vnd.wap.wbmp
+
+  - id: image/vnd.xiff
+    name: vnd.xiff
+
+  - id: image/vnd.zbrush.pcx
+    name: vnd.zbrush.pcx
+
+  - id: image/wmf
+    name: wmf
+
+  - id: image/emf
+    name: x-emf - DEPRECATED in favor of image/emf
+
+  - id: image/wmf
+    name: x-wmf - DEPRECATED in favor of image/wmf
+
+  #message
+  - id: message/CPIM
+    name: CPIM
+
+  - id: message/delivery-status
+    name: delivery-status
+
+  - id: message/disposition-notification
+    name: disposition-notification
+
+  - id: message/example
+    name: example
+
+  - id: message/external-body
+    name: external-body
+
+  - id: message/feedback-report
+    name: feedback-report
+
+  - id: message/global
+    name: global
+
+  - id: message/global-delivery-status
+    name: global-delivery-status
+
+  - id: message/global-disposition-notification
+    name: global-disposition-notification
+
+  - id: message/global-headers
+    name: global-headers
+
+  - id: message/http
+    name: http
+
+  - id: message/imdn+xml
+    name: imdn+xml
+
+  - id: message/news
+    name: news - OBSOLETED by RFC5537
+
+  - id: message/partial
+    name: partial
+
+  - id: message/rfc822
+    name: rfc822
+
+  - id: message/s-http
+    name: s-http
+
+  - id: message/sip
+    name: sip
+
+  - id: message/sipfrag
+    name: sipfrag
+
+  - id: message/tracking-status
+    name: tracking-status
+
+  - id: message/vnd.si.simp
+    name: vnd.si.simp - OBSOLETED by request
+
+  - id: message/vnd.wfa.wsc
+    name: vnd.wfa.wsc
+
+  # model
+  - id: model/3mf
+    name: 3mf
+
+  - id: model/e57
+    name: e57
+
+  - id: model/example
+    name: example
+
+  - id: model/gltf-binary
+    name: gltf-binary
+
+  - id: model/gltf+json
+    name: gltf+json
+
+  - id: model/iges
+    name: iges
+
+  - id: model/mesh
+    name: mesh
+
+  - id: model/mtl
+    name: mtl
+
+  - id: model/obj
+    name: obj
+
+  - id: model/step
+    name: step
+
+  - id: model/step+xml
+    name: step+xml
+
+  - id: model/step+zip
+    name: step+zip
+
+  - id: model/step-xml+zip
+    name: step-xml+zip
+
+  - id: model/stl
+    name: stl
+
+  - id: model/vnd.collada+xml
+    name: vnd.collada+xml
+
+  - id: model/vnd.dwf
+    name: vnd.dwf
+
+  - id: model/vnd.flatland.3dml
+    name: vnd.flatland.3dml
+
+  - id: model/vnd.gdl
+    name: vnd.gdl
+
+  - id: model/vnd.gs-gdl
+    name: vnd.gs-gdl
+
+  - id: model/vnd.gtw
+    name: vnd.gtw
+
+  - id: model/vnd.moml+xml
+    name: vnd.moml+xml
+
+  - id: model/vnd.mts
+    name: vnd.mts
+
+  - id: model/vnd.opengex
+    name: vnd.opengex
+
+  - id: model/vnd.parasolid.transmit.binary
+    name: vnd.parasolid.transmit.binary
+
+  - id: model/vnd.parasolid.transmit.text
+    name: vnd.parasolid.transmit.text
+
+  - id: model/vnd.pytha.pyox
+    name: vnd.pytha.pyox
+
+  - id: model/vnd.rosette.annotated-data-model
+    name: vnd.rosette.annotated-data-model
+
+  - id: model/vnd.sap.vds
+    name: vnd.sap.vds
+
+  - id: model/vnd.usdz+zip
+    name: vnd.usdz+zip
+
+  - id: model/vnd.valve.source.compiled-map
+    name: vnd.valve.source.compiled-map
+
+  - id: model/vnd.vtu
+    name: vnd.vtu
+
+  - id: model/vrml
+    name: vrml
+
+  - id: model/x3d-vrml
+    name: x3d-vrml
+
+  - id: model/x3d+fastinfoset
+    name: x3d+fastinfoset
+
+  - id: model/x3d+xml
+    name: x3d+xml
+
+  # multipart
+  - id: multipart/alternative
+    name: alternative
+
+  - id: multipart/appledouble
+    name: appledouble
+
+  - id: multipart/byteranges
+    name: byteranges
+
+  - id: multipart/digest
+    name: digest
+
+  - id: multipart/encrypted
+    name: encrypted
+
+  - id: multipart/example
+    name: example
+
+  - id: multipart/form-data
+    name: form-data
+
+  - id: multipart/header-set
+    name: header-set
+
+  - id: multipart/mixed
+    name: mixed
+
+  - id: multipart/multilingual
+    name: multilingual
+
+  - id: multipart/parallel
+    name: parallel
+
+  - id: multipart/related
+    name: related
+
+  - id: multipart/report
+    name: report
+
+  - id: multipart/signed
+    name: signed
+
+  - id: multipart/vnd.bint.med-plus
+    name: vnd.bint.med-plus
+
+  - id: multipart/voice-message
+    name: voice-message
+
+  - id: multipart/x-mixed-replace
+    name: x-mixed-replace
+
+  # text
+  - id: text/1d-interleaved-parityfec
+    name: 1d-interleaved-parityfec
+
+  - id: text/cache-manifest
+    name: cache-manifest
+
+  - id: text/calendar
+    name: calendar
+
+  - id: text/cql
+    name: cql
+
+  - id: text/cql-expression
+    name: cql-expression
+
+  - id: text/cql-identifier
+    name: cql-identifier
+
+  - id: text/css
+    name: css
+
+  - id: text/csv
+    name: csv
+
+  - id: text/csv-schema
+    name: csv-schema
+
+  - id: text/directory
+    name: directory - DEPRECATED by RFC6350
+
+  - id: text/dns
+    name: dns
+
+  - id: text/ecmascript
+    name: ecmascript - OBSOLETED in favor of application/ecmascript
+
+  - id: text/encaprtp
+    name: encaprtp
+
+  - id: text/enriched
+    name: enriched
+
+  - id: text/example
+    name: example
+
+  - id: text/fhirpath
+    name: fhirpath
+
+  - id: text/flexfec
+    name: flexfec
+
+  - id: text/fwdred
+    name: fwdred
+
+  - id: text/gff3
+    name: gff3
+
+  - id: text/grammar-ref-list
+    name: grammar-ref-list
+
+  - id: text/html
+    name: html
+
+  - id: text/javascript
+    name: javascript - OBSOLETED in favor of application/javascript
+
+  - id: text/jcr-cnd
+    name: jcr-cnd
+
+  - id: text/markdown
+    name: markdown
+
+  - id: text/mizar
+    name: mizar
+
+  - id: text/n3
+    name: n3
+
+  - id: text/parameters
+    name: parameters
+
+  - id: text/parityfec
+    name: parityfec
+
+  - id: text/plain
+    name: plain
+
+  - id: text/provenance-notation
+    name: provenance-notation
+
+  - id: text/prs.fallenstein.rst
+    name: prs.fallenstein.rst
+
+  - id: text/prs.lines.tag
+    name: prs.lines.tag
+
+  - id: text/prs.prop.logic
+    name: prs.prop.logic
+
+  - id: text/raptorfec
+    name: raptorfec
+
+  - id: text/RED
+    name: RED
+
+  - id: text/rfc822-headers
+    name: rfc822-headers
+
+  - id: text/richtext
+    name: richtext
+
+  - id: text/rtf
+    name: rtf
+
+  - id: text/rtp-enc-aescm128
+    name: rtp-enc-aescm128
+
+  - id: text/rtploopback
+    name: rtploopback
+
+  - id: text/rtx
+    name: rtx
+
+  - id: text/SGML
+    name: SGML
+
+  - id: text/shaclc
+    name: shaclc
+
+  - id: text/shex
+    name: shex
+
+  - id: text/spdx
+    name: spdx
+
+  - id: text/strings
+    name: strings
+
+  - id: text/t140
+    name: t140
+
+  - id: text/tab-separated-values
+    name: tab-separated-values
+
+  - id: text/troff
+    name: troff
+
+  - id: text/turtle
+    name: turtle
+
+  - id: text/ulpfec
+    name: ulpfec
+
+  - id: text/uri-list
+    name: uri-list
+
+  - id: text/vcard
+    name: vcard
+
+  - id: text/vnd.a
+    name: vnd.a
+
+  - id: text/vnd.abc
+    name: vnd.abc
+
+  - id: text/vnd.ascii-art
+    name: vnd.ascii-art
+
+  - id: text/vnd.curl
+    name: vnd.curl
+
+  - id: text/vnd.debian.copyright
+    name: vnd.debian.copyright
+
+  - id: text/vnd.DMClientScript
+    name: vnd.DMClientScript
+
+  - id: text/vnd.dvb.subtitle
+    name: vnd.dvb.subtitle
+
+  - id: text/vnd.esmertec.theme-descriptor
+    name: vnd.esmertec.theme-descriptor
+
+  - id: text/vnd.ficlab.flt
+    name: vnd.ficlab.flt
+
+  - id: text/vnd.fly
+    name: vnd.fly
+
+  - id: text/vnd.fmi.flexstor
+    name: vnd.fmi.flexstor
+
+  - id: text/vnd.gml
+    name: vnd.gml
+
+  - id: text/vnd.graphviz
+    name: vnd.graphviz
+
+  - id: text/vnd.hans
+    name: vnd.hans
+
+  - id: text/vnd.hgl
+    name: vnd.hgl
+
+  - id: text/vnd.in3d.3dml
+    name: vnd.in3d.3dml
+
+  - id: text/vnd.in3d.spot
+    name: vnd.in3d.spot
+
+  - id: text/vnd.IPTC.NewsML
+    name: vnd.IPTC.NewsML
+
+  - id: text/vnd.IPTC.NITF
+    name: vnd.IPTC.NITF
+
+  - id: text/vnd.latex-z
+    name: vnd.latex-z
+
+  - id: text/vnd.motorola.reflex
+    name: vnd.motorola.reflex
+
+  - id: text/vnd.ms-mediapackage
+    name: vnd.ms-mediapackage
+
+  - id: text/vnd.net2phone.commcenter.command
+    name: vnd.net2phone.commcenter.command
+
+  - id: text/vnd.radisys.msml-basic-layout
+    name: vnd.radisys.msml-basic-layout
+
+  - id: text/vnd.senx.warpscript
+    name: vnd.senx.warpscript
+
+  - id: text/vnd.si.uricatalogue
+    name: vnd.si.uricatalogue - OBSOLETED by request
+
+  - id: text/vnd.sun.j2me.app-descriptor
+    name: vnd.sun.j2me.app-descriptor
+
+  - id: text/vnd.sosi
+    name: vnd.sosi
+
+  - id: text/vnd.trolltech.linguist
+    name: vnd.trolltech.linguist
+
+  - id: text/vnd.wap.si
+    name: vnd.wap.si
+
+  - id: text/vnd.wap.sl
+    name: vnd.wap.sl
+
+  - id: text/vnd.wap.wml
+    name: vnd.wap.wml
+
+  - id: text/vnd.wap.wmlscript
+    name: vnd.wap.wmlscript
+
+  - id: text/vtt
+    name: vtt
+
+  - id: text/xml
+    name: xml
+
+  - id: text/xml-external-parsed-entity
+    name: xml-external-parsed-entity
+
+  # video
+  - id: video/1d-interleaved-parityfec
+    name: 1d-interleaved-parityfec
+
+  - id: video/3gpp
+    name: 3gpp
+
+  - id: video/3gpp2
+    name: 3gpp2
+
+  - id: video/3gpp-tt
+    name: 3gpp-tt
+
+  - id: video/AV1
+    name: AV1
+
+  - id: video/BMPEG
+    name: BMPEG
+
+  - id: video/BT656
+    name: BT656
+
+  - id: video/CelB
+    name: CelB
+
+  - id: video/DV
+    name: DV
+
+  - id: video/encaprtp
+    name: encaprtp
+
+  - id: video/example
+    name: example
+
+  - id: video/FFV1
+    name: FFV1
+
+  - id: video/flexfec
+    name: flexfec
+
+  - id: video/H261
+    name: H261
+
+  - id: video/H263
+    name: H263
+
+  - id: video/H263-1998
+    name: H263-1998
+
+  - id: video/H263-2000
+    name: H263-2000
+
+  - id: video/H264
+    name: H264
+
+  - id: video/H264-RCDO
+    name: H264-RCDO
+
+  - id: video/H264-SVC
+    name: H264-SVC
+
+  - id: video/H265
+    name: H265
+
+  - id: video/iso.segment
+    name: iso.segment
+
+  - id: video/JPEG
+    name: JPEG
+
+  - id: video/jpeg2000
+    name: jpeg2000
+
+  - id: video/jxsv
+    name: jxsv
+
+  - id: video/mj2
+    name: mj2
+
+  - id: video/MP1S
+    name: MP1S
+
+  - id: video/MP2P
+    name: MP2P
+
+  - id: video/MP2T
+    name: MP2T
+
+  - id: video/mp4
+    name: mp4
+
+  - id: video/MP4V-ES
+    name: MP4V-ES
+
+  - id: video/MPV
+    name: MPV
+
+  - ud: video/mpeg
+    name: mpeg
+
+  - id: video/mpeg4-generic
+    name: mpeg4-generic
+
+  - id: video/nv
+    name: nv
+
+  - id: video/ogg
+    name: ogg
+
+  - id: video/parityfec
+    name: parityfec
+
+  - id: video/pointer
+    name: pointer
+
+  - id: video/quicktime
+    name: quicktime
+
+  - id: video/raptorfec
+    name: raptorfec
+
+  - id: video/raw
+    name: raw
+
+  - id: video/rtp-enc-aescm128
+    name: rtp-enc-aescm128
+
+  - id: video/rtploopback
+    name: rtploopback
+
+  - id: video/rtx
+    name: rtx
+
+  - id: video/scip
+    name: scip
+
+  - id: video/smpte291
+    name: smpte291
+
+  - id: video/SMPTE292M
+    name: SMPTE292M
+
+  - id: video/ulpfec
+    name: ulpfec
+
+  - id: video/vc1
+    name: vc1
+
+  - id: video/vc2
+    name: vc2
+
+  - id: video/vnd.CCTV
+    name: vnd.CCTV
+
+  - id: video/vnd.dece.hd
+    name: vnd.dece.hd
+
+  - id: video/vnd.dece.mobile
+    name: vnd.dece.mobile
+
+  - id: video/vnd.dece.mp4
+    name: vnd.dece.mp4
+
+  - id: video/vnd.dece.pd
+    name: vnd.dece.pd
+
+  - id: video/vnd.dece.sd
+    name: vnd.dece.sd
+
+  - id: video/vnd.dece.video
+    name: vnd.dece.video
+
+  - id: video/vnd.directv.mpeg
+    name: vnd.directv.mpeg
+
+  - id: video/vnd.directv.mpeg-tts
+    name: vnd.directv.mpeg-tts
+
+  - id: video/vnd.dlna.mpeg-tts
+    name: vnd.dlna.mpeg-tts
+
+  - id: video/vnd.dvb.file
+    name: vnd.dvb.file
+
+  - id: video/vnd.fvt
+    name: vnd.fvt
+
+  - id: video/vnd.hns.video
+    name: vnd.hns.video
+
+  - id: video/vnd.iptvforum.1dparityfec-1010
+    name: vnd.iptvforum.1dparityfec-1010
+
+  - id: video/vnd.iptvforum.1dparityfec-2005
+    name: vnd.iptvforum.1dparityfec-2005
+
+  - id: video/vnd.iptvforum.2dparityfec-1010
+    name: vnd.iptvforum.2dparityfec-1010
+
+  - id: video/vnd.iptvforum.2dparityfec-2005
+    name: vnd.iptvforum.2dparityfec-2005
+
+  - id: video/vnd.iptvforum.ttsavc
+    name: vnd.iptvforum.ttsavc
+
+  - id: video/vnd.iptvforum.ttsmpeg2
+    name: vnd.iptvforum.ttsmpeg2
+
+  - id: video/vnd.motorola.video
+    name: vnd.motorola.video
+
+  - id: video/vnd.motorola.videop
+    name: vnd.motorola.videop
+
+  - id: video/vnd.mpegurl
+    name: vnd.mpegurl
+
+  - id: video/vnd.ms-playready.media.pyv
+    name: vnd.ms-playready.media.pyv
+
+  - id: video/vnd.nokia.interleaved-multimedia
+    name: vnd.nokia.interleaved-multimedia
+
+  - id: video/vnd.nokia.mp4vr
+    name: vnd.nokia.mp4vr
+
+  - id: video/vnd.nokia.videovoip
+    name: vnd.nokia.videovoip
+
+  - id: video/vnd.objectvideo
+    name: vnd.objectvideo
+
+  - id: video/vnd.radgamettools.bink
+    name: vnd.radgamettools.bink
+
+  - id: video/vnd.radgamettools.smacker
+    name: vnd.radgamettools.smacker
+
+  - id: video/vnd.sealed.mpeg1
+    name: vnd.sealed.mpeg1
+
+  - id: video/vnd.sealed.mpeg4
+    name: vnd.sealed.mpeg4
+
+  - id: video/vnd.sealed.swf
+    name: vnd.sealed.swf
+
+  - id: video/vnd.sealedmedia.softseal.mov
+    name: vnd.sealedmedia.softseal.mov
+
+  - id: video/vnd.uvvu.mp4
+    name: vnd.uvvu.mp4
+
+  - id: video/vnd.youtube.yt
+    name: vnd.youtube.yt
+
+  - id: video/vnd.vivo
+    name: vnd.vivo
+
+  - id: video/VP8
+    name: VP8
+
+  - id: video/VP9
+    name: VP9

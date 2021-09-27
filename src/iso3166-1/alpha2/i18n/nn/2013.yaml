@@ -1,0 +1,23 @@
+- id: DE
+  name: Tyskland
+
+- id: DK
+  name: Danmark
+
+- id: FO
+  name: Færøyene
+
+- id: FR
+  name: Frankrike
+
+- id: GB
+  name: Storbritannia
+
+- id: IS
+  name: Island
+
+- id: "NO"
+  name: Noreg
+
+- id: SE
+  name: Sverige

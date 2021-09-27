@@ -1,0 +1,8 @@
+{
+    "yaml.schemas": {
+        ".vscode/json-schema/translation.json": "i18n/*/*.yaml",
+        ".vscode/json-schema/subset.json": "subset/*.yaml",
+        ".vscode/json-schema/revision.json": "revision/*.yaml",
+        ".vscode/json-schema/codelist.json": "codelist.yaml"
+    }
+}
