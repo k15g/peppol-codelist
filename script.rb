@@ -18,6 +18,10 @@ def translate(target, source, language, *keys)
   end
 end
 
+def fix_filename(path)
+  path.sub ':', '-'
+end
+
 # Create emtpy target folder
 FileUtils.rm_rf 'target'
 FileUtils.mkdir_p 'target'
@@ -104,7 +108,7 @@ Dir.glob("src/**/codelist.yaml").filter { |s| !s.include? 'i18n' }.each do |sour
 
     # Write codelist
     FileUtils.mkdir_p File.dirname target
-    File.write target, metadata.merge(rev).to_yaml(:line_width => -1)[4..-1]
+    File.write fix_filename(target), metadata.merge(rev).to_yaml(:line_width => -1)[4..-1]
   end
 
   # Create subsets
@@ -129,7 +133,7 @@ Dir.glob("src/**/codelist.yaml").filter { |s| !s.include? 'i18n' }.each do |sour
 
       # Write codelist
       FileUtils.mkdir_p File.dirname target
-      File.write target, metadata.merge({'subset' => sub_metadata}).merge(rev).to_yaml(:line_width => -1)[4..-1]
+      File.write fix_filename(target), metadata.merge({'subset' => sub_metadata}).merge(rev).to_yaml(:line_width => -1)[4..-1]
     end
   end
 
