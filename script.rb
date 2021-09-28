@@ -58,6 +58,11 @@ Dir.glob("src/**/codelist.yaml").filter { |s| !s.include? 'i18n' }.each do |sour
       index[code['id']] = code
     end
 
+    rev = {
+      'version' => rev.clone.tap { |r| r.delete('codes') },
+      'codes' => rev['codes'],
+    }
+
     # Store revision
     revisions[rev_key] = rev
     revisions_index[rev_key] = index
@@ -104,7 +109,7 @@ Dir.glob("src/**/codelist.yaml").filter { |s| !s.include? 'i18n' }.each do |sour
   # Write revisions
   revisions.values.each do |rev|
     # Prepare target filename
-    target = File.join 'target', 'codelist', File.dirname(folder[4..-1]), "#{metadata['identifier']}-#{rev['identifier']}.yaml"
+    target = File.join 'target', 'codelist', File.dirname(folder[4..-1]), "#{metadata['identifier']}-#{rev['version']['identifier']}.yaml"
 
     # Write codelist
     FileUtils.mkdir_p File.dirname target
@@ -129,7 +134,7 @@ Dir.glob("src/**/codelist.yaml").filter { |s| !s.include? 'i18n' }.each do |sour
       rev['codes'] = rev['codes'].filter { |code| sub['codes'].include? code['id'] }
 
       # Prepare target filename
-      target = File.join 'target', 'codelist', File.dirname(folder[4..-1]), "#{metadata['identifier']}-#{rev['identifier']}@#{sub_id}.yaml"
+      target = File.join 'target', 'codelist', File.dirname(folder[4..-1]), "#{metadata['identifier']}-#{rev['version']['identifier']}@#{sub_id}.yaml"
 
       # Write codelist
       FileUtils.mkdir_p File.dirname target
